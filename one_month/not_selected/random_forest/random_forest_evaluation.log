@@ -1,0 +1,53 @@
+2025-02-14 17:59:20,756 - INFO - Starting Random Forest evaluation script.
+2025-02-14 17:59:20,761 - INFO - Loading data...
+2025-02-14 17:59:22,873 - INFO - Feature matrix shape: (1732341, 234)
+2025-02-14 17:59:22,874 - INFO - Target shape: (1732341, 5)
+2025-02-14 17:59:22,874 - INFO - Sampled dataset size: (1732341, 234), (1732341, 5)
+2025-02-14 17:59:23,682 - INFO - Unique departure dates in the sampled data: ['01MAR2023' '02MAR2023' '03MAR2023' '04MAR2023' '05MAR2023' '06MAR2023'
+ '07MAR2023' '08MAR2023' '09MAR2023' '10MAR2023' '11MAR2023' '12MAR2023'
+ '13MAR2023' '14MAR2023' '15MAR2023' '16MAR2023' '17MAR2023' '18MAR2023'
+ '19MAR2023' '20MAR2023' '21MAR2023' '22MAR2023' '23MAR2023' '24MAR2023'
+ '25MAR2023' '26MAR2023' '27MAR2023' '28FEB2023' '28MAR2023' '29MAR2023'
+ '30MAR2023' '31MAR2023']
+2025-02-14 17:59:28,288 - INFO - Training set size: (1379144, 234), Test set size: (353197, 234)
+2025-02-18 11:22:52,618 - INFO - Starting Random Forest evaluation script.
+2025-02-18 11:22:52,624 - INFO - Loading data...
+2025-02-18 11:22:53,754 - INFO - Feature matrix shape: (1732341, 234)
+2025-02-18 11:22:53,755 - INFO - Target shape: (1732341, 5)
+2025-02-18 11:22:53,755 - INFO - Sampled dataset size: (1732341, 234), (1732341, 5)
+2025-02-18 11:22:54,569 - INFO - Unique departure dates in the sampled data: ['01MAR2023' '02MAR2023' '03MAR2023' '04MAR2023' '05MAR2023' '06MAR2023'
+ '07MAR2023' '08MAR2023' '09MAR2023' '10MAR2023' '11MAR2023' '12MAR2023'
+ '13MAR2023' '14MAR2023' '15MAR2023' '16MAR2023' '17MAR2023' '18MAR2023'
+ '19MAR2023' '20MAR2023' '21MAR2023' '22MAR2023' '23MAR2023' '24MAR2023'
+ '25MAR2023' '26MAR2023' '27MAR2023' '28FEB2023' '28MAR2023' '29MAR2023'
+ '30MAR2023' '31MAR2023']
+2025-02-18 11:22:57,596 - INFO - Training set size: (1379144, 234), Test set size: (353197, 234)
+2025-02-18 12:40:22,727 - INFO - Model 'Random_Forest' trained in 4645.11 seconds.
+2025-02-18 12:40:22,796 - INFO - [2025-02-18 12:40:22] Starting evaluation.
+2025-02-18 12:40:22,797 - INFO - [2025-02-18 12:40:22] Created results and plots directories if not already existing.
+2025-02-18 12:40:22,797 - INFO - [2025-02-18 12:40:22] Loaded trained model.
+2025-02-18 12:40:38,473 - INFO - [2025-02-18 12:40:38] Model predictions completed.
+2025-02-18 12:40:38,661 - INFO - [2025-02-18 12:40:38] Transformed inputs to seconds.
+2025-02-18 12:40:38,667 - INFO - [2025-02-18 12:40:38] Computed translation-based estimates.
+2025-02-18 12:40:38,686 - INFO - [2025-02-18 12:40:38] MAE Translation Mean: [ 71.66739808  83.73375199  92.9558575   99.78193473 106.51687302]
+2025-02-18 12:40:38,686 - INFO - [2025-02-18 12:40:38] Computed MAE for model and translation approach.
+2025-02-18 12:40:38,737 - INFO - [2025-02-18 12:40:38] Computed MAE per delay bin.
+2025-02-18 12:40:38,788 - INFO - [2025-02-18 12:40:38] Computed MAE per horizon bin.
+2025-02-18 12:40:38,790 - INFO - [2025-02-18 12:40:38] Saved metrics to JSON file.
+2025-02-18 12:40:38,791 - INFO - [2025-02-18 12:40:38] Saved metrics to PKL file.
+2025-02-18 12:40:39,358 - INFO - [2025-02-18 12:40:39] Saved MAE plots.
+2025-02-18 12:40:39,358 - INFO - [2025-02-18 12:40:39] Evaluation complete.
+2025-02-18 12:40:39,370 - INFO - Saving feature importance plots to: ./plots
+2025-02-18 12:40:39,370 - INFO - Calculating feature importance for Random_Forest...
+2025-02-18 15:48:21,468 - INFO - Top features for Random_Forest:
+2025-02-18 15:48:21,473 - INFO -   Feature 202: 0.0100
+2025-02-18 15:48:21,473 - INFO -   Feature 199: 0.0111
+2025-02-18 15:48:21,473 - INFO -   Feature 201: 0.0119
+2025-02-18 15:48:21,473 - INFO -   Feature 11: 0.0125
+2025-02-18 15:48:21,473 - INFO -   Feature 119: 0.0134
+2025-02-18 15:48:21,473 - INFO -   Feature 39: 0.0146
+2025-02-18 15:48:21,473 - INFO -   Feature 10: 0.0149
+2025-02-18 15:48:21,473 - INFO -   Feature 4: 0.4675
+2025-02-18 15:48:21,473 - INFO -   Feature 200: 0.9935
+2025-02-18 15:48:21,728 - INFO - Feature importance plot saved for Random_Forest.
+2025-02-18 15:48:21,728 - INFO - Feature importance calculation complete.

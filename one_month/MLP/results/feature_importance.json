@@ -1,0 +1,2046 @@
+{
+    "256-256": {
+        "mean_distance_within_0.46": {
+            "feature_index": 244,
+            "importance": 0.9272517700939205
+        },
+        "FUTURE_PLANNED_TIME_NUM_1": {
+            "feature_index": 200,
+            "importance": 0.6367318937045386
+        },
+        "PAST_DELAYS_1": {
+            "feature_index": 4,
+            "importance": 0.48613567764127774
+        },
+        "nb_trains_in_state": {
+            "feature_index": 254,
+            "importance": 0.40765160421484004
+        },
+        "min_distance_within_0.46": {
+            "feature_index": 243,
+            "importance": 0.36778319843684837
+        },
+        "num_trains_within_0.46": {
+            "feature_index": 242,
+            "importance": 0.13177838676164305
+        },
+        "FUTURE_PLANNED_TIME_NUM_2": {
+            "feature_index": 201,
+            "importance": 0.04110951023865446
+        },
+        "FUTURE_PLANNED_TIME_NUM_3": {
+            "feature_index": 202,
+            "importance": 0.04104639365878275
+        },
+        "FUTURE_PLANNED_TIME_NUM_5": {
+            "feature_index": 204,
+            "importance": 0.026400357266055496
+        },
+        "FUTURE_PLANNED_TIME_NUM_4": {
+            "feature_index": 203,
+            "importance": 0.025665214648538614
+        },
+        "PAST_PLANNED_TIME_NUM_1": {
+            "feature_index": 199,
+            "importance": 0.01752729177635639
+        },
+        "FUTURE_TYPES_1_D": {
+            "feature_index": 10,
+            "importance": 0.01246527157744919
+        },
+        "FUTURE_TYPES_1_P": {
+            "feature_index": 30,
+            "importance": 0.011752212255852167
+        },
+        "RELATION_TYPE_L": {
+            "feature_index": 210,
+            "importance": 0.010205331652831462
+        },
+        "PAST_PLANNED_TIME_NUM_2": {
+            "feature_index": 198,
+            "importance": 0.008900206943733103
+        },
+        "PAST_PLANNED_TIME_NUM_5": {
+            "feature_index": 195,
+            "importance": 0.0074057913751980784
+        },
+        "FUTURE_TYPES_2_D": {
+            "feature_index": 11,
+            "importance": 0.007095324870419861
+        },
+        "FUTURE_TYPES_4_D": {
+            "feature_index": 13,
+            "importance": 0.006773088264794458
+        },
+        "RELATION_TYPE_IC": {
+            "feature_index": 207,
+            "importance": 0.006182819807234674
+        },
+        "PAST_DELAYS_2": {
+            "feature_index": 3,
+            "importance": 0.006049444276048121
+        },
+        "FUTURE_TYPES_5_P": {
+            "feature_index": 34,
+            "importance": 0.0060382787532955225
+        },
+        "FUTURE_TYPES_4_P": {
+            "feature_index": 33,
+            "importance": 0.005918612284788294
+        },
+        "PAST_PLANNED_TIME_NUM_4": {
+            "feature_index": 196,
+            "importance": 0.005553934523649584
+        },
+        "FUTURE_TYPES_2_P": {
+            "feature_index": 31,
+            "importance": 0.005069886254604805
+        },
+        "PAST_TYPES_1_P": {
+            "feature_index": 29,
+            "importance": 0.005008007274088455
+        },
+        "FUTURE_TYPES_5_D": {
+            "feature_index": 14,
+            "importance": 0.0049484301440554605
+        },
+        "PAST_PLANNED_TIME_NUM_3": {
+            "feature_index": 197,
+            "importance": 0.0048940145500594
+        },
+        "FUTURE_TYPES_3_D": {
+            "feature_index": 12,
+            "importance": 0.004795066345457411
+        },
+        "PAST_TYPES_1_A": {
+            "feature_index": 19,
+            "importance": 0.0045858284699759055
+        },
+        "PAST_TYPES_2_A": {
+            "feature_index": 18,
+            "importance": 0.0037345728207123898
+        },
+        "FUTURE_TYPES_3_P": {
+            "feature_index": 32,
+            "importance": 0.0036694811479977885
+        },
+        "PAST_TYPES_1_D": {
+            "feature_index": 9,
+            "importance": 0.003293337705824584
+        },
+        "PAST_DELAYS_3": {
+            "feature_index": 2,
+            "importance": 0.0032323486921990163
+        },
+        "FUTURE_TYPES_1_A": {
+            "feature_index": 20,
+            "importance": 0.003215272186895812
+        },
+        "FUTURE_TYPES_3_A": {
+            "feature_index": 22,
+            "importance": 0.003048036432177881
+        },
+        "PAST_TYPES_4_D": {
+            "feature_index": 6,
+            "importance": 0.0029574945607796057
+        },
+        "FUTURE_STATIONS_1_embedding_0": {
+            "feature_index": 40,
+            "importance": 0.0029468976552348815
+        },
+        "FUTURE_TYPES_2_A": {
+            "feature_index": 21,
+            "importance": 0.00291788880964039
+        },
+        "PAST_TYPES_2_P": {
+            "feature_index": 28,
+            "importance": 0.002888403597088951
+        },
+        "PAST_STATIONS_2_embedding_2": {
+            "feature_index": 58,
+            "importance": 0.002834420028199047
+        },
+        "FUTURE_STATIONS_2_embedding_2": {
+            "feature_index": 61,
+            "importance": 0.0028079179931880917
+        },
+        "PAST_TYPES_5_D": {
+            "feature_index": 5,
+            "importance": 0.0026757575439686487
+        },
+        "PAST_TYPES_5_P": {
+            "feature_index": 25,
+            "importance": 0.002666951381785565
+        },
+        "FUTURE_LINES_1_embedding_2": {
+            "feature_index": 140,
+            "importance": 0.002625900219079602
+        },
+        "PAST_TYPES_2_D": {
+            "feature_index": 8,
+            "importance": 0.002560327065742318
+        },
+        "FUTURE_STATIONS_1_embedding_2": {
+            "feature_index": 60,
+            "importance": 0.00244431439669448
+        },
+        "FUTURE_STATIONS_2_embedding_0": {
+            "feature_index": 41,
+            "importance": 0.002432826153799872
+        },
+        "PAST_TYPES_3_P": {
+            "feature_index": 27,
+            "importance": 0.002364076731229092
+        },
+        "FUTURE_TYPES_4_A": {
+            "feature_index": 23,
+            "importance": 0.0023603958951279756
+        },
+        "FUTURE_TYPES_5_A": {
+            "feature_index": 24,
+            "importance": 0.0022602156874002243
+        },
+        "FUTURE_LINES_1_embedding_3": {
+            "feature_index": 150,
+            "importance": 0.0022311518995393963
+        },
+        "PAST_STATIONS_1_embedding_0": {
+            "feature_index": 39,
+            "importance": 0.002199470318862562
+        },
+        "FUTURE_STATIONS_3_embedding_1": {
+            "feature_index": 52,
+            "importance": 0.0021815243680386675
+        },
+        "FUTURE_LINES_1_embedding_5": {
+            "feature_index": 170,
+            "importance": 0.0021536707411289324
+        },
+        "PAST_TYPES_3_A": {
+            "feature_index": 17,
+            "importance": 0.0021205291868758858
+        },
+        "PAST_LINES_1_embedding_0": {
+            "feature_index": 119,
+            "importance": 0.0021185000645854934
+        },
+        "FUTURE_LINES_5_embedding_3": {
+            "feature_index": 154,
+            "importance": 0.001972275973738813
+        },
+        "FUTURE_LINES_5_embedding_2": {
+            "feature_index": 144,
+            "importance": 0.0019656614296975627
+        },
+        "PAST_TYPES_3_D": {
+            "feature_index": 7,
+            "importance": 0.0019500122073520699
+        },
+        "FUTURE_LINES_2_embedding_2": {
+            "feature_index": 141,
+            "importance": 0.0019406654636163535
+        },
+        "FUTURE_LINES_3_embedding_3": {
+            "feature_index": 152,
+            "importance": 0.001919616755974407
+        },
+        "PAST_TYPES_4_A": {
+            "feature_index": 16,
+            "importance": 0.0018040756920890022
+        },
+        "PAST_STATIONS_5_embedding_2": {
+            "feature_index": 55,
+            "importance": 0.0017966491705234456
+        },
+        "PAST_LINES_1_embedding_5": {
+            "feature_index": 169,
+            "importance": 0.0017398155210720744
+        },
+        "FUTURE_STATIONS_4_embedding_0": {
+            "feature_index": 43,
+            "importance": 0.001736368277044753
+        },
+        "PAST_STATIONS_1_embedding_2": {
+            "feature_index": 59,
+            "importance": 0.0016613290766164246
+        },
+        "FUTURE_STATIONS_3_embedding_0": {
+            "feature_index": 42,
+            "importance": 0.0016423032381023273
+        },
+        "FUTURE_LINES_4_embedding_3": {
+            "feature_index": 153,
+            "importance": 0.0016370278951236105
+        },
+        "PAST_TYPES_4_P": {
+            "feature_index": 26,
+            "importance": 0.001623848810767292
+        },
+        "FUTURE_STATIONS_5_embedding_0": {
+            "feature_index": 44,
+            "importance": 0.0016176910614226214
+        },
+        "FUTURE_STATIONS_1_embedding_5": {
+            "feature_index": 90,
+            "importance": 0.0015894701776698827
+        },
+        "FUTURE_STATIONS_1_embedding_4": {
+            "feature_index": 80,
+            "importance": 0.0015831478412883903
+        },
+        "PAST_DELAYS_4": {
+            "feature_index": 1,
+            "importance": 0.001553451645125059
+        },
+        "FUTURE_STATIONS_2_embedding_4": {
+            "feature_index": 81,
+            "importance": 0.0015211228465603411
+        },
+        "PAST_DELAYS_5": {
+            "feature_index": 0,
+            "importance": 0.0014927107124040884
+        },
+        "hour_cos_1": {
+            "feature_index": 223,
+            "importance": 0.0014846420933682047
+        },
+        "RELATION_TYPE_THAL": {
+            "feature_index": 209,
+            "importance": 0.0013878714098847667
+        },
+        "FUTURE_STATIONS_1_embedding_1": {
+            "feature_index": 50,
+            "importance": 0.0013852195767473762
+        },
+        "FUTURE_LINES_5_embedding_4": {
+            "feature_index": 164,
+            "importance": 0.0013398403544196747
+        },
+        "FUTURE_LINES_4_embedding_2": {
+            "feature_index": 143,
+            "importance": 0.00133801895459289
+        },
+        "FUTURE_LINES_2_embedding_0": {
+            "feature_index": 121,
+            "importance": 0.00133313390412535
+        },
+        "FUTURE_STATIONS_5_embedding_5": {
+            "feature_index": 94,
+            "importance": 0.0013280502921866554
+        },
+        "PAST_STATIONS_1_embedding_1": {
+            "feature_index": 49,
+            "importance": 0.0013164039818471585
+        },
+        "FUTURE_STATIONS_2_embedding_6": {
+            "feature_index": 101,
+            "importance": 0.001289729502464021
+        },
+        "PAST_LINES_1_embedding_2": {
+            "feature_index": 139,
+            "importance": 0.0012773071849661477
+        },
+        "FUTURE_LINES_1_embedding_0": {
+            "feature_index": 120,
+            "importance": 0.0012604450947564683
+        },
+        "FUTURE_LINES_2_embedding_5": {
+            "feature_index": 171,
+            "importance": 0.0012497949041618162
+        },
+        "PAST_TYPES_5_A": {
+            "feature_index": 15,
+            "importance": 0.0012483181224745455
+        },
+        "PAST_STATIONS_5_embedding_3": {
+            "feature_index": 65,
+            "importance": 0.0012338744890384
+        },
+        "FUTURE_STATIONS_5_embedding_4": {
+            "feature_index": 84,
+            "importance": 0.0012136979828450746
+        },
+        "FUTURE_STATIONS_2_embedding_1": {
+            "feature_index": 51,
+            "importance": 0.001194777382672285
+        },
+        "FUTURE_LINES_1_embedding_4": {
+            "feature_index": 160,
+            "importance": 0.0011920139881340442
+        },
+        "FUTURE_STATIONS_3_embedding_4": {
+            "feature_index": 82,
+            "importance": 0.0011703092714078433
+        },
+        "PAST_STATIONS_4_embedding_2": {
+            "feature_index": 56,
+            "importance": 0.001132666378605074
+        },
+        "PAST_LINES_2_embedding_5": {
+            "feature_index": 168,
+            "importance": 0.001123371470966461
+        },
+        "FUTURE_LINES_5_embedding_0": {
+            "feature_index": 124,
+            "importance": 0.0010930579678068097
+        },
+        "FUTURE_LINES_4_embedding_0": {
+            "feature_index": 123,
+            "importance": 0.001092482859543109
+        },
+        "PAST_STATIONS_1_embedding_3": {
+            "feature_index": 69,
+            "importance": 0.001083951829893115
+        },
+        "PAST_LINES_2_embedding_4": {
+            "feature_index": 158,
+            "importance": 0.001081030342744449
+        },
+        "PAST_LINES_1_embedding_3": {
+            "feature_index": 149,
+            "importance": 0.001066136158824471
+        },
+        "RELATION_TYPE_P": {
+            "feature_index": 211,
+            "importance": 0.0010628635600175907
+        },
+        "PAST_STATIONS_5_embedding_4": {
+            "feature_index": 75,
+            "importance": 0.0010620955076524607
+        },
+        "FUTURE_STATIONS_4_embedding_1": {
+            "feature_index": 53,
+            "importance": 0.001056030890967552
+        },
+        "FUTURE_STATIONS_1_embedding_3": {
+            "feature_index": 70,
+            "importance": 0.001023482525475883
+        },
+        "FUTURE_STATIONS_2_embedding_5": {
+            "feature_index": 91,
+            "importance": 0.0010179697740182458
+        },
+        "FUTURE_STATIONS_1_embedding_6": {
+            "feature_index": 100,
+            "importance": 0.0010124699538124116
+        },
+        "FUTURE_STATIONS_3_embedding_5": {
+            "feature_index": 92,
+            "importance": 0.001006570750629665
+        },
+        "PAST_LINES_2_embedding_1": {
+            "feature_index": 128,
+            "importance": 0.001006193513568454
+        },
+        "PAST_LINES_5_embedding_0": {
+            "feature_index": 115,
+            "importance": 0.0010002091273252135
+        },
+        "FUTURE_STATIONS_2_embedding_3": {
+            "feature_index": 71,
+            "importance": 0.0009923207831517456
+        },
+        "PAST_STATIONS_2_embedding_1": {
+            "feature_index": 48,
+            "importance": 0.0009915910028257314
+        },
+        "FUTURE_LINES_2_embedding_3": {
+            "feature_index": 151,
+            "importance": 0.0009875238222311067
+        },
+        "day_of_week_Sunday": {
+            "feature_index": 221,
+            "importance": 0.0009870795723906588
+        },
+        "PAST_STATIONS_3_embedding_6": {
+            "feature_index": 97,
+            "importance": 0.0009855981220229459
+        },
+        "PAST_LINES_1_embedding_6": {
+            "feature_index": 179,
+            "importance": 0.000983737027016085
+        },
+        "PAST_STATIONS_4_embedding_6": {
+            "feature_index": 96,
+            "importance": 0.0009809317394609885
+        },
+        "FUTURE_STATIONS_3_embedding_2": {
+            "feature_index": 62,
+            "importance": 0.000980901230953779
+        },
+        "PAST_STATIONS_2_embedding_5": {
+            "feature_index": 88,
+            "importance": 0.0009774231130073251
+        },
+        "hour_sin_1": {
+            "feature_index": 222,
+            "importance": 0.0009591774364840378
+        },
+        "PAST_STATIONS_5_embedding_1": {
+            "feature_index": 45,
+            "importance": 0.0009439124162527567
+        },
+        "PAST_STATIONS_1_embedding_4": {
+            "feature_index": 79,
+            "importance": 0.0009394660797550358
+        },
+        "FUTURE_STATIONS_5_embedding_7": {
+            "feature_index": 114,
+            "importance": 0.0009323252090308376
+        },
+        "PAST_LINES_1_embedding_4": {
+            "feature_index": 159,
+            "importance": 0.0009159999444290357
+        },
+        "FUTURE_STATIONS_5_embedding_6": {
+            "feature_index": 104,
+            "importance": 0.0009083005043123649
+        },
+        "PAST_STATIONS_5_embedding_7": {
+            "feature_index": 105,
+            "importance": 0.0008898339902021046
+        },
+        "PAST_STATIONS_1_embedding_5": {
+            "feature_index": 89,
+            "importance": 0.0008894746900392602
+        },
+        "PAST_LINES_3_embedding_0": {
+            "feature_index": 117,
+            "importance": 0.0008769712452771916
+        },
+        "FUTURE_LINES_4_embedding_4": {
+            "feature_index": 163,
+            "importance": 0.0008627838261105802
+        },
+        "FUTURE_LINES_5_embedding_5": {
+            "feature_index": 174,
+            "importance": 0.0008602538102540968
+        },
+        "PAST_STATIONS_3_embedding_2": {
+            "feature_index": 57,
+            "importance": 0.0008538666793823201
+        },
+        "FUTURE_LINES_3_embedding_0": {
+            "feature_index": 122,
+            "importance": 0.000853657051371326
+        },
+        "FUTURE_LINES_1_embedding_7": {
+            "feature_index": 190,
+            "importance": 0.0008485466187881264
+        },
+        "FUTURE_STATIONS_5_embedding_2": {
+            "feature_index": 64,
+            "importance": 0.0008416266629297953
+        },
+        "FUTURE_STATIONS_5_embedding_3": {
+            "feature_index": 74,
+            "importance": 0.0008277503996523938
+        },
+        "FUTURE_LINES_3_embedding_2": {
+            "feature_index": 142,
+            "importance": 0.0008228258749888972
+        },
+        "PAST_STATIONS_3_embedding_1": {
+            "feature_index": 47,
+            "importance": 0.0008103683881524049
+        },
+        "PAST_STATIONS_5_embedding_6": {
+            "feature_index": 95,
+            "importance": 0.0008085038931080257
+        },
+        "FUTURE_LINES_2_embedding_4": {
+            "feature_index": 161,
+            "importance": 0.0007974787825288487
+        },
+        "PAST_LINES_4_embedding_4": {
+            "feature_index": 156,
+            "importance": 0.0007957686605598146
+        },
+        "FUTURE_LINES_3_embedding_5": {
+            "feature_index": 172,
+            "importance": 0.0007879795991748928
+        },
+        "PAST_STATIONS_3_embedding_5": {
+            "feature_index": 87,
+            "importance": 0.0007872013312353543
+        },
+        "PAST_STATIONS_5_embedding_0": {
+            "feature_index": 35,
+            "importance": 0.0007773399109605617
+        },
+        "PAST_STATIONS_4_embedding_1": {
+            "feature_index": 46,
+            "importance": 0.0007762366970273327
+        },
+        "PAST_LINES_5_embedding_5": {
+            "feature_index": 165,
+            "importance": 0.0007726912898597283
+        },
+        "FUTURE_STATIONS_3_embedding_6": {
+            "feature_index": 102,
+            "importance": 0.0007682705599860284
+        },
+        "PAST_STATIONS_1_embedding_6": {
+            "feature_index": 99,
+            "importance": 0.0007565718989750003
+        },
+        "PAST_LINES_5_embedding_1": {
+            "feature_index": 125,
+            "importance": 0.0007475651444837528
+        },
+        "PAST_STATIONS_2_embedding_0": {
+            "feature_index": 38,
+            "importance": 0.0007435552757844687
+        },
+        "FUTURE_STATIONS_4_embedding_6": {
+            "feature_index": 103,
+            "importance": 0.0007389430332647384
+        },
+        "PAST_LINES_5_embedding_2": {
+            "feature_index": 135,
+            "importance": 0.0007374473573807716
+        },
+        "PAST_STATIONS_5_embedding_5": {
+            "feature_index": 85,
+            "importance": 0.000732694971455028
+        },
+        "PAST_STATIONS_2_embedding_6": {
+            "feature_index": 98,
+            "importance": 0.0007197470731980182
+        },
+        "FUTURE_STATIONS_1_embedding_7": {
+            "feature_index": 110,
+            "importance": 0.0007087903186741018
+        },
+        "PAST_STATIONS_2_embedding_4": {
+            "feature_index": 78,
+            "importance": 0.0007052205210961171
+        },
+        "PAST_LINES_4_embedding_0": {
+            "feature_index": 116,
+            "importance": 0.0006992930156084487
+        },
+        "FUTURE_LINES_4_embedding_6": {
+            "feature_index": 183,
+            "importance": 0.0006878193391294696
+        },
+        "PAST_LINES_2_embedding_2": {
+            "feature_index": 138,
+            "importance": 0.0006824236621456592
+        },
+        "PAST_LINES_5_embedding_4": {
+            "feature_index": 155,
+            "importance": 0.0006744187766705379
+        },
+        "FUTURE_LINES_1_embedding_1": {
+            "feature_index": 130,
+            "importance": 0.0006587870633551818
+        },
+        "PAST_STATIONS_4_embedding_0": {
+            "feature_index": 36,
+            "importance": 0.0006575122731775851
+        },
+        "PAST_LINES_3_embedding_6": {
+            "feature_index": 177,
+            "importance": 0.0006476562512164775
+        },
+        "FUTURE_STATIONS_3_embedding_3": {
+            "feature_index": 72,
+            "importance": 0.0006326545098213066
+        },
+        "FUTURE_STATIONS_4_embedding_2": {
+            "feature_index": 63,
+            "importance": 0.0006181866956001425
+        },
+        "FUTURE_LINES_4_embedding_5": {
+            "feature_index": 173,
+            "importance": 0.0006067517520182309
+        },
+        "PAST_STATIONS_4_embedding_3": {
+            "feature_index": 66,
+            "importance": 0.0006043962697493965
+        },
+        "PAST_STATIONS_3_embedding_7": {
+            "feature_index": 107,
+            "importance": 0.0005878901750510978
+        },
+        "FUTURE_STATIONS_4_embedding_5": {
+            "feature_index": 93,
+            "importance": 0.0005861227972882244
+        },
+        "PAST_LINES_3_embedding_4": {
+            "feature_index": 157,
+            "importance": 0.000581127431714501
+        },
+        "PAST_LINES_3_embedding_3": {
+            "feature_index": 147,
+            "importance": 0.0005724676895269675
+        },
+        "PAST_LINES_4_embedding_5": {
+            "feature_index": 166,
+            "importance": 0.0005583608600968848
+        },
+        "FUTURE_LINES_3_embedding_6": {
+            "feature_index": 182,
+            "importance": 0.0005431242787613088
+        },
+        "FUTURE_LINES_3_embedding_1": {
+            "feature_index": 132,
+            "importance": 0.0005377225999554814
+        },
+        "PAST_LINES_5_embedding_6": {
+            "feature_index": 175,
+            "importance": 0.0005348536410770599
+        },
+        "PAST_STATIONS_1_embedding_7": {
+            "feature_index": 109,
+            "importance": 0.0005308987811811106
+        },
+        "PAST_LINES_1_embedding_1": {
+            "feature_index": 129,
+            "importance": 0.0005299096766473888
+        },
+        "FUTURE_LINES_2_embedding_6": {
+            "feature_index": 181,
+            "importance": 0.0005269833008712643
+        },
+        "FUTURE_STATIONS_4_embedding_4": {
+            "feature_index": 83,
+            "importance": 0.0005268062060209244
+        },
+        "PAST_LINES_2_embedding_0": {
+            "feature_index": 118,
+            "importance": 0.0005218266045808661
+        },
+        "FUTURE_LINES_5_embedding_6": {
+            "feature_index": 184,
+            "importance": 0.0005150224951741
+        },
+        "FUTURE_STATIONS_2_embedding_7": {
+            "feature_index": 111,
+            "importance": 0.0005115888624588561
+        },
+        "FUTURE_STATIONS_4_embedding_3": {
+            "feature_index": 73,
+            "importance": 0.0005086984000230776
+        },
+        "FUTURE_LINES_3_embedding_4": {
+            "feature_index": 162,
+            "importance": 0.0004897858170789693
+        },
+        "PAST_LINES_3_embedding_5": {
+            "feature_index": 167,
+            "importance": 0.0004887441193057951
+        },
+        "PAST_STATIONS_3_embedding_3": {
+            "feature_index": 67,
+            "importance": 0.0004789498989961727
+        },
+        "FUTURE_LINES_1_embedding_6": {
+            "feature_index": 180,
+            "importance": 0.0004698406072260575
+        },
+        "RELATION_TYPE_EXTRA": {
+            "feature_index": 212,
+            "importance": 0.0004612506077894318
+        },
+        "day_of_week_Monday": {
+            "feature_index": 215,
+            "importance": 0.0004538798305063985
+        },
+        "PAST_STATIONS_4_embedding_7": {
+            "feature_index": 106,
+            "importance": 0.0004533907470530396
+        },
+        "PAST_STATIONS_2_embedding_7": {
+            "feature_index": 108,
+            "importance": 0.0004506864841827829
+        },
+        "PAST_LINES_4_embedding_2": {
+            "feature_index": 136,
+            "importance": 0.00045003976368680477
+        },
+        "hour_cos_2": {
+            "feature_index": 225,
+            "importance": 0.0004497916875550345
+        },
+        "PAST_LINES_2_embedding_3": {
+            "feature_index": 148,
+            "importance": 0.00044909523950869
+        },
+        "PAST_LINES_3_embedding_2": {
+            "feature_index": 137,
+            "importance": 0.0004447066520324672
+        },
+        "PAST_LINES_5_embedding_3": {
+            "feature_index": 145,
+            "importance": 0.0004430890921348185
+        },
+        "PAST_LINES_1_embedding_7": {
+            "feature_index": 189,
+            "importance": 0.00044156988815304834
+        },
+        "FUTURE_LINES_4_embedding_1": {
+            "feature_index": 133,
+            "importance": 0.00043837389106178294
+        },
+        "PAST_STATIONS_3_embedding_0": {
+            "feature_index": 37,
+            "importance": 0.0004312465719047198
+        },
+        "RELATION_TYPE_TGV": {
+            "feature_index": 213,
+            "importance": 0.0004305166041926434
+        },
+        "FUTURE_LINES_5_embedding_7": {
+            "feature_index": 194,
+            "importance": 0.00042976758314827723
+        },
+        "FUTURE_STATIONS_4_embedding_7": {
+            "feature_index": 113,
+            "importance": 0.00042908150029448145
+        },
+        "FUTURE_LINES_2_embedding_1": {
+            "feature_index": 131,
+            "importance": 0.0004164101462247105
+        },
+        "PAST_LINES_2_embedding_6": {
+            "feature_index": 178,
+            "importance": 0.0004095302956715008
+        },
+        "FUTURE_LINES_5_embedding_1": {
+            "feature_index": 134,
+            "importance": 0.00039619572062774553
+        },
+        "PAST_LINES_4_embedding_7": {
+            "feature_index": 186,
+            "importance": 0.0003761107453136736
+        },
+        "PAST_STATIONS_3_embedding_4": {
+            "feature_index": 77,
+            "importance": 0.0003698194831333046
+        },
+        "PAST_LINES_2_embedding_7": {
+            "feature_index": 188,
+            "importance": 0.0003658258258738556
+        },
+        "hour_sin_2": {
+            "feature_index": 224,
+            "importance": 0.0003623005676999691
+        },
+        "hour_cos_4": {
+            "feature_index": 227,
+            "importance": 0.0003377481640082447
+        },
+        "FUTURE_LINES_4_embedding_7": {
+            "feature_index": 193,
+            "importance": 0.0003294453641512707
+        },
+        "PAST_STATIONS_4_embedding_4": {
+            "feature_index": 76,
+            "importance": 0.0003218627548146724
+        },
+        "TRAIN_POSITION_EMBEDDING_5": {
+            "feature_index": 239,
+            "importance": 0.0003105483357542571
+        },
+        "FUTURE_STATIONS_5_embedding_1": {
+            "feature_index": 54,
+            "importance": 0.0003101015314624034
+        },
+        "PAST_STATIONS_2_embedding_3": {
+            "feature_index": 68,
+            "importance": 0.0003030782978213686
+        },
+        "PAST_LINES_4_embedding_1": {
+            "feature_index": 126,
+            "importance": 0.0002870064029014685
+        },
+        "PAST_LINES_4_embedding_3": {
+            "feature_index": 146,
+            "importance": 0.0002831376983115641
+        },
+        "RELATION_TYPE_INT": {
+            "feature_index": 206,
+            "importance": 0.00025805127125027026
+        },
+        "TRAIN_POSITION_EMBEDDING_3": {
+            "feature_index": 237,
+            "importance": 0.0002576468442747615
+        },
+        "PAST_LINES_3_embedding_1": {
+            "feature_index": 127,
+            "importance": 0.00025299364825785985
+        },
+        "PAST_LINES_4_embedding_6": {
+            "feature_index": 176,
+            "importance": 0.000248090963156633
+        },
+        "PAST_STATIONS_4_embedding_5": {
+            "feature_index": 86,
+            "importance": 0.00023985255069902678
+        },
+        "FUTURE_STATIONS_3_embedding_7": {
+            "feature_index": 112,
+            "importance": 0.00023940714336987413
+        },
+        "TRAIN_POSITION_EMBEDDING_1": {
+            "feature_index": 235,
+            "importance": 0.00023804862125205163
+        },
+        "PAST_LINES_5_embedding_7": {
+            "feature_index": 185,
+            "importance": 0.00023723191480522486
+        },
+        "PAST_LINES_3_embedding_7": {
+            "feature_index": 187,
+            "importance": 0.0002317531969949327
+        },
+        "day_of_week_Wednesday": {
+            "feature_index": 217,
+            "importance": 0.00022228007908176028
+        },
+        "TRAIN_POSITION_EMBEDDING_2": {
+            "feature_index": 236,
+            "importance": 0.00018789819859612588
+        },
+        "FUTURE_LINES_2_embedding_7": {
+            "feature_index": 191,
+            "importance": 0.00016427431631080847
+        },
+        "RELATION_TYPE_ICE": {
+            "feature_index": 205,
+            "importance": 0.00015158984061005575
+        },
+        "FUTURE_LINES_3_embedding_7": {
+            "feature_index": 192,
+            "importance": 0.000138043671897381
+        },
+        "day_of_week_Tuesday": {
+            "feature_index": 216,
+            "importance": 0.00012728466654210457
+        },
+        "day_of_week_Friday": {
+            "feature_index": 219,
+            "importance": 0.00012344422361032503
+        },
+        "num_trains_within_1.11": {
+            "feature_index": 250,
+            "importance": 0.00010305083832098382
+        },
+        "TRAIN_POSITION_EMBEDDING_7": {
+            "feature_index": 241,
+            "importance": 8.063009864074377e-05
+        },
+        "year_sin_2": {
+            "feature_index": 230,
+            "importance": 6.761309480773914e-05
+        },
+        "TRAIN_POSITION_EMBEDDING_6": {
+            "feature_index": 240,
+            "importance": 5.8960213423642215e-05
+        },
+        "year_cos_1": {
+            "feature_index": 229,
+            "importance": 5.30161631946191e-05
+        },
+        "day_of_week_Thursday": {
+            "feature_index": 218,
+            "importance": 4.41424755711628e-05
+        },
+        "min_distance_within_0.83": {
+            "feature_index": 247,
+            "importance": 3.1886180610918303e-05
+        },
+        "mean_distance_within_0.83": {
+            "feature_index": 248,
+            "importance": 2.0044380599482103e-05
+        },
+        "TRAIN_POSITION_EMBEDDING_0": {
+            "feature_index": 234,
+            "importance": 1.785030195342596e-05
+        },
+        "RELATION_TYPE_CHARTER": {
+            "feature_index": 214,
+            "importance": 4.307462711916621e-06
+        },
+        "mean_delay_within_0.46": {
+            "feature_index": 245,
+            "importance": 2.1995529546625647e-06
+        },
+        "day_of_week_Saturday": {
+            "feature_index": 220,
+            "importance": 0.0
+        },
+        "year_sin_1": {
+            "feature_index": 228,
+            "importance": -2.752022771601581e-06
+        },
+        "year_cos_2": {
+            "feature_index": 231,
+            "importance": -4.671978880899097e-06
+        },
+        "year_cos_4": {
+            "feature_index": 233,
+            "importance": -5.775148278397424e-06
+        },
+        "num_trains_within_0.83": {
+            "feature_index": 246,
+            "importance": -8.752537991751907e-06
+        },
+        "mean_delay_within_0.83": {
+            "feature_index": 249,
+            "importance": -1.0165722508492791e-05
+        },
+        "TRAIN_POSITION_EMBEDDING_4": {
+            "feature_index": 238,
+            "importance": -1.4308243124938614e-05
+        },
+        "min_distance_within_1.11": {
+            "feature_index": 251,
+            "importance": -2.012390315955237e-05
+        },
+        "year_sin_4": {
+            "feature_index": 232,
+            "importance": -2.2757025742614623e-05
+        },
+        "mean_distance_within_1.11": {
+            "feature_index": 252,
+            "importance": -2.6412493359062595e-05
+        },
+        "mean_delay_within_1.11": {
+            "feature_index": 253,
+            "importance": -2.677104112813744e-05
+        },
+        "hour_sin_4": {
+            "feature_index": 226,
+            "importance": -7.561892398633141e-05
+        },
+        "RELATION_TYPE_EURST": {
+            "feature_index": 208,
+            "importance": -0.0007345865003143493
+        }
+    },
+    "50-50-50": {
+        "FUTURE_PLANNED_TIME_NUM_1": {
+            "feature_index": 200,
+            "importance": 0.6536315775560342
+        },
+        "PAST_DELAYS_1": {
+            "feature_index": 4,
+            "importance": 0.4048141026172777
+        },
+        "min_distance_within_0.46": {
+            "feature_index": 243,
+            "importance": 0.03848400027568
+        },
+        "FUTURE_PLANNED_TIME_NUM_2": {
+            "feature_index": 201,
+            "importance": 0.03686452126910951
+        },
+        "nb_trains_in_state": {
+            "feature_index": 254,
+            "importance": 0.028080111624975857
+        },
+        "FUTURE_PLANNED_TIME_NUM_3": {
+            "feature_index": 202,
+            "importance": 0.02692040223468035
+        },
+        "FUTURE_PLANNED_TIME_NUM_4": {
+            "feature_index": 203,
+            "importance": 0.019416832911296922
+        },
+        "FUTURE_PLANNED_TIME_NUM_5": {
+            "feature_index": 204,
+            "importance": 0.018607398722328618
+        },
+        "PAST_PLANNED_TIME_NUM_1": {
+            "feature_index": 199,
+            "importance": 0.01658405806208525
+        },
+        "FUTURE_TYPES_1_D": {
+            "feature_index": 10,
+            "importance": 0.014272400009163055
+        },
+        "FUTURE_TYPES_1_P": {
+            "feature_index": 30,
+            "importance": 0.009817713996818411
+        },
+        "mean_distance_within_0.46": {
+            "feature_index": 244,
+            "importance": 0.00872187819493575
+        },
+        "FUTURE_TYPES_2_D": {
+            "feature_index": 11,
+            "importance": 0.007258551992038731
+        },
+        "RELATION_TYPE_L": {
+            "feature_index": 210,
+            "importance": 0.006586475996802688
+        },
+        "num_trains_within_0.46": {
+            "feature_index": 242,
+            "importance": 0.006182734710815452
+        },
+        "FUTURE_TYPES_2_P": {
+            "feature_index": 31,
+            "importance": 0.00608190715641912
+        },
+        "FUTURE_TYPES_4_D": {
+            "feature_index": 13,
+            "importance": 0.004709434468812668
+        },
+        "FUTURE_TYPES_3_D": {
+            "feature_index": 12,
+            "importance": 0.004588524638750435
+        },
+        "FUTURE_TYPES_5_D": {
+            "feature_index": 14,
+            "importance": 0.004527050313343261
+        },
+        "RELATION_TYPE_IC": {
+            "feature_index": 207,
+            "importance": 0.004360201205769676
+        },
+        "PAST_STATIONS_2_embedding_2": {
+            "feature_index": 58,
+            "importance": 0.004180959732474921
+        },
+        "PAST_TYPES_1_A": {
+            "feature_index": 19,
+            "importance": 0.003958398521667172
+        },
+        "FUTURE_TYPES_1_A": {
+            "feature_index": 20,
+            "importance": 0.003699817679765327
+        },
+        "FUTURE_TYPES_4_P": {
+            "feature_index": 33,
+            "importance": 0.003545577005602274
+        },
+        "FUTURE_TYPES_5_P": {
+            "feature_index": 34,
+            "importance": 0.0035164803657518505
+        },
+        "PAST_STATIONS_1_embedding_2": {
+            "feature_index": 59,
+            "importance": 0.0034903043967546843
+        },
+        "FUTURE_TYPES_4_A": {
+            "feature_index": 23,
+            "importance": 0.0034601164485049463
+        },
+        "PAST_TYPES_2_A": {
+            "feature_index": 18,
+            "importance": 0.003379638408688068
+        },
+        "PAST_TYPES_1_D": {
+            "feature_index": 9,
+            "importance": 0.0033235609481216954
+        },
+        "FUTURE_TYPES_3_P": {
+            "feature_index": 32,
+            "importance": 0.0032319133847467318
+        },
+        "PAST_TYPES_2_D": {
+            "feature_index": 8,
+            "importance": 0.0031316544783513756
+        },
+        "PAST_PLANNED_TIME_NUM_2": {
+            "feature_index": 198,
+            "importance": 0.0030748088634982907
+        },
+        "FUTURE_TYPES_2_A": {
+            "feature_index": 21,
+            "importance": 0.003038681149754119
+        },
+        "PAST_LINES_1_embedding_0": {
+            "feature_index": 119,
+            "importance": 0.003032325832520355
+        },
+        "FUTURE_TYPES_3_A": {
+            "feature_index": 22,
+            "importance": 0.0029851839179973138
+        },
+        "PAST_TYPES_1_P": {
+            "feature_index": 29,
+            "importance": 0.002659637775797097
+        },
+        "PAST_DELAYS_2": {
+            "feature_index": 3,
+            "importance": 0.002597678808899695
+        },
+        "PAST_TYPES_2_P": {
+            "feature_index": 28,
+            "importance": 0.002515838963170758
+        },
+        "FUTURE_STATIONS_1_embedding_0": {
+            "feature_index": 40,
+            "importance": 0.0023967408623443154
+        },
+        "PAST_LINES_2_embedding_4": {
+            "feature_index": 158,
+            "importance": 0.0023545252506067317
+        },
+        "PAST_TYPES_4_D": {
+            "feature_index": 6,
+            "importance": 0.002307556464498628
+        },
+        "FUTURE_LINES_2_embedding_2": {
+            "feature_index": 141,
+            "importance": 0.0022922869003156876
+        },
+        "FUTURE_STATIONS_4_embedding_0": {
+            "feature_index": 43,
+            "importance": 0.0022172355597781745
+        },
+        "PAST_TYPES_3_D": {
+            "feature_index": 7,
+            "importance": 0.0021477214868491413
+        },
+        "FUTURE_STATIONS_1_embedding_2": {
+            "feature_index": 60,
+            "importance": 0.0021409545217427215
+        },
+        "PAST_STATIONS_1_embedding_3": {
+            "feature_index": 69,
+            "importance": 0.0021387128497094123
+        },
+        "FUTURE_LINES_1_embedding_2": {
+            "feature_index": 140,
+            "importance": 0.0021289437899450147
+        },
+        "FUTURE_STATIONS_5_embedding_7": {
+            "feature_index": 114,
+            "importance": 0.002091248476046004
+        },
+        "PAST_TYPES_4_A": {
+            "feature_index": 16,
+            "importance": 0.002086328803461024
+        },
+        "FUTURE_STATIONS_2_embedding_2": {
+            "feature_index": 61,
+            "importance": 0.00205417614155583
+        },
+        "PAST_STATIONS_5_embedding_3": {
+            "feature_index": 65,
+            "importance": 0.0020090408479621845
+        },
+        "FUTURE_LINES_1_embedding_3": {
+            "feature_index": 150,
+            "importance": 0.001973033907787891
+        },
+        "FUTURE_LINES_1_embedding_1": {
+            "feature_index": 130,
+            "importance": 0.0018889044884639495
+        },
+        "FUTURE_STATIONS_1_embedding_4": {
+            "feature_index": 80,
+            "importance": 0.001871928287434721
+        },
+        "FUTURE_STATIONS_4_embedding_1": {
+            "feature_index": 53,
+            "importance": 0.0018659719983192158
+        },
+        "FUTURE_LINES_5_embedding_4": {
+            "feature_index": 164,
+            "importance": 0.0018599760072870897
+        },
+        "FUTURE_LINES_5_embedding_3": {
+            "feature_index": 154,
+            "importance": 0.0018565149034611484
+        },
+        "PAST_LINES_1_embedding_7": {
+            "feature_index": 189,
+            "importance": 0.0018149817315164184
+        },
+        "FUTURE_STATIONS_5_embedding_3": {
+            "feature_index": 74,
+            "importance": 0.0017703985620987073
+        },
+        "PAST_LINES_2_embedding_1": {
+            "feature_index": 128,
+            "importance": 0.001766716417643166
+        },
+        "FUTURE_LINES_5_embedding_1": {
+            "feature_index": 134,
+            "importance": 0.0017541408208619602
+        },
+        "FUTURE_LINES_5_embedding_2": {
+            "feature_index": 144,
+            "importance": 0.0017272296086258798
+        },
+        "FUTURE_STATIONS_5_embedding_0": {
+            "feature_index": 44,
+            "importance": 0.001714000331703902
+        },
+        "FUTURE_STATIONS_1_embedding_5": {
+            "feature_index": 90,
+            "importance": 0.0016730264820502994
+        },
+        "FUTURE_STATIONS_3_embedding_1": {
+            "feature_index": 52,
+            "importance": 0.0016706820303178382
+        },
+        "FUTURE_STATIONS_5_embedding_1": {
+            "feature_index": 54,
+            "importance": 0.0016602774203345217
+        },
+        "PAST_LINES_1_embedding_2": {
+            "feature_index": 139,
+            "importance": 0.0016442945863467395
+        },
+        "PAST_TYPES_5_A": {
+            "feature_index": 15,
+            "importance": 0.001616680331813214
+        },
+        "PAST_STATIONS_5_embedding_7": {
+            "feature_index": 105,
+            "importance": 0.001606800075779158
+        },
+        "PAST_TYPES_5_P": {
+            "feature_index": 25,
+            "importance": 0.0016014466462435984
+        },
+        "FUTURE_STATIONS_3_embedding_5": {
+            "feature_index": 92,
+            "importance": 0.001575939982477914
+        },
+        "PAST_TYPES_5_D": {
+            "feature_index": 5,
+            "importance": 0.0015490900402363116
+        },
+        "PAST_TYPES_3_A": {
+            "feature_index": 17,
+            "importance": 0.0015010001052373934
+        },
+        "FUTURE_LINES_1_embedding_5": {
+            "feature_index": 170,
+            "importance": 0.0014987360787590553
+        },
+        "PAST_STATIONS_5_embedding_1": {
+            "feature_index": 45,
+            "importance": 0.0014826520745495175
+        },
+        "FUTURE_STATIONS_3_embedding_2": {
+            "feature_index": 62,
+            "importance": 0.0014722197164062979
+        },
+        "FUTURE_LINES_3_embedding_2": {
+            "feature_index": 142,
+            "importance": 0.0014610252109558796
+        },
+        "FUTURE_LINES_3_embedding_3": {
+            "feature_index": 152,
+            "importance": 0.0014236481385948353
+        },
+        "FUTURE_LINES_2_embedding_5": {
+            "feature_index": 171,
+            "importance": 0.0014234737921290375
+        },
+        "PAST_PLANNED_TIME_NUM_4": {
+            "feature_index": 196,
+            "importance": 0.0014112627584067284
+        },
+        "FUTURE_STATIONS_5_embedding_4": {
+            "feature_index": 84,
+            "importance": 0.0013969308576483818
+        },
+        "PAST_STATIONS_1_embedding_0": {
+            "feature_index": 39,
+            "importance": 0.0013963922688295049
+        },
+        "PAST_TYPES_4_P": {
+            "feature_index": 26,
+            "importance": 0.0013875444828224115
+        },
+        "FUTURE_STATIONS_2_embedding_0": {
+            "feature_index": 41,
+            "importance": 0.0013800562166741415
+        },
+        "PAST_STATIONS_4_embedding_3": {
+            "feature_index": 66,
+            "importance": 0.0013733562181827085
+        },
+        "FUTURE_LINES_5_embedding_5": {
+            "feature_index": 174,
+            "importance": 0.0013696914418204864
+        },
+        "RELATION_TYPE_P": {
+            "feature_index": 211,
+            "importance": 0.0013501619110232398
+        },
+        "FUTURE_LINES_1_embedding_0": {
+            "feature_index": 120,
+            "importance": 0.001285421044330093
+        },
+        "FUTURE_STATIONS_3_embedding_4": {
+            "feature_index": 82,
+            "importance": 0.0012631372369167116
+        },
+        "PAST_STATIONS_2_embedding_3": {
+            "feature_index": 68,
+            "importance": 0.0012489640569704585
+        },
+        "PAST_LINES_4_embedding_4": {
+            "feature_index": 156,
+            "importance": 0.00122325046027576
+        },
+        "PAST_STATIONS_4_embedding_2": {
+            "feature_index": 56,
+            "importance": 0.0012058235741375211
+        },
+        "FUTURE_LINES_3_embedding_1": {
+            "feature_index": 132,
+            "importance": 0.0011749378056364
+        },
+        "FUTURE_LINES_4_embedding_1": {
+            "feature_index": 133,
+            "importance": 0.0011696323652475194
+        },
+        "FUTURE_STATIONS_5_embedding_5": {
+            "feature_index": 94,
+            "importance": 0.0011670095965913506
+        },
+        "PAST_STATIONS_3_embedding_4": {
+            "feature_index": 77,
+            "importance": 0.0011604008773132613
+        },
+        "PAST_LINES_1_embedding_5": {
+            "feature_index": 169,
+            "importance": 0.0011520117897997784
+        },
+        "PAST_STATIONS_5_embedding_2": {
+            "feature_index": 55,
+            "importance": 0.0011393019435728124
+        },
+        "PAST_STATIONS_1_embedding_4": {
+            "feature_index": 79,
+            "importance": 0.001094429436205946
+        },
+        "PAST_LINES_3_embedding_0": {
+            "feature_index": 117,
+            "importance": 0.001093765876644981
+        },
+        "FUTURE_STATIONS_2_embedding_5": {
+            "feature_index": 91,
+            "importance": 0.0010904160526559181
+        },
+        "PAST_LINES_1_embedding_1": {
+            "feature_index": 129,
+            "importance": 0.0010732652869554383
+        },
+        "FUTURE_LINES_1_embedding_4": {
+            "feature_index": 160,
+            "importance": 0.0010731624612513313
+        },
+        "FUTURE_LINES_2_embedding_3": {
+            "feature_index": 151,
+            "importance": 0.0010620581395601291
+        },
+        "PAST_DELAYS_3": {
+            "feature_index": 2,
+            "importance": 0.0010461503340789546
+        },
+        "PAST_TYPES_3_P": {
+            "feature_index": 27,
+            "importance": 0.0010433999340005106
+        },
+        "FUTURE_LINES_5_embedding_0": {
+            "feature_index": 124,
+            "importance": 0.0010397385519705482
+        },
+        "PAST_STATIONS_2_embedding_5": {
+            "feature_index": 88,
+            "importance": 0.0010134478785563505
+        },
+        "FUTURE_STATIONS_1_embedding_1": {
+            "feature_index": 50,
+            "importance": 0.001012146884938847
+        },
+        "FUTURE_LINES_2_embedding_0": {
+            "feature_index": 121,
+            "importance": 0.0010003687357042824
+        },
+        "PAST_STATIONS_3_embedding_2": {
+            "feature_index": 57,
+            "importance": 0.0009973836586832485
+        },
+        "PAST_STATIONS_5_embedding_4": {
+            "feature_index": 75,
+            "importance": 0.0009965703960020055
+        },
+        "FUTURE_LINES_4_embedding_0": {
+            "feature_index": 123,
+            "importance": 0.0009942591287328772
+        },
+        "FUTURE_LINES_2_embedding_4": {
+            "feature_index": 161,
+            "importance": 0.0009932361169681324
+        },
+        "FUTURE_TYPES_5_A": {
+            "feature_index": 24,
+            "importance": 0.0009926585025920476
+        },
+        "PAST_LINES_2_embedding_5": {
+            "feature_index": 168,
+            "importance": 0.0009917512899831893
+        },
+        "PAST_LINES_2_embedding_7": {
+            "feature_index": 188,
+            "importance": 0.0009878313168499187
+        },
+        "PAST_STATIONS_1_embedding_6": {
+            "feature_index": 99,
+            "importance": 0.0009852545775368426
+        },
+        "PAST_LINES_3_embedding_5": {
+            "feature_index": 167,
+            "importance": 0.0009838420929586754
+        },
+        "PAST_STATIONS_5_embedding_6": {
+            "feature_index": 95,
+            "importance": 0.0009796869360928495
+        },
+        "PAST_LINES_3_embedding_2": {
+            "feature_index": 137,
+            "importance": 0.000978753645917352
+        },
+        "FUTURE_LINES_1_embedding_6": {
+            "feature_index": 180,
+            "importance": 0.0009785867161388629
+        },
+        "PAST_LINES_4_embedding_1": {
+            "feature_index": 126,
+            "importance": 0.0009683839208673772
+        },
+        "PAST_STATIONS_3_embedding_7": {
+            "feature_index": 107,
+            "importance": 0.0009640779633352192
+        },
+        "PAST_LINES_1_embedding_6": {
+            "feature_index": 179,
+            "importance": 0.0009596031836413444
+        },
+        "PAST_STATIONS_3_embedding_6": {
+            "feature_index": 97,
+            "importance": 0.0009352634248330327
+        },
+        "PAST_STATIONS_4_embedding_7": {
+            "feature_index": 106,
+            "importance": 0.0009347969342807794
+        },
+        "PAST_STATIONS_3_embedding_3": {
+            "feature_index": 67,
+            "importance": 0.0009332693835231831
+        },
+        "PAST_LINES_3_embedding_1": {
+            "feature_index": 127,
+            "importance": 0.0009164444248397574
+        },
+        "FUTURE_STATIONS_1_embedding_7": {
+            "feature_index": 110,
+            "importance": 0.0009159286040572479
+        },
+        "FUTURE_LINES_1_embedding_7": {
+            "feature_index": 190,
+            "importance": 0.0009132512692895612
+        },
+        "FUTURE_STATIONS_4_embedding_3": {
+            "feature_index": 73,
+            "importance": 0.0009057677800275333
+        },
+        "FUTURE_STATIONS_4_embedding_7": {
+            "feature_index": 113,
+            "importance": 0.0009009478025051587
+        },
+        "FUTURE_STATIONS_2_embedding_1": {
+            "feature_index": 51,
+            "importance": 0.0009000363922821997
+        },
+        "FUTURE_LINES_4_embedding_3": {
+            "feature_index": 153,
+            "importance": 0.0008998359004974699
+        },
+        "FUTURE_LINES_3_embedding_0": {
+            "feature_index": 122,
+            "importance": 0.0008794866875503349
+        },
+        "FUTURE_STATIONS_5_embedding_6": {
+            "feature_index": 104,
+            "importance": 0.0008721687421106017
+        },
+        "PAST_STATIONS_4_embedding_1": {
+            "feature_index": 46,
+            "importance": 0.0008701003081067471
+        },
+        "FUTURE_STATIONS_4_embedding_4": {
+            "feature_index": 83,
+            "importance": 0.0008567252565787609
+        },
+        "PAST_STATIONS_2_embedding_6": {
+            "feature_index": 98,
+            "importance": 0.00085519353198511
+        },
+        "PAST_STATIONS_5_embedding_5": {
+            "feature_index": 85,
+            "importance": 0.0008520925890409314
+        },
+        "FUTURE_STATIONS_2_embedding_6": {
+            "feature_index": 101,
+            "importance": 0.000843446099182743
+        },
+        "PAST_STATIONS_1_embedding_1": {
+            "feature_index": 49,
+            "importance": 0.000831184784187311
+        },
+        "PAST_STATIONS_4_embedding_4": {
+            "feature_index": 76,
+            "importance": 0.0008144171907031872
+        },
+        "RELATION_TYPE_THAL": {
+            "feature_index": 209,
+            "importance": 0.000807921891892649
+        },
+        "PAST_STATIONS_4_embedding_6": {
+            "feature_index": 96,
+            "importance": 0.0008078891332686355
+        },
+        "PAST_LINES_5_embedding_7": {
+            "feature_index": 185,
+            "importance": 0.0008074014874198232
+        },
+        "FUTURE_STATIONS_2_embedding_4": {
+            "feature_index": 81,
+            "importance": 0.0008036691414179398
+        },
+        "FUTURE_LINES_4_embedding_2": {
+            "feature_index": 143,
+            "importance": 0.0008019758003834365
+        },
+        "PAST_LINES_4_embedding_3": {
+            "feature_index": 146,
+            "importance": 0.000800143251743246
+        },
+        "PAST_STATIONS_5_embedding_0": {
+            "feature_index": 35,
+            "importance": 0.0007943741408982463
+        },
+        "FUTURE_LINES_3_embedding_5": {
+            "feature_index": 172,
+            "importance": 0.0007884148873691599
+        },
+        "PAST_LINES_3_embedding_4": {
+            "feature_index": 157,
+            "importance": 0.0007876267676487414
+        },
+        "FUTURE_STATIONS_3_embedding_0": {
+            "feature_index": 42,
+            "importance": 0.0007827193452305536
+        },
+        "FUTURE_LINES_4_embedding_4": {
+            "feature_index": 163,
+            "importance": 0.0007761048947897198
+        },
+        "PAST_LINES_4_embedding_7": {
+            "feature_index": 186,
+            "importance": 0.0007577050078910296
+        },
+        "FUTURE_STATIONS_4_embedding_5": {
+            "feature_index": 93,
+            "importance": 0.000754545753160163
+        },
+        "PAST_STATIONS_3_embedding_5": {
+            "feature_index": 87,
+            "importance": 0.0007426544077622666
+        },
+        "FUTURE_STATIONS_1_embedding_3": {
+            "feature_index": 70,
+            "importance": 0.0007402441285856209
+        },
+        "FUTURE_STATIONS_4_embedding_6": {
+            "feature_index": 103,
+            "importance": 0.0007333097439705894
+        },
+        "PAST_LINES_5_embedding_2": {
+            "feature_index": 135,
+            "importance": 0.0007300676675325412
+        },
+        "PAST_LINES_2_embedding_2": {
+            "feature_index": 138,
+            "importance": 0.0007294679193913467
+        },
+        "PAST_STATIONS_1_embedding_7": {
+            "feature_index": 109,
+            "importance": 0.0007285302809085347
+        },
+        "FUTURE_STATIONS_1_embedding_6": {
+            "feature_index": 100,
+            "importance": 0.0007279917471646246
+        },
+        "PAST_STATIONS_2_embedding_4": {
+            "feature_index": 78,
+            "importance": 0.000727186824373871
+        },
+        "PAST_STATIONS_2_embedding_7": {
+            "feature_index": 108,
+            "importance": 0.0007222144212289505
+        },
+        "PAST_LINES_2_embedding_6": {
+            "feature_index": 178,
+            "importance": 0.0007140293870240066
+        },
+        "FUTURE_LINES_2_embedding_6": {
+            "feature_index": 181,
+            "importance": 0.0006984223548463398
+        },
+        "PAST_LINES_1_embedding_3": {
+            "feature_index": 149,
+            "importance": 0.0006969470760221253
+        },
+        "FUTURE_LINES_5_embedding_6": {
+            "feature_index": 184,
+            "importance": 0.0006952546098966339
+        },
+        "hour_cos_1": {
+            "feature_index": 223,
+            "importance": 0.0006869867852677292
+        },
+        "PAST_STATIONS_3_embedding_0": {
+            "feature_index": 37,
+            "importance": 0.0006828856417907981
+        },
+        "PAST_LINES_4_embedding_2": {
+            "feature_index": 136,
+            "importance": 0.0006725005887258772
+        },
+        "PAST_LINES_4_embedding_0": {
+            "feature_index": 116,
+            "importance": 0.0006696755740989158
+        },
+        "PAST_LINES_5_embedding_3": {
+            "feature_index": 145,
+            "importance": 0.0006658869356429786
+        },
+        "FUTURE_STATIONS_2_embedding_3": {
+            "feature_index": 71,
+            "importance": 0.0006552054146981012
+        },
+        "PAST_LINES_2_embedding_3": {
+            "feature_index": 148,
+            "importance": 0.0006475493228944584
+        },
+        "PAST_STATIONS_1_embedding_5": {
+            "feature_index": 89,
+            "importance": 0.0006442292023604689
+        },
+        "PAST_LINES_4_embedding_6": {
+            "feature_index": 176,
+            "importance": 0.0006435762066911765
+        },
+        "FUTURE_STATIONS_5_embedding_2": {
+            "feature_index": 64,
+            "importance": 0.0006313578383090324
+        },
+        "FUTURE_LINES_3_embedding_4": {
+            "feature_index": 162,
+            "importance": 0.0006298150302880501
+        },
+        "PAST_LINES_5_embedding_0": {
+            "feature_index": 115,
+            "importance": 0.0006129729228661507
+        },
+        "FUTURE_LINES_4_embedding_5": {
+            "feature_index": 173,
+            "importance": 0.000612764635016605
+        },
+        "PAST_LINES_1_embedding_4": {
+            "feature_index": 159,
+            "importance": 0.000609656573391737
+        },
+        "RELATION_TYPE_EURST": {
+            "feature_index": 208,
+            "importance": 0.0005910319089342364
+        },
+        "FUTURE_STATIONS_4_embedding_2": {
+            "feature_index": 63,
+            "importance": 0.0005884827063261877
+        },
+        "PAST_LINES_3_embedding_7": {
+            "feature_index": 187,
+            "importance": 0.0005869946256122915
+        },
+        "PAST_LINES_3_embedding_3": {
+            "feature_index": 147,
+            "importance": 0.0005814306395521829
+        },
+        "PAST_STATIONS_4_embedding_0": {
+            "feature_index": 36,
+            "importance": 0.0005767648173132134
+        },
+        "FUTURE_LINES_4_embedding_6": {
+            "feature_index": 183,
+            "importance": 0.0005602838999439585
+        },
+        "PAST_STATIONS_3_embedding_1": {
+            "feature_index": 47,
+            "importance": 0.0005413815021307444
+        },
+        "PAST_PLANNED_TIME_NUM_5": {
+            "feature_index": 195,
+            "importance": 0.000532706920896886
+        },
+        "RELATION_TYPE_TGV": {
+            "feature_index": 213,
+            "importance": 0.0004991345351033294
+        },
+        "FUTURE_LINES_3_embedding_6": {
+            "feature_index": 182,
+            "importance": 0.00047828642073475256
+        },
+        "day_of_week_Sunday": {
+            "feature_index": 221,
+            "importance": 0.00046137851761633985
+        },
+        "FUTURE_STATIONS_2_embedding_7": {
+            "feature_index": 111,
+            "importance": 0.00045909049587065096
+        },
+        "PAST_LINES_5_embedding_1": {
+            "feature_index": 125,
+            "importance": 0.00045856552273280113
+        },
+        "FUTURE_STATIONS_3_embedding_6": {
+            "feature_index": 102,
+            "importance": 0.0004399733102188108
+        },
+        "PAST_LINES_5_embedding_4": {
+            "feature_index": 155,
+            "importance": 0.0004299091333071159
+        },
+        "PAST_LINES_5_embedding_5": {
+            "feature_index": 165,
+            "importance": 0.000416014033926726
+        },
+        "PAST_DELAYS_4": {
+            "feature_index": 1,
+            "importance": 0.000401999960631616
+        },
+        "FUTURE_LINES_5_embedding_7": {
+            "feature_index": 194,
+            "importance": 0.0004004858625750396
+        },
+        "PAST_STATIONS_2_embedding_0": {
+            "feature_index": 38,
+            "importance": 0.0003907936587650207
+        },
+        "TRAIN_POSITION_EMBEDDING_4": {
+            "feature_index": 238,
+            "importance": 0.0003878706413654731
+        },
+        "PAST_LINES_5_embedding_6": {
+            "feature_index": 175,
+            "importance": 0.00038288432877142675
+        },
+        "PAST_STATIONS_2_embedding_1": {
+            "feature_index": 48,
+            "importance": 0.0003816648513615517
+        },
+        "PAST_STATIONS_4_embedding_5": {
+            "feature_index": 86,
+            "importance": 0.0003573371137977954
+        },
+        "FUTURE_LINES_2_embedding_7": {
+            "feature_index": 191,
+            "importance": 0.0003377203301508036
+        },
+        "FUTURE_STATIONS_3_embedding_3": {
+            "feature_index": 72,
+            "importance": 0.00033308566076208914
+        },
+        "RELATION_TYPE_INT": {
+            "feature_index": 206,
+            "importance": 0.0003299862740343551
+        },
+        "PAST_LINES_3_embedding_6": {
+            "feature_index": 177,
+            "importance": 0.00029682958809640336
+        },
+        "FUTURE_STATIONS_3_embedding_7": {
+            "feature_index": 112,
+            "importance": 0.00028947102357887997
+        },
+        "RELATION_TYPE_EXTRA": {
+            "feature_index": 212,
+            "importance": 0.0002760576827682826
+        },
+        "FUTURE_LINES_3_embedding_7": {
+            "feature_index": 192,
+            "importance": 0.0002596729190870839
+        },
+        "hour_cos_2": {
+            "feature_index": 225,
+            "importance": 0.00025139644779574865
+        },
+        "hour_sin_1": {
+            "feature_index": 222,
+            "importance": 0.0002502362457504681
+        },
+        "RELATION_TYPE_ICE": {
+            "feature_index": 205,
+            "importance": 0.0002482575502266826
+        },
+        "TRAIN_POSITION_EMBEDDING_2": {
+            "feature_index": 236,
+            "importance": 0.0002472196190143938
+        },
+        "day_of_week_Monday": {
+            "feature_index": 215,
+            "importance": 0.00024346700857151847
+        },
+        "PAST_LINES_4_embedding_5": {
+            "feature_index": 166,
+            "importance": 0.00024175625002025302
+        },
+        "FUTURE_LINES_2_embedding_1": {
+            "feature_index": 131,
+            "importance": 0.00023573381477663967
+        },
+        "PAST_LINES_2_embedding_0": {
+            "feature_index": 118,
+            "importance": 0.00023477281751111968
+        },
+        "FUTURE_LINES_4_embedding_7": {
+            "feature_index": 193,
+            "importance": 0.00020868623515848394
+        },
+        "TRAIN_POSITION_EMBEDDING_1": {
+            "feature_index": 235,
+            "importance": 0.00020192767997377902
+        },
+        "TRAIN_POSITION_EMBEDDING_3": {
+            "feature_index": 237,
+            "importance": 0.00019640426735831885
+        },
+        "PAST_DELAYS_5": {
+            "feature_index": 0,
+            "importance": 0.00017087462098730466
+        },
+        "day_of_week_Friday": {
+            "feature_index": 219,
+            "importance": 0.0001554741378700708
+        },
+        "hour_cos_4": {
+            "feature_index": 227,
+            "importance": 0.00014285713565296288
+        },
+        "day_of_week_Tuesday": {
+            "feature_index": 216,
+            "importance": 0.00013049210719100478
+        },
+        "hour_sin_4": {
+            "feature_index": 226,
+            "importance": 0.0001293272771502263
+        },
+        "TRAIN_POSITION_EMBEDDING_5": {
+            "feature_index": 239,
+            "importance": 0.00011196081463993313
+        },
+        "hour_sin_2": {
+            "feature_index": 224,
+            "importance": 9.763355690663999e-05
+        },
+        "day_of_week_Wednesday": {
+            "feature_index": 217,
+            "importance": 8.692177499698417e-05
+        },
+        "TRAIN_POSITION_EMBEDDING_6": {
+            "feature_index": 240,
+            "importance": 7.803942907622652e-05
+        },
+        "year_sin_2": {
+            "feature_index": 230,
+            "importance": 6.161857496180811e-05
+        },
+        "year_cos_4": {
+            "feature_index": 233,
+            "importance": 5.10087855123631e-05
+        },
+        "year_sin_4": {
+            "feature_index": 232,
+            "importance": 4.9194211752379144e-05
+        },
+        "num_trains_within_1.11": {
+            "feature_index": 250,
+            "importance": 4.353579280735875e-05
+        },
+        "year_cos_1": {
+            "feature_index": 229,
+            "importance": 3.4144948375414154e-05
+        },
+        "min_distance_within_0.83": {
+            "feature_index": 247,
+            "importance": 2.5786900206581363e-05
+        },
+        "min_distance_within_1.11": {
+            "feature_index": 251,
+            "importance": 2.103753371156536e-05
+        },
+        "mean_delay_within_0.83": {
+            "feature_index": 249,
+            "importance": 1.5865558050753846e-05
+        },
+        "RELATION_TYPE_CHARTER": {
+            "feature_index": 214,
+            "importance": 1.494028351212151e-05
+        },
+        "day_of_week_Thursday": {
+            "feature_index": 218,
+            "importance": 6.9577138020804344e-06
+        },
+        "num_trains_within_0.83": {
+            "feature_index": 246,
+            "importance": 2.4632324982842845e-06
+        },
+        "year_cos_2": {
+            "feature_index": 231,
+            "importance": 2.3391291675611824e-06
+        },
+        "TRAIN_POSITION_EMBEDDING_7": {
+            "feature_index": 241,
+            "importance": 4.959442325480623e-07
+        },
+        "day_of_week_Saturday": {
+            "feature_index": 220,
+            "importance": 0.0
+        },
+        "year_sin_1": {
+            "feature_index": 228,
+            "importance": -6.13913201941152e-07
+        },
+        "TRAIN_POSITION_EMBEDDING_0": {
+            "feature_index": 234,
+            "importance": -1.3652711147837949e-06
+        },
+        "mean_delay_within_0.46": {
+            "feature_index": 245,
+            "importance": -1.7811316836535696e-06
+        },
+        "mean_delay_within_1.11": {
+            "feature_index": 253,
+            "importance": -3.3434121925024483e-06
+        },
+        "mean_distance_within_0.83": {
+            "feature_index": 248,
+            "importance": -8.782846369181918e-06
+        },
+        "mean_distance_within_1.11": {
+            "feature_index": 252,
+            "importance": -2.0671531743987613e-05
+        },
+        "PAST_PLANNED_TIME_NUM_3": {
+            "feature_index": 197,
+            "importance": -0.0013481824822248578
+        }
+    }
+}

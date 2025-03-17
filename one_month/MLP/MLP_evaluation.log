@@ -1,0 +1,89 @@
+2025-03-16 19:37:28,013 - INFO - Starting Multilayer Perceptron evaluation.
+2025-03-16 19:37:28,018 - INFO - Loading data...
+2025-03-16 19:37:28,019 - INFO - Loading data...
+2025-03-16 19:37:28,019 - INFO - Single month training and testing detected. Applying 80-20 split.
+2025-03-16 19:37:31,183 - INFO - Train dates: ['01MAR2023' '02MAR2023' '03MAR2023' '04MAR2023' '05MAR2023' '06MAR2023'
+ '07MAR2023' '08MAR2023' '09MAR2023' '10MAR2023' '11MAR2023' '12MAR2023'
+ '13MAR2023' '14MAR2023' '15MAR2023' '16MAR2023' '17MAR2023' '18MAR2023'
+ '19MAR2023' '20MAR2023' '21MAR2023' '22MAR2023' '23MAR2023' '24MAR2023'
+ '25MAR2023']
+2025-03-16 19:37:31,183 - INFO - Test dates: ['26MAR2023' '27MAR2023' '28FEB2023' '28MAR2023' '29MAR2023' '30MAR2023'
+ '31MAR2023']
+2025-03-16 19:37:31,183 - INFO - Number of unique train dates: 25
+2025-03-16 19:37:31,183 - INFO - Number of unique test dates: 7
+2025-03-16 19:37:33,428 - INFO - Single month training and testing detected. Applying 80-20 split.
+2025-03-16 19:37:40,595 - INFO - Train dates: ['01MAR2023' '02MAR2023' '03MAR2023' '04MAR2023' '05MAR2023' '06MAR2023'
+ '07MAR2023' '08MAR2023' '09MAR2023' '10MAR2023' '11MAR2023' '12MAR2023'
+ '13MAR2023' '14MAR2023' '15MAR2023' '16MAR2023' '17MAR2023' '18MAR2023'
+ '19MAR2023' '20MAR2023' '21MAR2023' '22MAR2023' '23MAR2023' '24MAR2023'
+ '25MAR2023']
+2025-03-16 19:37:40,597 - INFO - Test dates: ['26MAR2023' '27MAR2023' '28FEB2023' '28MAR2023' '29MAR2023' '30MAR2023'
+ '31MAR2023']
+2025-03-16 19:37:40,597 - INFO - Number of unique train dates: 25
+2025-03-16 19:37:40,597 - INFO - Number of unique test dates: 7
+2025-03-16 20:27:46,061 - INFO - Model '256-256' trained in 3002.04 seconds.
+2025-03-16 20:27:46,061 - INFO - [2025-03-16 20:27:46] Starting evaluation.
+2025-03-16 20:27:46,061 - INFO - [2025-03-16 20:27:46] Created results and plots directories if not already existing.
+2025-03-16 20:27:46,061 - INFO - [2025-03-16 20:27:46] Loaded trained model.
+2025-03-16 20:27:47,595 - INFO - [2025-03-16 20:27:47] Model predictions completed.
+2025-03-16 20:27:47,653 - INFO - [2025-03-16 20:27:47] Transformed inputs to seconds.
+2025-03-16 20:27:47,714 - INFO - [2025-03-16 20:27:47] Computed translation-based estimates.
+2025-03-16 20:27:47,716 - INFO - [2025-03-16 20:27:47] Corrected Translate Test: [[ 900.  900.  900.  900.  900.]
+ [ 930.  930.  930.  930.  930.]
+ [1350. 1350. 1350. 1350. 1350.]
+ ...
+ [   0.    0.    0.    0.    0.]
+ [   0.    0.    0.    0.    0.]
+ [  30.   30.   30.   30.   30.]]
+2025-03-16 20:27:47,716 - INFO - [2025-03-16 20:27:47] Corrected Translate Test shape: (353197, 5)
+2025-03-16 20:27:47,717 - INFO - [2025-03-16 20:27:47] Corrected Translate Test sum: 283834650.0
+2025-03-16 20:27:47,728 - INFO - [2025-03-16 20:27:47] MAE Translation Mean: [ 71.66739808  83.73375199  92.9558575   99.78193473 106.51687302]
+2025-03-16 20:27:47,728 - INFO - [2025-03-16 20:27:47] Computed MAE for model and translation approach.
+2025-03-16 20:27:47,782 - INFO - [2025-03-16 20:27:47] Computed MAE per delay bin.
+2025-03-16 20:27:47,842 - INFO - [2025-03-16 20:27:47] Computed MAE per horizon bin.
+2025-03-16 20:27:47,845 - INFO - [2025-03-16 20:27:47] Saved metrics to JSON file: ./results/metrics_256-256.json
+2025-03-16 20:27:47,845 - INFO - [2025-03-16 20:27:47] Saved metrics to PKL file: ./results/metrics_256-256.pkl
+2025-03-16 20:27:48,039 - INFO - Saved MAE plots.
+2025-03-16 20:27:48,039 - INFO - [2025-03-16 20:27:48] Evaluation complete.
+2025-03-16 20:47:27,438 - INFO - Model '50-50-50' trained in 1179.40 seconds.
+2025-03-16 20:47:27,439 - INFO - [2025-03-16 20:47:27] Starting evaluation.
+2025-03-16 20:47:27,439 - INFO - [2025-03-16 20:47:27] Created results and plots directories if not already existing.
+2025-03-16 20:47:27,439 - INFO - [2025-03-16 20:47:27] Loaded trained model.
+2025-03-16 20:47:28,133 - INFO - [2025-03-16 20:47:28] Model predictions completed.
+2025-03-16 20:47:28,193 - INFO - [2025-03-16 20:47:28] Transformed inputs to seconds.
+2025-03-16 20:47:28,245 - INFO - [2025-03-16 20:47:28] Computed translation-based estimates.
+2025-03-16 20:47:28,245 - INFO - [2025-03-16 20:47:28] Corrected Translate Test: [[ 900.  900.  900.  900.  900.]
+ [ 930.  930.  930.  930.  930.]
+ [1350. 1350. 1350. 1350. 1350.]
+ ...
+ [   0.    0.    0.    0.    0.]
+ [   0.    0.    0.    0.    0.]
+ [  30.   30.   30.   30.   30.]]
+2025-03-16 20:47:28,245 - INFO - [2025-03-16 20:47:28] Corrected Translate Test shape: (353197, 5)
+2025-03-16 20:47:28,246 - INFO - [2025-03-16 20:47:28] Corrected Translate Test sum: 283834650.0
+2025-03-16 20:47:28,256 - INFO - [2025-03-16 20:47:28] MAE Translation Mean: [ 71.66739808  83.73375199  92.9558575   99.78193473 106.51687302]
+2025-03-16 20:47:28,256 - INFO - [2025-03-16 20:47:28] Computed MAE for model and translation approach.
+2025-03-16 20:47:28,315 - INFO - [2025-03-16 20:47:28] Computed MAE per delay bin.
+2025-03-16 20:47:28,374 - INFO - [2025-03-16 20:47:28] Computed MAE per horizon bin.
+2025-03-16 20:47:28,377 - INFO - [2025-03-16 20:47:28] Saved metrics to JSON file: ./results/metrics_50-50-50.json
+2025-03-16 20:47:28,377 - INFO - [2025-03-16 20:47:28] Saved metrics to PKL file: ./results/metrics_50-50-50.pkl
+2025-03-16 20:47:28,532 - INFO - Saved MAE plots.
+2025-03-16 20:47:28,532 - INFO - [2025-03-16 20:47:28] Evaluation complete.
+2025-03-16 20:47:28,542 - INFO - Saving feature importance plots to: ./plots
+2025-03-16 20:47:28,542 - INFO - Saving feature importance rankings to: ./results/feature_importance.json
+2025-03-16 20:47:28,565 - INFO - Calculating feature importance for 256-256...
+2025-03-16 21:21:06,028 - INFO - Top features for 256-256:
+2025-03-16 21:21:06,028 - INFO -   mean_distance_within_0.46 (Feature 244): 0.9273
+2025-03-16 21:21:06,029 - INFO -   FUTURE_PLANNED_TIME_NUM_1 (Feature 200): 0.6367
+2025-03-16 21:21:06,029 - INFO -   PAST_DELAYS_1 (Feature 4): 0.4861
+2025-03-16 21:21:06,029 - INFO -   nb_trains_in_state (Feature 254): 0.4077
+2025-03-16 21:21:06,029 - INFO -   min_distance_within_0.46 (Feature 243): 0.3678
+2025-03-16 21:21:06,029 - INFO -   num_trains_within_0.46 (Feature 242): 0.1318
+2025-03-16 21:21:06,126 - INFO - Feature importance plot saved for 256-256.
+2025-03-16 21:21:06,131 - INFO - Calculating feature importance for 50-50-50...
+2025-03-16 21:37:16,798 - INFO - Top features for 50-50-50:
+2025-03-16 21:37:16,799 - INFO -   FUTURE_PLANNED_TIME_NUM_1 (Feature 200): 0.6536
+2025-03-16 21:37:16,799 - INFO -   PAST_DELAYS_1 (Feature 4): 0.4048
+2025-03-16 21:37:16,863 - INFO - Feature importance plot saved for 50-50-50.
+2025-03-16 21:37:16,876 - INFO - Feature importance calculation complete. Results saved.
+2025-03-16 21:37:16,945 - INFO - MLP evaluation completed.

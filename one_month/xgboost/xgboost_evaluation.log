@@ -1,0 +1,1372 @@
+2025-03-17 00:54:18,820 - INFO - Starting eXtreme Gradient Boosting evaluation script.
+2025-03-17 00:54:18,829 - INFO - Loading data...
+2025-03-17 00:54:18,829 - INFO - Loading data...
+2025-03-17 00:54:18,829 - INFO - Single month training and testing detected. Applying 80-20 split.
+2025-03-17 00:54:23,053 - INFO - Train dates: ['01MAR2023' '02MAR2023' '03MAR2023' '04MAR2023' '05MAR2023' '06MAR2023'
+ '07MAR2023' '08MAR2023' '09MAR2023' '10MAR2023' '11MAR2023' '12MAR2023'
+ '13MAR2023' '14MAR2023' '15MAR2023' '16MAR2023' '17MAR2023' '18MAR2023'
+ '19MAR2023' '20MAR2023' '21MAR2023' '22MAR2023' '23MAR2023' '24MAR2023'
+ '25MAR2023']
+2025-03-17 00:54:23,053 - INFO - Test dates: ['26MAR2023' '27MAR2023' '28FEB2023' '28MAR2023' '29MAR2023' '30MAR2023'
+ '31MAR2023']
+2025-03-17 00:54:23,053 - INFO - Number of unique train dates: 25
+2025-03-17 00:54:23,053 - INFO - Number of unique test dates: 7
+2025-03-17 00:54:25,561 - INFO - Single month training and testing detected. Applying 80-20 split.
+2025-03-17 00:54:34,475 - INFO - Train dates: ['01MAR2023' '02MAR2023' '03MAR2023' '04MAR2023' '05MAR2023' '06MAR2023'
+ '07MAR2023' '08MAR2023' '09MAR2023' '10MAR2023' '11MAR2023' '12MAR2023'
+ '13MAR2023' '14MAR2023' '15MAR2023' '16MAR2023' '17MAR2023' '18MAR2023'
+ '19MAR2023' '20MAR2023' '21MAR2023' '22MAR2023' '23MAR2023' '24MAR2023'
+ '25MAR2023']
+2025-03-17 00:54:34,477 - INFO - Test dates: ['26MAR2023' '27MAR2023' '28FEB2023' '28MAR2023' '29MAR2023' '30MAR2023'
+ '31MAR2023']
+2025-03-17 00:54:34,477 - INFO - Number of unique train dates: 25
+2025-03-17 00:54:34,477 - INFO - Number of unique test dates: 7
+2025-03-17 00:54:58,204 - INFO - Model 'XGBoost' trained in 20.02 seconds.
+2025-03-17 00:54:58,208 - INFO - [2025-03-17 00:54:58] Starting evaluation.
+2025-03-17 00:54:58,209 - INFO - [2025-03-17 00:54:58] Created results and plots directories if not already existing.
+2025-03-17 00:54:58,209 - INFO - [2025-03-17 00:54:58] Loaded trained model.
+2025-03-17 00:54:58,419 - INFO - [2025-03-17 00:54:58] Model predictions completed.
+2025-03-17 00:54:58,467 - INFO - [2025-03-17 00:54:58] Transformed inputs to seconds.
+2025-03-17 00:54:58,519 - INFO - [2025-03-17 00:54:58] Computed translation-based estimates.
+2025-03-17 00:54:58,533 - INFO - [2025-03-17 00:54:58] MAE Translation Mean: [ 71.66739808  83.73375199  92.9558575   99.78193473 106.51687302]
+2025-03-17 00:54:58,533 - INFO - [2025-03-17 00:54:58] Computed MAE for model and translation approach.
+2025-03-17 00:54:58,577 - INFO - [2025-03-17 00:54:58] Computed MAE per delay bin.
+2025-03-17 00:54:58,630 - INFO - [2025-03-17 00:54:58] Computed MAE per horizon bin.
+2025-03-17 00:54:58,631 - INFO - [2025-03-17 00:54:58] Saved metrics to JSON file: ./results/metrics_XGBoost.json
+2025-03-17 00:54:58,632 - INFO - [2025-03-17 00:54:58] Saved metrics to PKL file: ./results/metrics_XGBoost.pkl
+2025-03-17 00:54:58,857 - INFO - Saved MAE plots.
+2025-03-17 00:54:58,857 - INFO - [2025-03-17 00:54:58] Evaluation complete.
+2025-03-17 00:54:58,973 - INFO - XGB evaluation completed.
+2025-03-17 00:55:02,177 - INFO - Starting eXtreme Gradient Boosting evaluation script.
+2025-03-17 00:55:02,191 - INFO - Loading data...
+2025-03-17 00:55:02,192 - INFO - Loading data...
+2025-03-17 00:55:02,192 - INFO - Single month training and testing detected. Applying 80-20 split.
+2025-03-17 00:55:05,142 - INFO - Train dates: ['01MAR2023' '02MAR2023' '03MAR2023' '04MAR2023' '05MAR2023' '06MAR2023'
+ '07MAR2023' '08MAR2023' '09MAR2023' '10MAR2023' '11MAR2023' '12MAR2023'
+ '13MAR2023' '14MAR2023' '15MAR2023' '16MAR2023' '17MAR2023' '18MAR2023'
+ '19MAR2023' '20MAR2023' '21MAR2023' '22MAR2023' '23MAR2023' '24MAR2023'
+ '25MAR2023']
+2025-03-17 00:55:05,142 - INFO - Test dates: ['26MAR2023' '27MAR2023' '28FEB2023' '28MAR2023' '29MAR2023' '30MAR2023'
+ '31MAR2023']
+2025-03-17 00:55:05,142 - INFO - Number of unique train dates: 25
+2025-03-17 00:55:05,142 - INFO - Number of unique test dates: 7
+2025-03-17 00:55:09,076 - INFO - Single month training and testing detected. Applying 80-20 split.
+2025-03-17 00:55:20,247 - INFO - Train dates: ['01MAR2023' '02MAR2023' '03MAR2023' '04MAR2023' '05MAR2023' '06MAR2023'
+ '07MAR2023' '08MAR2023' '09MAR2023' '10MAR2023' '11MAR2023' '12MAR2023'
+ '13MAR2023' '14MAR2023' '15MAR2023' '16MAR2023' '17MAR2023' '18MAR2023'
+ '19MAR2023' '20MAR2023' '21MAR2023' '22MAR2023' '23MAR2023' '24MAR2023'
+ '25MAR2023']
+2025-03-17 00:55:20,249 - INFO - Test dates: ['26MAR2023' '27MAR2023' '28FEB2023' '28MAR2023' '29MAR2023' '30MAR2023'
+ '31MAR2023']
+2025-03-17 00:55:20,249 - INFO - Number of unique train dates: 25
+2025-03-17 00:55:20,249 - INFO - Number of unique test dates: 7
+2025-03-17 00:55:43,256 - INFO - Model 'XGBoost' trained in 19.47 seconds.
+2025-03-17 00:55:43,260 - INFO - [2025-03-17 00:55:43] Starting evaluation.
+2025-03-17 00:55:43,260 - INFO - [2025-03-17 00:55:43] Created results and plots directories if not already existing.
+2025-03-17 00:55:43,260 - INFO - [2025-03-17 00:55:43] Loaded trained model.
+2025-03-17 00:55:43,483 - INFO - [2025-03-17 00:55:43] Model predictions completed.
+2025-03-17 00:55:43,528 - INFO - [2025-03-17 00:55:43] Transformed inputs to seconds.
+2025-03-17 00:55:43,579 - INFO - [2025-03-17 00:55:43] Computed translation-based estimates.
+2025-03-17 00:55:43,591 - INFO - [2025-03-17 00:55:43] MAE Translation Mean: [ 71.66739808  83.73375199  92.9558575   99.78193473 106.51687302]
+2025-03-17 00:55:43,591 - INFO - [2025-03-17 00:55:43] Computed MAE for model and translation approach.
+2025-03-17 00:55:43,646 - INFO - [2025-03-17 00:55:43] Computed MAE per delay bin.
+2025-03-17 00:55:43,701 - INFO - [2025-03-17 00:55:43] Computed MAE per horizon bin.
+2025-03-17 00:55:43,702 - INFO - [2025-03-17 00:55:43] Saved metrics to JSON file: ./results/metrics_XGBoost.json
+2025-03-17 00:55:43,703 - INFO - [2025-03-17 00:55:43] Saved metrics to PKL file: ./results/metrics_XGBoost.pkl
+2025-03-17 00:55:43,897 - INFO - Saved MAE plots.
+2025-03-17 00:55:43,897 - INFO - [2025-03-17 00:55:43] Evaluation complete.
+2025-03-17 00:55:44,013 - INFO - XGB evaluation completed.
+2025-03-17 00:55:47,180 - INFO - Starting eXtreme Gradient Boosting evaluation script.
+2025-03-17 00:55:47,189 - INFO - Loading data...
+2025-03-17 00:55:47,189 - INFO - Loading data...
+2025-03-17 00:55:47,189 - INFO - Single month training and testing detected. Applying 80-20 split.
+2025-03-17 00:55:50,138 - INFO - Train dates: ['01MAR2023' '02MAR2023' '03MAR2023' '04MAR2023' '05MAR2023' '06MAR2023'
+ '07MAR2023' '08MAR2023' '09MAR2023' '10MAR2023' '11MAR2023' '12MAR2023'
+ '13MAR2023' '14MAR2023' '15MAR2023' '16MAR2023' '17MAR2023' '18MAR2023'
+ '19MAR2023' '20MAR2023' '21MAR2023' '22MAR2023' '23MAR2023' '24MAR2023'
+ '25MAR2023']
+2025-03-17 00:55:50,138 - INFO - Test dates: ['26MAR2023' '27MAR2023' '28FEB2023' '28MAR2023' '29MAR2023' '30MAR2023'
+ '31MAR2023']
+2025-03-17 00:55:50,138 - INFO - Number of unique train dates: 25
+2025-03-17 00:55:50,138 - INFO - Number of unique test dates: 7
+2025-03-17 00:55:53,601 - INFO - Single month training and testing detected. Applying 80-20 split.
+2025-03-17 00:56:04,085 - INFO - Train dates: ['01MAR2023' '02MAR2023' '03MAR2023' '04MAR2023' '05MAR2023' '06MAR2023'
+ '07MAR2023' '08MAR2023' '09MAR2023' '10MAR2023' '11MAR2023' '12MAR2023'
+ '13MAR2023' '14MAR2023' '15MAR2023' '16MAR2023' '17MAR2023' '18MAR2023'
+ '19MAR2023' '20MAR2023' '21MAR2023' '22MAR2023' '23MAR2023' '24MAR2023'
+ '25MAR2023']
+2025-03-17 00:56:04,086 - INFO - Test dates: ['26MAR2023' '27MAR2023' '28FEB2023' '28MAR2023' '29MAR2023' '30MAR2023'
+ '31MAR2023']
+2025-03-17 00:56:04,086 - INFO - Number of unique train dates: 25
+2025-03-17 00:56:04,086 - INFO - Number of unique test dates: 7
+2025-03-17 00:56:28,636 - INFO - Model 'XGBoost' trained in 20.87 seconds.
+2025-03-17 00:56:28,641 - INFO - [2025-03-17 00:56:28] Starting evaluation.
+2025-03-17 00:56:28,641 - INFO - [2025-03-17 00:56:28] Created results and plots directories if not already existing.
+2025-03-17 00:56:28,641 - INFO - [2025-03-17 00:56:28] Loaded trained model.
+2025-03-17 00:56:28,870 - INFO - [2025-03-17 00:56:28] Model predictions completed.
+2025-03-17 00:56:28,918 - INFO - [2025-03-17 00:56:28] Transformed inputs to seconds.
+2025-03-17 00:56:28,971 - INFO - [2025-03-17 00:56:28] Computed translation-based estimates.
+2025-03-17 00:56:28,984 - INFO - [2025-03-17 00:56:28] MAE Translation Mean: [ 71.66739808  83.73375199  92.9558575   99.78193473 106.51687302]
+2025-03-17 00:56:28,984 - INFO - [2025-03-17 00:56:28] Computed MAE for model and translation approach.
+2025-03-17 00:56:29,033 - INFO - [2025-03-17 00:56:29] Computed MAE per delay bin.
+2025-03-17 00:56:29,091 - INFO - [2025-03-17 00:56:29] Computed MAE per horizon bin.
+2025-03-17 00:56:29,092 - INFO - [2025-03-17 00:56:29] Saved metrics to JSON file: ./results/metrics_XGBoost.json
+2025-03-17 00:56:29,092 - INFO - [2025-03-17 00:56:29] Saved metrics to PKL file: ./results/metrics_XGBoost.pkl
+2025-03-17 00:56:29,286 - INFO - Saved MAE plots.
+2025-03-17 00:56:29,286 - INFO - [2025-03-17 00:56:29] Evaluation complete.
+2025-03-17 00:56:29,407 - INFO - XGB evaluation completed.
+2025-03-17 00:56:32,376 - INFO - Starting eXtreme Gradient Boosting evaluation script.
+2025-03-17 00:56:32,384 - INFO - Loading data...
+2025-03-17 00:56:32,385 - INFO - Loading data...
+2025-03-17 00:56:32,385 - INFO - Single month training and testing detected. Applying 80-20 split.
+2025-03-17 00:56:35,406 - INFO - Train dates: ['01MAR2023' '02MAR2023' '03MAR2023' '04MAR2023' '05MAR2023' '06MAR2023'
+ '07MAR2023' '08MAR2023' '09MAR2023' '10MAR2023' '11MAR2023' '12MAR2023'
+ '13MAR2023' '14MAR2023' '15MAR2023' '16MAR2023' '17MAR2023' '18MAR2023'
+ '19MAR2023' '20MAR2023' '21MAR2023' '22MAR2023' '23MAR2023' '24MAR2023'
+ '25MAR2023']
+2025-03-17 00:56:35,408 - INFO - Test dates: ['26MAR2023' '27MAR2023' '28FEB2023' '28MAR2023' '29MAR2023' '30MAR2023'
+ '31MAR2023']
+2025-03-17 00:56:35,408 - INFO - Number of unique train dates: 25
+2025-03-17 00:56:35,408 - INFO - Number of unique test dates: 7
+2025-03-17 00:56:39,160 - INFO - Single month training and testing detected. Applying 80-20 split.
+2025-03-17 00:56:50,833 - INFO - Train dates: ['01MAR2023' '02MAR2023' '03MAR2023' '04MAR2023' '05MAR2023' '06MAR2023'
+ '07MAR2023' '08MAR2023' '09MAR2023' '10MAR2023' '11MAR2023' '12MAR2023'
+ '13MAR2023' '14MAR2023' '15MAR2023' '16MAR2023' '17MAR2023' '18MAR2023'
+ '19MAR2023' '20MAR2023' '21MAR2023' '22MAR2023' '23MAR2023' '24MAR2023'
+ '25MAR2023']
+2025-03-17 00:56:50,836 - INFO - Test dates: ['26MAR2023' '27MAR2023' '28FEB2023' '28MAR2023' '29MAR2023' '30MAR2023'
+ '31MAR2023']
+2025-03-17 00:56:50,836 - INFO - Number of unique train dates: 25
+2025-03-17 00:56:50,836 - INFO - Number of unique test dates: 7
+2025-03-17 00:57:16,080 - INFO - Model 'XGBoost' trained in 22.27 seconds.
+2025-03-17 00:57:16,084 - INFO - [2025-03-17 00:57:16] Starting evaluation.
+2025-03-17 00:57:16,085 - INFO - [2025-03-17 00:57:16] Created results and plots directories if not already existing.
+2025-03-17 00:57:16,085 - INFO - [2025-03-17 00:57:16] Loaded trained model.
+2025-03-17 00:57:16,324 - INFO - [2025-03-17 00:57:16] Model predictions completed.
+2025-03-17 00:57:16,370 - INFO - [2025-03-17 00:57:16] Transformed inputs to seconds.
+2025-03-17 00:57:16,422 - INFO - [2025-03-17 00:57:16] Computed translation-based estimates.
+2025-03-17 00:57:16,435 - INFO - [2025-03-17 00:57:16] MAE Translation Mean: [ 71.66739808  83.73375199  92.9558575   99.78193473 106.51687302]
+2025-03-17 00:57:16,435 - INFO - [2025-03-17 00:57:16] Computed MAE for model and translation approach.
+2025-03-17 00:57:16,488 - INFO - [2025-03-17 00:57:16] Computed MAE per delay bin.
+2025-03-17 00:57:16,544 - INFO - [2025-03-17 00:57:16] Computed MAE per horizon bin.
+2025-03-17 00:57:16,545 - INFO - [2025-03-17 00:57:16] Saved metrics to JSON file: ./results/metrics_XGBoost.json
+2025-03-17 00:57:16,545 - INFO - [2025-03-17 00:57:16] Saved metrics to PKL file: ./results/metrics_XGBoost.pkl
+2025-03-17 00:57:16,744 - INFO - Saved MAE plots.
+2025-03-17 00:57:16,744 - INFO - [2025-03-17 00:57:16] Evaluation complete.
+2025-03-17 00:57:16,863 - INFO - XGB evaluation completed.
+2025-03-17 00:57:20,033 - INFO - Starting eXtreme Gradient Boosting evaluation script.
+2025-03-17 00:57:20,042 - INFO - Loading data...
+2025-03-17 00:57:20,042 - INFO - Loading data...
+2025-03-17 00:57:20,042 - INFO - Single month training and testing detected. Applying 80-20 split.
+2025-03-17 00:57:23,092 - INFO - Train dates: ['01MAR2023' '02MAR2023' '03MAR2023' '04MAR2023' '05MAR2023' '06MAR2023'
+ '07MAR2023' '08MAR2023' '09MAR2023' '10MAR2023' '11MAR2023' '12MAR2023'
+ '13MAR2023' '14MAR2023' '15MAR2023' '16MAR2023' '17MAR2023' '18MAR2023'
+ '19MAR2023' '20MAR2023' '21MAR2023' '22MAR2023' '23MAR2023' '24MAR2023'
+ '25MAR2023']
+2025-03-17 00:57:23,092 - INFO - Test dates: ['26MAR2023' '27MAR2023' '28FEB2023' '28MAR2023' '29MAR2023' '30MAR2023'
+ '31MAR2023']
+2025-03-17 00:57:23,092 - INFO - Number of unique train dates: 25
+2025-03-17 00:57:23,092 - INFO - Number of unique test dates: 7
+2025-03-17 00:57:26,820 - INFO - Single month training and testing detected. Applying 80-20 split.
+2025-03-17 00:57:37,034 - INFO - Train dates: ['01MAR2023' '02MAR2023' '03MAR2023' '04MAR2023' '05MAR2023' '06MAR2023'
+ '07MAR2023' '08MAR2023' '09MAR2023' '10MAR2023' '11MAR2023' '12MAR2023'
+ '13MAR2023' '14MAR2023' '15MAR2023' '16MAR2023' '17MAR2023' '18MAR2023'
+ '19MAR2023' '20MAR2023' '21MAR2023' '22MAR2023' '23MAR2023' '24MAR2023'
+ '25MAR2023']
+2025-03-17 00:57:37,036 - INFO - Test dates: ['26MAR2023' '27MAR2023' '28FEB2023' '28MAR2023' '29MAR2023' '30MAR2023'
+ '31MAR2023']
+2025-03-17 00:57:37,036 - INFO - Number of unique train dates: 25
+2025-03-17 00:57:37,036 - INFO - Number of unique test dates: 7
+2025-03-17 00:58:05,603 - INFO - Model 'XGBoost' trained in 24.37 seconds.
+2025-03-17 00:58:05,607 - INFO - [2025-03-17 00:58:05] Starting evaluation.
+2025-03-17 00:58:05,607 - INFO - [2025-03-17 00:58:05] Created results and plots directories if not already existing.
+2025-03-17 00:58:05,607 - INFO - [2025-03-17 00:58:05] Loaded trained model.
+2025-03-17 00:58:05,863 - INFO - [2025-03-17 00:58:05] Model predictions completed.
+2025-03-17 00:58:05,911 - INFO - [2025-03-17 00:58:05] Transformed inputs to seconds.
+2025-03-17 00:58:05,966 - INFO - [2025-03-17 00:58:05] Computed translation-based estimates.
+2025-03-17 00:58:05,981 - INFO - [2025-03-17 00:58:05] MAE Translation Mean: [ 71.66739808  83.73375199  92.9558575   99.78193473 106.51687302]
+2025-03-17 00:58:05,981 - INFO - [2025-03-17 00:58:05] Computed MAE for model and translation approach.
+2025-03-17 00:58:06,032 - INFO - [2025-03-17 00:58:06] Computed MAE per delay bin.
+2025-03-17 00:58:06,088 - INFO - [2025-03-17 00:58:06] Computed MAE per horizon bin.
+2025-03-17 00:58:06,090 - INFO - [2025-03-17 00:58:06] Saved metrics to JSON file: ./results/metrics_XGBoost.json
+2025-03-17 00:58:06,090 - INFO - [2025-03-17 00:58:06] Saved metrics to PKL file: ./results/metrics_XGBoost.pkl
+2025-03-17 00:58:06,296 - INFO - Saved MAE plots.
+2025-03-17 00:58:06,296 - INFO - [2025-03-17 00:58:06] Evaluation complete.
+2025-03-17 00:58:06,411 - INFO - XGB evaluation completed.
+2025-03-17 00:58:09,558 - INFO - Starting eXtreme Gradient Boosting evaluation script.
+2025-03-17 00:58:09,566 - INFO - Loading data...
+2025-03-17 00:58:09,566 - INFO - Loading data...
+2025-03-17 00:58:09,566 - INFO - Single month training and testing detected. Applying 80-20 split.
+2025-03-17 00:58:12,501 - INFO - Train dates: ['01MAR2023' '02MAR2023' '03MAR2023' '04MAR2023' '05MAR2023' '06MAR2023'
+ '07MAR2023' '08MAR2023' '09MAR2023' '10MAR2023' '11MAR2023' '12MAR2023'
+ '13MAR2023' '14MAR2023' '15MAR2023' '16MAR2023' '17MAR2023' '18MAR2023'
+ '19MAR2023' '20MAR2023' '21MAR2023' '22MAR2023' '23MAR2023' '24MAR2023'
+ '25MAR2023']
+2025-03-17 00:58:12,502 - INFO - Test dates: ['26MAR2023' '27MAR2023' '28FEB2023' '28MAR2023' '29MAR2023' '30MAR2023'
+ '31MAR2023']
+2025-03-17 00:58:12,502 - INFO - Number of unique train dates: 25
+2025-03-17 00:58:12,502 - INFO - Number of unique test dates: 7
+2025-03-17 00:58:15,648 - INFO - Single month training and testing detected. Applying 80-20 split.
+2025-03-17 00:58:25,024 - INFO - Train dates: ['01MAR2023' '02MAR2023' '03MAR2023' '04MAR2023' '05MAR2023' '06MAR2023'
+ '07MAR2023' '08MAR2023' '09MAR2023' '10MAR2023' '11MAR2023' '12MAR2023'
+ '13MAR2023' '14MAR2023' '15MAR2023' '16MAR2023' '17MAR2023' '18MAR2023'
+ '19MAR2023' '20MAR2023' '21MAR2023' '22MAR2023' '23MAR2023' '24MAR2023'
+ '25MAR2023']
+2025-03-17 00:58:25,026 - INFO - Test dates: ['26MAR2023' '27MAR2023' '28FEB2023' '28MAR2023' '29MAR2023' '30MAR2023'
+ '31MAR2023']
+2025-03-17 00:58:25,026 - INFO - Number of unique train dates: 25
+2025-03-17 00:58:25,026 - INFO - Number of unique test dates: 7
+2025-03-17 00:59:58,362 - INFO - Model 'XGBoost' trained in 89.10 seconds.
+2025-03-17 00:59:58,371 - INFO - [2025-03-17 00:59:58] Starting evaluation.
+2025-03-17 00:59:58,371 - INFO - [2025-03-17 00:59:58] Created results and plots directories if not already existing.
+2025-03-17 00:59:58,372 - INFO - [2025-03-17 00:59:58] Loaded trained model.
+2025-03-17 00:59:58,705 - INFO - [2025-03-17 00:59:58] Model predictions completed.
+2025-03-17 00:59:58,752 - INFO - [2025-03-17 00:59:58] Transformed inputs to seconds.
+2025-03-17 00:59:58,804 - INFO - [2025-03-17 00:59:58] Computed translation-based estimates.
+2025-03-17 00:59:58,817 - INFO - [2025-03-17 00:59:58] MAE Translation Mean: [ 71.66739808  83.73375199  92.9558575   99.78193473 106.51687302]
+2025-03-17 00:59:58,817 - INFO - [2025-03-17 00:59:58] Computed MAE for model and translation approach.
+2025-03-17 00:59:58,866 - INFO - [2025-03-17 00:59:58] Computed MAE per delay bin.
+2025-03-17 00:59:58,922 - INFO - [2025-03-17 00:59:58] Computed MAE per horizon bin.
+2025-03-17 00:59:58,923 - INFO - [2025-03-17 00:59:58] Saved metrics to JSON file: ./results/metrics_XGBoost.json
+2025-03-17 00:59:58,924 - INFO - [2025-03-17 00:59:58] Saved metrics to PKL file: ./results/metrics_XGBoost.pkl
+2025-03-17 00:59:59,154 - INFO - Saved MAE plots.
+2025-03-17 00:59:59,154 - INFO - [2025-03-17 00:59:59] Evaluation complete.
+2025-03-17 00:59:59,198 - INFO - XGB evaluation completed.
+2025-03-17 01:00:03,316 - INFO - Starting eXtreme Gradient Boosting evaluation script.
+2025-03-17 01:00:03,325 - INFO - Loading data...
+2025-03-17 01:00:03,325 - INFO - Loading data...
+2025-03-17 01:00:03,326 - INFO - Single month training and testing detected. Applying 80-20 split.
+2025-03-17 01:00:06,408 - INFO - Train dates: ['01MAR2023' '02MAR2023' '03MAR2023' '04MAR2023' '05MAR2023' '06MAR2023'
+ '07MAR2023' '08MAR2023' '09MAR2023' '10MAR2023' '11MAR2023' '12MAR2023'
+ '13MAR2023' '14MAR2023' '15MAR2023' '16MAR2023' '17MAR2023' '18MAR2023'
+ '19MAR2023' '20MAR2023' '21MAR2023' '22MAR2023' '23MAR2023' '24MAR2023'
+ '25MAR2023']
+2025-03-17 01:00:06,410 - INFO - Test dates: ['26MAR2023' '27MAR2023' '28FEB2023' '28MAR2023' '29MAR2023' '30MAR2023'
+ '31MAR2023']
+2025-03-17 01:00:06,410 - INFO - Number of unique train dates: 25
+2025-03-17 01:00:06,410 - INFO - Number of unique test dates: 7
+2025-03-17 01:00:09,208 - INFO - Single month training and testing detected. Applying 80-20 split.
+2025-03-17 01:00:16,285 - INFO - Train dates: ['01MAR2023' '02MAR2023' '03MAR2023' '04MAR2023' '05MAR2023' '06MAR2023'
+ '07MAR2023' '08MAR2023' '09MAR2023' '10MAR2023' '11MAR2023' '12MAR2023'
+ '13MAR2023' '14MAR2023' '15MAR2023' '16MAR2023' '17MAR2023' '18MAR2023'
+ '19MAR2023' '20MAR2023' '21MAR2023' '22MAR2023' '23MAR2023' '24MAR2023'
+ '25MAR2023']
+2025-03-17 01:00:16,286 - INFO - Test dates: ['26MAR2023' '27MAR2023' '28FEB2023' '28MAR2023' '29MAR2023' '30MAR2023'
+ '31MAR2023']
+2025-03-17 01:00:16,286 - INFO - Number of unique train dates: 25
+2025-03-17 01:00:16,286 - INFO - Number of unique test dates: 7
+2025-03-17 01:09:08,045 - INFO - Model 'XGBoost' trained in 528.38 seconds.
+2025-03-17 01:09:08,055 - INFO - [2025-03-17 01:09:08] Starting evaluation.
+2025-03-17 01:09:08,056 - INFO - [2025-03-17 01:09:08] Created results and plots directories if not already existing.
+2025-03-17 01:09:08,056 - INFO - [2025-03-17 01:09:08] Loaded trained model.
+2025-03-17 01:09:08,463 - INFO - [2025-03-17 01:09:08] Model predictions completed.
+2025-03-17 01:09:08,517 - INFO - [2025-03-17 01:09:08] Transformed inputs to seconds.
+2025-03-17 01:09:08,570 - INFO - [2025-03-17 01:09:08] Computed translation-based estimates.
+2025-03-17 01:09:08,586 - INFO - [2025-03-17 01:09:08] MAE Translation Mean: [ 71.66739808  83.73375199  92.9558575   99.78193473 106.51687302]
+2025-03-17 01:09:08,586 - INFO - [2025-03-17 01:09:08] Computed MAE for model and translation approach.
+2025-03-17 01:09:08,634 - INFO - [2025-03-17 01:09:08] Computed MAE per delay bin.
+2025-03-17 01:09:08,687 - INFO - [2025-03-17 01:09:08] Computed MAE per horizon bin.
+2025-03-17 01:09:08,773 - INFO - [2025-03-17 01:09:08] Saved metrics to JSON file: ./results/metrics_XGBoost.json
+2025-03-17 01:09:08,773 - INFO - [2025-03-17 01:09:08] Saved metrics to PKL file: ./results/metrics_XGBoost.pkl
+2025-03-17 01:09:09,107 - INFO - Saved MAE plots.
+2025-03-17 01:09:09,107 - INFO - [2025-03-17 01:09:09] Evaluation complete.
+2025-03-17 01:09:09,151 - INFO - XGB evaluation completed.
+2025-03-17 01:09:13,433 - INFO - Starting eXtreme Gradient Boosting evaluation script.
+2025-03-17 01:09:13,443 - INFO - Loading data...
+2025-03-17 01:09:13,443 - INFO - Loading data...
+2025-03-17 01:09:13,444 - INFO - Single month training and testing detected. Applying 80-20 split.
+2025-03-17 01:09:16,466 - INFO - Train dates: ['01MAR2023' '02MAR2023' '03MAR2023' '04MAR2023' '05MAR2023' '06MAR2023'
+ '07MAR2023' '08MAR2023' '09MAR2023' '10MAR2023' '11MAR2023' '12MAR2023'
+ '13MAR2023' '14MAR2023' '15MAR2023' '16MAR2023' '17MAR2023' '18MAR2023'
+ '19MAR2023' '20MAR2023' '21MAR2023' '22MAR2023' '23MAR2023' '24MAR2023'
+ '25MAR2023']
+2025-03-17 01:09:16,467 - INFO - Test dates: ['26MAR2023' '27MAR2023' '28FEB2023' '28MAR2023' '29MAR2023' '30MAR2023'
+ '31MAR2023']
+2025-03-17 01:09:16,467 - INFO - Number of unique train dates: 25
+2025-03-17 01:09:16,467 - INFO - Number of unique test dates: 7
+2025-03-17 01:09:19,479 - INFO - Single month training and testing detected. Applying 80-20 split.
+2025-03-17 01:09:28,937 - INFO - Train dates: ['01MAR2023' '02MAR2023' '03MAR2023' '04MAR2023' '05MAR2023' '06MAR2023'
+ '07MAR2023' '08MAR2023' '09MAR2023' '10MAR2023' '11MAR2023' '12MAR2023'
+ '13MAR2023' '14MAR2023' '15MAR2023' '16MAR2023' '17MAR2023' '18MAR2023'
+ '19MAR2023' '20MAR2023' '21MAR2023' '22MAR2023' '23MAR2023' '24MAR2023'
+ '25MAR2023']
+2025-03-17 01:09:28,938 - INFO - Test dates: ['26MAR2023' '27MAR2023' '28FEB2023' '28MAR2023' '29MAR2023' '30MAR2023'
+ '31MAR2023']
+2025-03-17 01:09:28,938 - INFO - Number of unique train dates: 25
+2025-03-17 01:09:28,938 - INFO - Number of unique test dates: 7
+2025-03-17 01:09:54,471 - INFO - Model 'XGBoost' trained in 20.93 seconds.
+2025-03-17 01:09:54,475 - INFO - [2025-03-17 01:09:54] Starting evaluation.
+2025-03-17 01:09:54,475 - INFO - [2025-03-17 01:09:54] Created results and plots directories if not already existing.
+2025-03-17 01:09:54,475 - INFO - [2025-03-17 01:09:54] Loaded trained model.
+2025-03-17 01:09:54,698 - INFO - [2025-03-17 01:09:54] Model predictions completed.
+2025-03-17 01:09:54,749 - INFO - [2025-03-17 01:09:54] Transformed inputs to seconds.
+2025-03-17 01:09:54,803 - INFO - [2025-03-17 01:09:54] Computed translation-based estimates.
+2025-03-17 01:09:54,816 - INFO - [2025-03-17 01:09:54] MAE Translation Mean: [ 71.66739808  83.73375199  92.9558575   99.78193473 106.51687302]
+2025-03-17 01:09:54,816 - INFO - [2025-03-17 01:09:54] Computed MAE for model and translation approach.
+2025-03-17 01:09:54,871 - INFO - [2025-03-17 01:09:54] Computed MAE per delay bin.
+2025-03-17 01:09:54,929 - INFO - [2025-03-17 01:09:54] Computed MAE per horizon bin.
+2025-03-17 01:09:54,930 - INFO - [2025-03-17 01:09:54] Saved metrics to JSON file: ./results/metrics_XGBoost.json
+2025-03-17 01:09:54,930 - INFO - [2025-03-17 01:09:54] Saved metrics to PKL file: ./results/metrics_XGBoost.pkl
+2025-03-17 01:09:55,145 - INFO - Saved MAE plots.
+2025-03-17 01:09:55,145 - INFO - [2025-03-17 01:09:55] Evaluation complete.
+2025-03-17 01:09:55,244 - INFO - XGB evaluation completed.
+2025-03-17 01:09:58,573 - INFO - Starting eXtreme Gradient Boosting evaluation script.
+2025-03-17 01:09:58,582 - INFO - Loading data...
+2025-03-17 01:09:58,582 - INFO - Loading data...
+2025-03-17 01:09:58,582 - INFO - Single month training and testing detected. Applying 80-20 split.
+2025-03-17 01:10:01,699 - INFO - Train dates: ['01MAR2023' '02MAR2023' '03MAR2023' '04MAR2023' '05MAR2023' '06MAR2023'
+ '07MAR2023' '08MAR2023' '09MAR2023' '10MAR2023' '11MAR2023' '12MAR2023'
+ '13MAR2023' '14MAR2023' '15MAR2023' '16MAR2023' '17MAR2023' '18MAR2023'
+ '19MAR2023' '20MAR2023' '21MAR2023' '22MAR2023' '23MAR2023' '24MAR2023'
+ '25MAR2023']
+2025-03-17 01:10:01,700 - INFO - Test dates: ['26MAR2023' '27MAR2023' '28FEB2023' '28MAR2023' '29MAR2023' '30MAR2023'
+ '31MAR2023']
+2025-03-17 01:10:01,700 - INFO - Number of unique train dates: 25
+2025-03-17 01:10:01,700 - INFO - Number of unique test dates: 7
+2025-03-17 01:10:03,917 - INFO - Single month training and testing detected. Applying 80-20 split.
+2025-03-17 01:10:12,925 - INFO - Train dates: ['01MAR2023' '02MAR2023' '03MAR2023' '04MAR2023' '05MAR2023' '06MAR2023'
+ '07MAR2023' '08MAR2023' '09MAR2023' '10MAR2023' '11MAR2023' '12MAR2023'
+ '13MAR2023' '14MAR2023' '15MAR2023' '16MAR2023' '17MAR2023' '18MAR2023'
+ '19MAR2023' '20MAR2023' '21MAR2023' '22MAR2023' '23MAR2023' '24MAR2023'
+ '25MAR2023']
+2025-03-17 01:10:12,925 - INFO - Test dates: ['26MAR2023' '27MAR2023' '28FEB2023' '28MAR2023' '29MAR2023' '30MAR2023'
+ '31MAR2023']
+2025-03-17 01:10:12,925 - INFO - Number of unique train dates: 25
+2025-03-17 01:10:12,926 - INFO - Number of unique test dates: 7
+2025-03-17 01:10:41,473 - INFO - Model 'XGBoost' trained in 23.35 seconds.
+2025-03-17 01:10:41,479 - INFO - [2025-03-17 01:10:41] Starting evaluation.
+2025-03-17 01:10:41,479 - INFO - [2025-03-17 01:10:41] Created results and plots directories if not already existing.
+2025-03-17 01:10:41,479 - INFO - [2025-03-17 01:10:41] Loaded trained model.
+2025-03-17 01:10:41,726 - INFO - [2025-03-17 01:10:41] Model predictions completed.
+2025-03-17 01:10:41,775 - INFO - [2025-03-17 01:10:41] Transformed inputs to seconds.
+2025-03-17 01:10:41,828 - INFO - [2025-03-17 01:10:41] Computed translation-based estimates.
+2025-03-17 01:10:41,841 - INFO - [2025-03-17 01:10:41] MAE Translation Mean: [ 71.66739808  83.73375199  92.9558575   99.78193473 106.51687302]
+2025-03-17 01:10:41,841 - INFO - [2025-03-17 01:10:41] Computed MAE for model and translation approach.
+2025-03-17 01:10:41,897 - INFO - [2025-03-17 01:10:41] Computed MAE per delay bin.
+2025-03-17 01:10:41,954 - INFO - [2025-03-17 01:10:41] Computed MAE per horizon bin.
+2025-03-17 01:10:41,954 - INFO - [2025-03-17 01:10:41] Saved metrics to JSON file: ./results/metrics_XGBoost.json
+2025-03-17 01:10:41,954 - INFO - [2025-03-17 01:10:41] Saved metrics to PKL file: ./results/metrics_XGBoost.pkl
+2025-03-17 01:10:42,160 - INFO - Saved MAE plots.
+2025-03-17 01:10:42,160 - INFO - [2025-03-17 01:10:42] Evaluation complete.
+2025-03-17 01:10:42,275 - INFO - XGB evaluation completed.
+2025-03-17 01:10:45,348 - INFO - Starting eXtreme Gradient Boosting evaluation script.
+2025-03-17 01:10:45,357 - INFO - Loading data...
+2025-03-17 01:10:45,357 - INFO - Loading data...
+2025-03-17 01:10:45,357 - INFO - Single month training and testing detected. Applying 80-20 split.
+2025-03-17 01:10:48,653 - INFO - Train dates: ['01MAR2023' '02MAR2023' '03MAR2023' '04MAR2023' '05MAR2023' '06MAR2023'
+ '07MAR2023' '08MAR2023' '09MAR2023' '10MAR2023' '11MAR2023' '12MAR2023'
+ '13MAR2023' '14MAR2023' '15MAR2023' '16MAR2023' '17MAR2023' '18MAR2023'
+ '19MAR2023' '20MAR2023' '21MAR2023' '22MAR2023' '23MAR2023' '24MAR2023'
+ '25MAR2023']
+2025-03-17 01:10:48,653 - INFO - Test dates: ['26MAR2023' '27MAR2023' '28FEB2023' '28MAR2023' '29MAR2023' '30MAR2023'
+ '31MAR2023']
+2025-03-17 01:10:48,653 - INFO - Number of unique train dates: 25
+2025-03-17 01:10:48,653 - INFO - Number of unique test dates: 7
+2025-03-17 01:10:51,592 - INFO - Single month training and testing detected. Applying 80-20 split.
+2025-03-17 01:10:59,443 - INFO - Train dates: ['01MAR2023' '02MAR2023' '03MAR2023' '04MAR2023' '05MAR2023' '06MAR2023'
+ '07MAR2023' '08MAR2023' '09MAR2023' '10MAR2023' '11MAR2023' '12MAR2023'
+ '13MAR2023' '14MAR2023' '15MAR2023' '16MAR2023' '17MAR2023' '18MAR2023'
+ '19MAR2023' '20MAR2023' '21MAR2023' '22MAR2023' '23MAR2023' '24MAR2023'
+ '25MAR2023']
+2025-03-17 01:10:59,444 - INFO - Test dates: ['26MAR2023' '27MAR2023' '28FEB2023' '28MAR2023' '29MAR2023' '30MAR2023'
+ '31MAR2023']
+2025-03-17 01:10:59,444 - INFO - Number of unique train dates: 25
+2025-03-17 01:10:59,444 - INFO - Number of unique test dates: 7
+2025-03-17 01:11:27,020 - INFO - Model 'XGBoost' trained in 23.51 seconds.
+2025-03-17 01:11:27,026 - INFO - [2025-03-17 01:11:27] Starting evaluation.
+2025-03-17 01:11:27,026 - INFO - [2025-03-17 01:11:27] Created results and plots directories if not already existing.
+2025-03-17 01:11:27,026 - INFO - [2025-03-17 01:11:27] Loaded trained model.
+2025-03-17 01:11:27,258 - INFO - [2025-03-17 01:11:27] Model predictions completed.
+2025-03-17 01:11:27,310 - INFO - [2025-03-17 01:11:27] Transformed inputs to seconds.
+2025-03-17 01:11:27,362 - INFO - [2025-03-17 01:11:27] Computed translation-based estimates.
+2025-03-17 01:11:27,375 - INFO - [2025-03-17 01:11:27] MAE Translation Mean: [ 71.66739808  83.73375199  92.9558575   99.78193473 106.51687302]
+2025-03-17 01:11:27,375 - INFO - [2025-03-17 01:11:27] Computed MAE for model and translation approach.
+2025-03-17 01:11:27,425 - INFO - [2025-03-17 01:11:27] Computed MAE per delay bin.
+2025-03-17 01:11:27,479 - INFO - [2025-03-17 01:11:27] Computed MAE per horizon bin.
+2025-03-17 01:11:27,480 - INFO - [2025-03-17 01:11:27] Saved metrics to JSON file: ./results/metrics_XGBoost.json
+2025-03-17 01:11:27,480 - INFO - [2025-03-17 01:11:27] Saved metrics to PKL file: ./results/metrics_XGBoost.pkl
+2025-03-17 01:11:27,672 - INFO - Saved MAE plots.
+2025-03-17 01:11:27,672 - INFO - [2025-03-17 01:11:27] Evaluation complete.
+2025-03-17 01:11:27,797 - INFO - XGB evaluation completed.
+2025-03-17 01:11:30,878 - INFO - Starting eXtreme Gradient Boosting evaluation script.
+2025-03-17 01:11:30,887 - INFO - Loading data...
+2025-03-17 01:11:30,887 - INFO - Loading data...
+2025-03-17 01:11:30,887 - INFO - Single month training and testing detected. Applying 80-20 split.
+2025-03-17 01:11:33,852 - INFO - Train dates: ['01MAR2023' '02MAR2023' '03MAR2023' '04MAR2023' '05MAR2023' '06MAR2023'
+ '07MAR2023' '08MAR2023' '09MAR2023' '10MAR2023' '11MAR2023' '12MAR2023'
+ '13MAR2023' '14MAR2023' '15MAR2023' '16MAR2023' '17MAR2023' '18MAR2023'
+ '19MAR2023' '20MAR2023' '21MAR2023' '22MAR2023' '23MAR2023' '24MAR2023'
+ '25MAR2023']
+2025-03-17 01:11:33,852 - INFO - Test dates: ['26MAR2023' '27MAR2023' '28FEB2023' '28MAR2023' '29MAR2023' '30MAR2023'
+ '31MAR2023']
+2025-03-17 01:11:33,852 - INFO - Number of unique train dates: 25
+2025-03-17 01:11:33,852 - INFO - Number of unique test dates: 7
+2025-03-17 01:11:35,871 - INFO - Single month training and testing detected. Applying 80-20 split.
+2025-03-17 01:11:43,860 - INFO - Train dates: ['01MAR2023' '02MAR2023' '03MAR2023' '04MAR2023' '05MAR2023' '06MAR2023'
+ '07MAR2023' '08MAR2023' '09MAR2023' '10MAR2023' '11MAR2023' '12MAR2023'
+ '13MAR2023' '14MAR2023' '15MAR2023' '16MAR2023' '17MAR2023' '18MAR2023'
+ '19MAR2023' '20MAR2023' '21MAR2023' '22MAR2023' '23MAR2023' '24MAR2023'
+ '25MAR2023']
+2025-03-17 01:11:43,863 - INFO - Test dates: ['26MAR2023' '27MAR2023' '28FEB2023' '28MAR2023' '29MAR2023' '30MAR2023'
+ '31MAR2023']
+2025-03-17 01:11:43,863 - INFO - Number of unique train dates: 25
+2025-03-17 01:11:43,863 - INFO - Number of unique test dates: 7
+2025-03-17 01:12:11,008 - INFO - Model 'XGBoost' trained in 24.78 seconds.
+2025-03-17 01:12:11,012 - INFO - [2025-03-17 01:12:11] Starting evaluation.
+2025-03-17 01:12:11,012 - INFO - [2025-03-17 01:12:11] Created results and plots directories if not already existing.
+2025-03-17 01:12:11,012 - INFO - [2025-03-17 01:12:11] Loaded trained model.
+2025-03-17 01:12:11,278 - INFO - [2025-03-17 01:12:11] Model predictions completed.
+2025-03-17 01:12:11,326 - INFO - [2025-03-17 01:12:11] Transformed inputs to seconds.
+2025-03-17 01:12:11,379 - INFO - [2025-03-17 01:12:11] Computed translation-based estimates.
+2025-03-17 01:12:11,393 - INFO - [2025-03-17 01:12:11] MAE Translation Mean: [ 71.66739808  83.73375199  92.9558575   99.78193473 106.51687302]
+2025-03-17 01:12:11,393 - INFO - [2025-03-17 01:12:11] Computed MAE for model and translation approach.
+2025-03-17 01:12:11,447 - INFO - [2025-03-17 01:12:11] Computed MAE per delay bin.
+2025-03-17 01:12:11,505 - INFO - [2025-03-17 01:12:11] Computed MAE per horizon bin.
+2025-03-17 01:12:11,506 - INFO - [2025-03-17 01:12:11] Saved metrics to JSON file: ./results/metrics_XGBoost.json
+2025-03-17 01:12:11,507 - INFO - [2025-03-17 01:12:11] Saved metrics to PKL file: ./results/metrics_XGBoost.pkl
+2025-03-17 01:12:11,698 - INFO - Saved MAE plots.
+2025-03-17 01:12:11,698 - INFO - [2025-03-17 01:12:11] Evaluation complete.
+2025-03-17 01:12:11,821 - INFO - XGB evaluation completed.
+2025-03-17 01:12:14,965 - INFO - Starting eXtreme Gradient Boosting evaluation script.
+2025-03-17 01:12:14,974 - INFO - Loading data...
+2025-03-17 01:12:14,974 - INFO - Loading data...
+2025-03-17 01:12:14,974 - INFO - Single month training and testing detected. Applying 80-20 split.
+2025-03-17 01:12:18,065 - INFO - Train dates: ['01MAR2023' '02MAR2023' '03MAR2023' '04MAR2023' '05MAR2023' '06MAR2023'
+ '07MAR2023' '08MAR2023' '09MAR2023' '10MAR2023' '11MAR2023' '12MAR2023'
+ '13MAR2023' '14MAR2023' '15MAR2023' '16MAR2023' '17MAR2023' '18MAR2023'
+ '19MAR2023' '20MAR2023' '21MAR2023' '22MAR2023' '23MAR2023' '24MAR2023'
+ '25MAR2023']
+2025-03-17 01:12:18,065 - INFO - Test dates: ['26MAR2023' '27MAR2023' '28FEB2023' '28MAR2023' '29MAR2023' '30MAR2023'
+ '31MAR2023']
+2025-03-17 01:12:18,065 - INFO - Number of unique train dates: 25
+2025-03-17 01:12:18,065 - INFO - Number of unique test dates: 7
+2025-03-17 01:12:20,424 - INFO - Single month training and testing detected. Applying 80-20 split.
+2025-03-17 01:12:30,721 - INFO - Train dates: ['01MAR2023' '02MAR2023' '03MAR2023' '04MAR2023' '05MAR2023' '06MAR2023'
+ '07MAR2023' '08MAR2023' '09MAR2023' '10MAR2023' '11MAR2023' '12MAR2023'
+ '13MAR2023' '14MAR2023' '15MAR2023' '16MAR2023' '17MAR2023' '18MAR2023'
+ '19MAR2023' '20MAR2023' '21MAR2023' '22MAR2023' '23MAR2023' '24MAR2023'
+ '25MAR2023']
+2025-03-17 01:12:30,723 - INFO - Test dates: ['26MAR2023' '27MAR2023' '28FEB2023' '28MAR2023' '29MAR2023' '30MAR2023'
+ '31MAR2023']
+2025-03-17 01:12:30,723 - INFO - Number of unique train dates: 25
+2025-03-17 01:12:30,723 - INFO - Number of unique test dates: 7
+2025-03-17 01:13:04,349 - INFO - Model 'XGBoost' trained in 28.89 seconds.
+2025-03-17 01:13:04,353 - INFO - [2025-03-17 01:13:04] Starting evaluation.
+2025-03-17 01:13:04,353 - INFO - [2025-03-17 01:13:04] Created results and plots directories if not already existing.
+2025-03-17 01:13:04,354 - INFO - [2025-03-17 01:13:04] Loaded trained model.
+2025-03-17 01:13:04,656 - INFO - [2025-03-17 01:13:04] Model predictions completed.
+2025-03-17 01:13:04,706 - INFO - [2025-03-17 01:13:04] Transformed inputs to seconds.
+2025-03-17 01:13:04,760 - INFO - [2025-03-17 01:13:04] Computed translation-based estimates.
+2025-03-17 01:13:04,774 - INFO - [2025-03-17 01:13:04] MAE Translation Mean: [ 71.66739808  83.73375199  92.9558575   99.78193473 106.51687302]
+2025-03-17 01:13:04,774 - INFO - [2025-03-17 01:13:04] Computed MAE for model and translation approach.
+2025-03-17 01:13:04,826 - INFO - [2025-03-17 01:13:04] Computed MAE per delay bin.
+2025-03-17 01:13:04,885 - INFO - [2025-03-17 01:13:04] Computed MAE per horizon bin.
+2025-03-17 01:13:04,887 - INFO - [2025-03-17 01:13:04] Saved metrics to JSON file: ./results/metrics_XGBoost.json
+2025-03-17 01:13:04,887 - INFO - [2025-03-17 01:13:04] Saved metrics to PKL file: ./results/metrics_XGBoost.pkl
+2025-03-17 01:13:05,077 - INFO - Saved MAE plots.
+2025-03-17 01:13:05,077 - INFO - [2025-03-17 01:13:05] Evaluation complete.
+2025-03-17 01:13:05,200 - INFO - XGB evaluation completed.
+2025-03-17 01:13:08,286 - INFO - Starting eXtreme Gradient Boosting evaluation script.
+2025-03-17 01:13:08,295 - INFO - Loading data...
+2025-03-17 01:13:08,295 - INFO - Loading data...
+2025-03-17 01:13:08,296 - INFO - Single month training and testing detected. Applying 80-20 split.
+2025-03-17 01:13:11,367 - INFO - Train dates: ['01MAR2023' '02MAR2023' '03MAR2023' '04MAR2023' '05MAR2023' '06MAR2023'
+ '07MAR2023' '08MAR2023' '09MAR2023' '10MAR2023' '11MAR2023' '12MAR2023'
+ '13MAR2023' '14MAR2023' '15MAR2023' '16MAR2023' '17MAR2023' '18MAR2023'
+ '19MAR2023' '20MAR2023' '21MAR2023' '22MAR2023' '23MAR2023' '24MAR2023'
+ '25MAR2023']
+2025-03-17 01:13:11,367 - INFO - Test dates: ['26MAR2023' '27MAR2023' '28FEB2023' '28MAR2023' '29MAR2023' '30MAR2023'
+ '31MAR2023']
+2025-03-17 01:13:11,367 - INFO - Number of unique train dates: 25
+2025-03-17 01:13:11,367 - INFO - Number of unique test dates: 7
+2025-03-17 01:13:13,617 - INFO - Single month training and testing detected. Applying 80-20 split.
+2025-03-17 01:13:23,086 - INFO - Train dates: ['01MAR2023' '02MAR2023' '03MAR2023' '04MAR2023' '05MAR2023' '06MAR2023'
+ '07MAR2023' '08MAR2023' '09MAR2023' '10MAR2023' '11MAR2023' '12MAR2023'
+ '13MAR2023' '14MAR2023' '15MAR2023' '16MAR2023' '17MAR2023' '18MAR2023'
+ '19MAR2023' '20MAR2023' '21MAR2023' '22MAR2023' '23MAR2023' '24MAR2023'
+ '25MAR2023']
+2025-03-17 01:13:23,089 - INFO - Test dates: ['26MAR2023' '27MAR2023' '28FEB2023' '28MAR2023' '29MAR2023' '30MAR2023'
+ '31MAR2023']
+2025-03-17 01:13:23,089 - INFO - Number of unique train dates: 25
+2025-03-17 01:13:23,089 - INFO - Number of unique test dates: 7
+2025-03-17 01:16:00,996 - INFO - Model 'XGBoost' trained in 155.01 seconds.
+2025-03-17 01:16:01,006 - INFO - [2025-03-17 01:16:01] Starting evaluation.
+2025-03-17 01:16:01,007 - INFO - [2025-03-17 01:16:01] Created results and plots directories if not already existing.
+2025-03-17 01:16:01,007 - INFO - [2025-03-17 01:16:01] Loaded trained model.
+2025-03-17 01:16:01,417 - INFO - [2025-03-17 01:16:01] Model predictions completed.
+2025-03-17 01:16:01,465 - INFO - [2025-03-17 01:16:01] Transformed inputs to seconds.
+2025-03-17 01:16:01,517 - INFO - [2025-03-17 01:16:01] Computed translation-based estimates.
+2025-03-17 01:16:01,530 - INFO - [2025-03-17 01:16:01] MAE Translation Mean: [ 71.66739808  83.73375199  92.9558575   99.78193473 106.51687302]
+2025-03-17 01:16:01,530 - INFO - [2025-03-17 01:16:01] Computed MAE for model and translation approach.
+2025-03-17 01:16:01,577 - INFO - [2025-03-17 01:16:01] Computed MAE per delay bin.
+2025-03-17 01:16:01,631 - INFO - [2025-03-17 01:16:01] Computed MAE per horizon bin.
+2025-03-17 01:16:01,634 - INFO - [2025-03-17 01:16:01] Saved metrics to JSON file: ./results/metrics_XGBoost.json
+2025-03-17 01:16:01,635 - INFO - [2025-03-17 01:16:01] Saved metrics to PKL file: ./results/metrics_XGBoost.pkl
+2025-03-17 01:16:01,839 - INFO - Saved MAE plots.
+2025-03-17 01:16:01,839 - INFO - [2025-03-17 01:16:01] Evaluation complete.
+2025-03-17 01:16:01,926 - INFO - XGB evaluation completed.
+2025-03-17 01:16:05,939 - INFO - Starting eXtreme Gradient Boosting evaluation script.
+2025-03-17 01:16:05,948 - INFO - Loading data...
+2025-03-17 01:16:05,948 - INFO - Loading data...
+2025-03-17 01:16:05,948 - INFO - Single month training and testing detected. Applying 80-20 split.
+2025-03-17 01:16:09,099 - INFO - Train dates: ['01MAR2023' '02MAR2023' '03MAR2023' '04MAR2023' '05MAR2023' '06MAR2023'
+ '07MAR2023' '08MAR2023' '09MAR2023' '10MAR2023' '11MAR2023' '12MAR2023'
+ '13MAR2023' '14MAR2023' '15MAR2023' '16MAR2023' '17MAR2023' '18MAR2023'
+ '19MAR2023' '20MAR2023' '21MAR2023' '22MAR2023' '23MAR2023' '24MAR2023'
+ '25MAR2023']
+2025-03-17 01:16:09,100 - INFO - Test dates: ['26MAR2023' '27MAR2023' '28FEB2023' '28MAR2023' '29MAR2023' '30MAR2023'
+ '31MAR2023']
+2025-03-17 01:16:09,100 - INFO - Number of unique train dates: 25
+2025-03-17 01:16:09,100 - INFO - Number of unique test dates: 7
+2025-03-17 01:16:11,916 - INFO - Single month training and testing detected. Applying 80-20 split.
+2025-03-17 01:16:21,035 - INFO - Train dates: ['01MAR2023' '02MAR2023' '03MAR2023' '04MAR2023' '05MAR2023' '06MAR2023'
+ '07MAR2023' '08MAR2023' '09MAR2023' '10MAR2023' '11MAR2023' '12MAR2023'
+ '13MAR2023' '14MAR2023' '15MAR2023' '16MAR2023' '17MAR2023' '18MAR2023'
+ '19MAR2023' '20MAR2023' '21MAR2023' '22MAR2023' '23MAR2023' '24MAR2023'
+ '25MAR2023']
+2025-03-17 01:16:21,036 - INFO - Test dates: ['26MAR2023' '27MAR2023' '28FEB2023' '28MAR2023' '29MAR2023' '30MAR2023'
+ '31MAR2023']
+2025-03-17 01:16:21,036 - INFO - Number of unique train dates: 25
+2025-03-17 01:16:21,036 - INFO - Number of unique test dates: 7
+2025-03-17 01:34:42,855 - INFO - Model 'XGBoost' trained in 1097.98 seconds.
+2025-03-17 01:34:42,872 - INFO - [2025-03-17 01:34:42] Starting evaluation.
+2025-03-17 01:34:42,872 - INFO - [2025-03-17 01:34:42] Created results and plots directories if not already existing.
+2025-03-17 01:34:42,872 - INFO - [2025-03-17 01:34:42] Loaded trained model.
+2025-03-17 01:34:43,572 - INFO - [2025-03-17 01:34:43] Model predictions completed.
+2025-03-17 01:34:43,628 - INFO - [2025-03-17 01:34:43] Transformed inputs to seconds.
+2025-03-17 01:34:43,683 - INFO - [2025-03-17 01:34:43] Computed translation-based estimates.
+2025-03-17 01:34:43,700 - INFO - [2025-03-17 01:34:43] MAE Translation Mean: [ 71.66739808  83.73375199  92.9558575   99.78193473 106.51687302]
+2025-03-17 01:34:43,700 - INFO - [2025-03-17 01:34:43] Computed MAE for model and translation approach.
+2025-03-17 01:34:43,751 - INFO - [2025-03-17 01:34:43] Computed MAE per delay bin.
+2025-03-17 01:34:43,805 - INFO - [2025-03-17 01:34:43] Computed MAE per horizon bin.
+2025-03-17 01:34:43,899 - INFO - [2025-03-17 01:34:43] Saved metrics to JSON file: ./results/metrics_XGBoost.json
+2025-03-17 01:34:43,901 - INFO - [2025-03-17 01:34:43] Saved metrics to PKL file: ./results/metrics_XGBoost.pkl
+2025-03-17 01:34:44,189 - INFO - Saved MAE plots.
+2025-03-17 01:34:44,189 - INFO - [2025-03-17 01:34:44] Evaluation complete.
+2025-03-17 01:34:44,245 - INFO - XGB evaluation completed.
+2025-03-17 01:34:49,114 - INFO - Starting eXtreme Gradient Boosting evaluation script.
+2025-03-17 01:34:49,124 - INFO - Loading data...
+2025-03-17 01:34:49,125 - INFO - Loading data...
+2025-03-17 01:34:49,125 - INFO - Single month training and testing detected. Applying 80-20 split.
+2025-03-17 01:34:52,209 - INFO - Train dates: ['01MAR2023' '02MAR2023' '03MAR2023' '04MAR2023' '05MAR2023' '06MAR2023'
+ '07MAR2023' '08MAR2023' '09MAR2023' '10MAR2023' '11MAR2023' '12MAR2023'
+ '13MAR2023' '14MAR2023' '15MAR2023' '16MAR2023' '17MAR2023' '18MAR2023'
+ '19MAR2023' '20MAR2023' '21MAR2023' '22MAR2023' '23MAR2023' '24MAR2023'
+ '25MAR2023']
+2025-03-17 01:34:52,210 - INFO - Test dates: ['26MAR2023' '27MAR2023' '28FEB2023' '28MAR2023' '29MAR2023' '30MAR2023'
+ '31MAR2023']
+2025-03-17 01:34:52,210 - INFO - Number of unique train dates: 25
+2025-03-17 01:34:52,210 - INFO - Number of unique test dates: 7
+2025-03-17 01:34:54,823 - INFO - Single month training and testing detected. Applying 80-20 split.
+2025-03-17 01:35:03,007 - INFO - Train dates: ['01MAR2023' '02MAR2023' '03MAR2023' '04MAR2023' '05MAR2023' '06MAR2023'
+ '07MAR2023' '08MAR2023' '09MAR2023' '10MAR2023' '11MAR2023' '12MAR2023'
+ '13MAR2023' '14MAR2023' '15MAR2023' '16MAR2023' '17MAR2023' '18MAR2023'
+ '19MAR2023' '20MAR2023' '21MAR2023' '22MAR2023' '23MAR2023' '24MAR2023'
+ '25MAR2023']
+2025-03-17 01:35:03,008 - INFO - Test dates: ['26MAR2023' '27MAR2023' '28FEB2023' '28MAR2023' '29MAR2023' '30MAR2023'
+ '31MAR2023']
+2025-03-17 01:35:03,008 - INFO - Number of unique train dates: 25
+2025-03-17 01:35:03,008 - INFO - Number of unique test dates: 7
+2025-03-17 01:35:40,117 - INFO - Model 'XGBoost' trained in 33.14 seconds.
+2025-03-17 01:35:40,121 - INFO - [2025-03-17 01:35:40] Starting evaluation.
+2025-03-17 01:35:40,121 - INFO - [2025-03-17 01:35:40] Created results and plots directories if not already existing.
+2025-03-17 01:35:40,121 - INFO - [2025-03-17 01:35:40] Loaded trained model.
+2025-03-17 01:35:40,403 - INFO - [2025-03-17 01:35:40] Model predictions completed.
+2025-03-17 01:35:40,452 - INFO - [2025-03-17 01:35:40] Transformed inputs to seconds.
+2025-03-17 01:35:40,504 - INFO - [2025-03-17 01:35:40] Computed translation-based estimates.
+2025-03-17 01:35:40,518 - INFO - [2025-03-17 01:35:40] MAE Translation Mean: [ 71.66739808  83.73375199  92.9558575   99.78193473 106.51687302]
+2025-03-17 01:35:40,518 - INFO - [2025-03-17 01:35:40] Computed MAE for model and translation approach.
+2025-03-17 01:35:40,572 - INFO - [2025-03-17 01:35:40] Computed MAE per delay bin.
+2025-03-17 01:35:40,629 - INFO - [2025-03-17 01:35:40] Computed MAE per horizon bin.
+2025-03-17 01:35:40,630 - INFO - [2025-03-17 01:35:40] Saved metrics to JSON file: ./results/metrics_XGBoost.json
+2025-03-17 01:35:40,630 - INFO - [2025-03-17 01:35:40] Saved metrics to PKL file: ./results/metrics_XGBoost.pkl
+2025-03-17 01:35:40,825 - INFO - Saved MAE plots.
+2025-03-17 01:35:40,825 - INFO - [2025-03-17 01:35:40] Evaluation complete.
+2025-03-17 01:35:40,945 - INFO - XGB evaluation completed.
+2025-03-17 01:35:44,147 - INFO - Starting eXtreme Gradient Boosting evaluation script.
+2025-03-17 01:35:44,156 - INFO - Loading data...
+2025-03-17 01:35:44,156 - INFO - Loading data...
+2025-03-17 01:35:44,156 - INFO - Single month training and testing detected. Applying 80-20 split.
+2025-03-17 01:35:47,171 - INFO - Train dates: ['01MAR2023' '02MAR2023' '03MAR2023' '04MAR2023' '05MAR2023' '06MAR2023'
+ '07MAR2023' '08MAR2023' '09MAR2023' '10MAR2023' '11MAR2023' '12MAR2023'
+ '13MAR2023' '14MAR2023' '15MAR2023' '16MAR2023' '17MAR2023' '18MAR2023'
+ '19MAR2023' '20MAR2023' '21MAR2023' '22MAR2023' '23MAR2023' '24MAR2023'
+ '25MAR2023']
+2025-03-17 01:35:47,175 - INFO - Test dates: ['26MAR2023' '27MAR2023' '28FEB2023' '28MAR2023' '29MAR2023' '30MAR2023'
+ '31MAR2023']
+2025-03-17 01:35:47,175 - INFO - Number of unique train dates: 25
+2025-03-17 01:35:47,177 - INFO - Number of unique test dates: 7
+2025-03-17 01:35:49,399 - INFO - Single month training and testing detected. Applying 80-20 split.
+2025-03-17 01:35:57,174 - INFO - Train dates: ['01MAR2023' '02MAR2023' '03MAR2023' '04MAR2023' '05MAR2023' '06MAR2023'
+ '07MAR2023' '08MAR2023' '09MAR2023' '10MAR2023' '11MAR2023' '12MAR2023'
+ '13MAR2023' '14MAR2023' '15MAR2023' '16MAR2023' '17MAR2023' '18MAR2023'
+ '19MAR2023' '20MAR2023' '21MAR2023' '22MAR2023' '23MAR2023' '24MAR2023'
+ '25MAR2023']
+2025-03-17 01:35:57,177 - INFO - Test dates: ['26MAR2023' '27MAR2023' '28FEB2023' '28MAR2023' '29MAR2023' '30MAR2023'
+ '31MAR2023']
+2025-03-17 01:35:57,177 - INFO - Number of unique train dates: 25
+2025-03-17 01:35:57,177 - INFO - Number of unique test dates: 7
+2025-03-17 01:36:39,002 - INFO - Model 'XGBoost' trained in 37.88 seconds.
+2025-03-17 01:36:39,006 - INFO - [2025-03-17 01:36:39] Starting evaluation.
+2025-03-17 01:36:39,007 - INFO - [2025-03-17 01:36:39] Created results and plots directories if not already existing.
+2025-03-17 01:36:39,007 - INFO - [2025-03-17 01:36:39] Loaded trained model.
+2025-03-17 01:36:39,328 - INFO - [2025-03-17 01:36:39] Model predictions completed.
+2025-03-17 01:36:39,380 - INFO - [2025-03-17 01:36:39] Transformed inputs to seconds.
+2025-03-17 01:36:39,433 - INFO - [2025-03-17 01:36:39] Computed translation-based estimates.
+2025-03-17 01:36:39,446 - INFO - [2025-03-17 01:36:39] MAE Translation Mean: [ 71.66739808  83.73375199  92.9558575   99.78193473 106.51687302]
+2025-03-17 01:36:39,446 - INFO - [2025-03-17 01:36:39] Computed MAE for model and translation approach.
+2025-03-17 01:36:39,500 - INFO - [2025-03-17 01:36:39] Computed MAE per delay bin.
+2025-03-17 01:36:39,557 - INFO - [2025-03-17 01:36:39] Computed MAE per horizon bin.
+2025-03-17 01:36:39,559 - INFO - [2025-03-17 01:36:39] Saved metrics to JSON file: ./results/metrics_XGBoost.json
+2025-03-17 01:36:39,559 - INFO - [2025-03-17 01:36:39] Saved metrics to PKL file: ./results/metrics_XGBoost.pkl
+2025-03-17 01:36:39,800 - INFO - Saved MAE plots.
+2025-03-17 01:36:39,801 - INFO - [2025-03-17 01:36:39] Evaluation complete.
+2025-03-17 01:36:39,880 - INFO - XGB evaluation completed.
+2025-03-17 01:36:43,196 - INFO - Starting eXtreme Gradient Boosting evaluation script.
+2025-03-17 01:36:43,205 - INFO - Loading data...
+2025-03-17 01:36:43,205 - INFO - Loading data...
+2025-03-17 01:36:43,205 - INFO - Single month training and testing detected. Applying 80-20 split.
+2025-03-17 01:36:46,305 - INFO - Train dates: ['01MAR2023' '02MAR2023' '03MAR2023' '04MAR2023' '05MAR2023' '06MAR2023'
+ '07MAR2023' '08MAR2023' '09MAR2023' '10MAR2023' '11MAR2023' '12MAR2023'
+ '13MAR2023' '14MAR2023' '15MAR2023' '16MAR2023' '17MAR2023' '18MAR2023'
+ '19MAR2023' '20MAR2023' '21MAR2023' '22MAR2023' '23MAR2023' '24MAR2023'
+ '25MAR2023']
+2025-03-17 01:36:46,305 - INFO - Test dates: ['26MAR2023' '27MAR2023' '28FEB2023' '28MAR2023' '29MAR2023' '30MAR2023'
+ '31MAR2023']
+2025-03-17 01:36:46,305 - INFO - Number of unique train dates: 25
+2025-03-17 01:36:46,305 - INFO - Number of unique test dates: 7
+2025-03-17 01:36:49,766 - INFO - Single month training and testing detected. Applying 80-20 split.
+2025-03-17 01:37:00,800 - INFO - Train dates: ['01MAR2023' '02MAR2023' '03MAR2023' '04MAR2023' '05MAR2023' '06MAR2023'
+ '07MAR2023' '08MAR2023' '09MAR2023' '10MAR2023' '11MAR2023' '12MAR2023'
+ '13MAR2023' '14MAR2023' '15MAR2023' '16MAR2023' '17MAR2023' '18MAR2023'
+ '19MAR2023' '20MAR2023' '21MAR2023' '22MAR2023' '23MAR2023' '24MAR2023'
+ '25MAR2023']
+2025-03-17 01:37:00,802 - INFO - Test dates: ['26MAR2023' '27MAR2023' '28FEB2023' '28MAR2023' '29MAR2023' '30MAR2023'
+ '31MAR2023']
+2025-03-17 01:37:00,803 - INFO - Number of unique train dates: 25
+2025-03-17 01:37:00,803 - INFO - Number of unique test dates: 7
+2025-03-17 01:37:41,879 - INFO - Model 'XGBoost' trained in 38.81 seconds.
+2025-03-17 01:37:41,884 - INFO - [2025-03-17 01:37:41] Starting evaluation.
+2025-03-17 01:37:41,885 - INFO - [2025-03-17 01:37:41] Created results and plots directories if not already existing.
+2025-03-17 01:37:41,885 - INFO - [2025-03-17 01:37:41] Loaded trained model.
+2025-03-17 01:37:42,283 - INFO - [2025-03-17 01:37:42] Model predictions completed.
+2025-03-17 01:37:42,336 - INFO - [2025-03-17 01:37:42] Transformed inputs to seconds.
+2025-03-17 01:37:42,389 - INFO - [2025-03-17 01:37:42] Computed translation-based estimates.
+2025-03-17 01:37:42,402 - INFO - [2025-03-17 01:37:42] MAE Translation Mean: [ 71.66739808  83.73375199  92.9558575   99.78193473 106.51687302]
+2025-03-17 01:37:42,402 - INFO - [2025-03-17 01:37:42] Computed MAE for model and translation approach.
+2025-03-17 01:37:42,454 - INFO - [2025-03-17 01:37:42] Computed MAE per delay bin.
+2025-03-17 01:37:42,508 - INFO - [2025-03-17 01:37:42] Computed MAE per horizon bin.
+2025-03-17 01:37:42,509 - INFO - [2025-03-17 01:37:42] Saved metrics to JSON file: ./results/metrics_XGBoost.json
+2025-03-17 01:37:42,509 - INFO - [2025-03-17 01:37:42] Saved metrics to PKL file: ./results/metrics_XGBoost.pkl
+2025-03-17 01:37:42,694 - INFO - Saved MAE plots.
+2025-03-17 01:37:42,694 - INFO - [2025-03-17 01:37:42] Evaluation complete.
+2025-03-17 01:37:42,811 - INFO - XGB evaluation completed.
+2025-03-17 01:37:46,329 - INFO - Starting eXtreme Gradient Boosting evaluation script.
+2025-03-17 01:37:46,337 - INFO - Loading data...
+2025-03-17 01:37:46,337 - INFO - Loading data...
+2025-03-17 01:37:46,338 - INFO - Single month training and testing detected. Applying 80-20 split.
+2025-03-17 01:37:49,387 - INFO - Train dates: ['01MAR2023' '02MAR2023' '03MAR2023' '04MAR2023' '05MAR2023' '06MAR2023'
+ '07MAR2023' '08MAR2023' '09MAR2023' '10MAR2023' '11MAR2023' '12MAR2023'
+ '13MAR2023' '14MAR2023' '15MAR2023' '16MAR2023' '17MAR2023' '18MAR2023'
+ '19MAR2023' '20MAR2023' '21MAR2023' '22MAR2023' '23MAR2023' '24MAR2023'
+ '25MAR2023']
+2025-03-17 01:37:49,387 - INFO - Test dates: ['26MAR2023' '27MAR2023' '28FEB2023' '28MAR2023' '29MAR2023' '30MAR2023'
+ '31MAR2023']
+2025-03-17 01:37:49,387 - INFO - Number of unique train dates: 25
+2025-03-17 01:37:49,387 - INFO - Number of unique test dates: 7
+2025-03-17 01:37:52,080 - INFO - Single month training and testing detected. Applying 80-20 split.
+2025-03-17 01:38:01,746 - INFO - Train dates: ['01MAR2023' '02MAR2023' '03MAR2023' '04MAR2023' '05MAR2023' '06MAR2023'
+ '07MAR2023' '08MAR2023' '09MAR2023' '10MAR2023' '11MAR2023' '12MAR2023'
+ '13MAR2023' '14MAR2023' '15MAR2023' '16MAR2023' '17MAR2023' '18MAR2023'
+ '19MAR2023' '20MAR2023' '21MAR2023' '22MAR2023' '23MAR2023' '24MAR2023'
+ '25MAR2023']
+2025-03-17 01:38:01,748 - INFO - Test dates: ['26MAR2023' '27MAR2023' '28FEB2023' '28MAR2023' '29MAR2023' '30MAR2023'
+ '31MAR2023']
+2025-03-17 01:38:01,748 - INFO - Number of unique train dates: 25
+2025-03-17 01:38:01,748 - INFO - Number of unique test dates: 7
+2025-03-17 01:38:47,584 - INFO - Model 'XGBoost' trained in 41.84 seconds.
+2025-03-17 01:38:47,588 - INFO - [2025-03-17 01:38:47] Starting evaluation.
+2025-03-17 01:38:47,589 - INFO - [2025-03-17 01:38:47] Created results and plots directories if not already existing.
+2025-03-17 01:38:47,589 - INFO - [2025-03-17 01:38:47] Loaded trained model.
+2025-03-17 01:38:48,010 - INFO - [2025-03-17 01:38:48] Model predictions completed.
+2025-03-17 01:38:48,061 - INFO - [2025-03-17 01:38:48] Transformed inputs to seconds.
+2025-03-17 01:38:48,114 - INFO - [2025-03-17 01:38:48] Computed translation-based estimates.
+2025-03-17 01:38:48,129 - INFO - [2025-03-17 01:38:48] MAE Translation Mean: [ 71.66739808  83.73375199  92.9558575   99.78193473 106.51687302]
+2025-03-17 01:38:48,129 - INFO - [2025-03-17 01:38:48] Computed MAE for model and translation approach.
+2025-03-17 01:38:48,185 - INFO - [2025-03-17 01:38:48] Computed MAE per delay bin.
+2025-03-17 01:38:48,245 - INFO - [2025-03-17 01:38:48] Computed MAE per horizon bin.
+2025-03-17 01:38:48,245 - INFO - [2025-03-17 01:38:48] Saved metrics to JSON file: ./results/metrics_XGBoost.json
+2025-03-17 01:38:48,245 - INFO - [2025-03-17 01:38:48] Saved metrics to PKL file: ./results/metrics_XGBoost.pkl
+2025-03-17 01:38:48,447 - INFO - Saved MAE plots.
+2025-03-17 01:38:48,447 - INFO - [2025-03-17 01:38:48] Evaluation complete.
+2025-03-17 01:38:48,524 - INFO - XGB evaluation completed.
+2025-03-17 01:38:51,786 - INFO - Starting eXtreme Gradient Boosting evaluation script.
+2025-03-17 01:38:51,794 - INFO - Loading data...
+2025-03-17 01:38:51,794 - INFO - Loading data...
+2025-03-17 01:38:51,795 - INFO - Single month training and testing detected. Applying 80-20 split.
+2025-03-17 01:38:54,867 - INFO - Train dates: ['01MAR2023' '02MAR2023' '03MAR2023' '04MAR2023' '05MAR2023' '06MAR2023'
+ '07MAR2023' '08MAR2023' '09MAR2023' '10MAR2023' '11MAR2023' '12MAR2023'
+ '13MAR2023' '14MAR2023' '15MAR2023' '16MAR2023' '17MAR2023' '18MAR2023'
+ '19MAR2023' '20MAR2023' '21MAR2023' '22MAR2023' '23MAR2023' '24MAR2023'
+ '25MAR2023']
+2025-03-17 01:38:54,867 - INFO - Test dates: ['26MAR2023' '27MAR2023' '28FEB2023' '28MAR2023' '29MAR2023' '30MAR2023'
+ '31MAR2023']
+2025-03-17 01:38:54,869 - INFO - Number of unique train dates: 25
+2025-03-17 01:38:54,869 - INFO - Number of unique test dates: 7
+2025-03-17 01:38:57,096 - INFO - Single month training and testing detected. Applying 80-20 split.
+2025-03-17 01:39:03,970 - INFO - Train dates: ['01MAR2023' '02MAR2023' '03MAR2023' '04MAR2023' '05MAR2023' '06MAR2023'
+ '07MAR2023' '08MAR2023' '09MAR2023' '10MAR2023' '11MAR2023' '12MAR2023'
+ '13MAR2023' '14MAR2023' '15MAR2023' '16MAR2023' '17MAR2023' '18MAR2023'
+ '19MAR2023' '20MAR2023' '21MAR2023' '22MAR2023' '23MAR2023' '24MAR2023'
+ '25MAR2023']
+2025-03-17 01:39:03,971 - INFO - Test dates: ['26MAR2023' '27MAR2023' '28FEB2023' '28MAR2023' '29MAR2023' '30MAR2023'
+ '31MAR2023']
+2025-03-17 01:39:03,971 - INFO - Number of unique train dates: 25
+2025-03-17 01:39:03,972 - INFO - Number of unique test dates: 7
+2025-03-17 01:40:08,751 - INFO - Model 'XGBoost' trained in 61.32 seconds.
+2025-03-17 01:40:08,756 - INFO - [2025-03-17 01:40:08] Starting evaluation.
+2025-03-17 01:40:08,756 - INFO - [2025-03-17 01:40:08] Created results and plots directories if not already existing.
+2025-03-17 01:40:08,756 - INFO - [2025-03-17 01:40:08] Loaded trained model.
+2025-03-17 01:40:09,347 - INFO - [2025-03-17 01:40:09] Model predictions completed.
+2025-03-17 01:40:09,397 - INFO - [2025-03-17 01:40:09] Transformed inputs to seconds.
+2025-03-17 01:40:09,450 - INFO - [2025-03-17 01:40:09] Computed translation-based estimates.
+2025-03-17 01:40:09,463 - INFO - [2025-03-17 01:40:09] MAE Translation Mean: [ 71.66739808  83.73375199  92.9558575   99.78193473 106.51687302]
+2025-03-17 01:40:09,463 - INFO - [2025-03-17 01:40:09] Computed MAE for model and translation approach.
+2025-03-17 01:40:09,517 - INFO - [2025-03-17 01:40:09] Computed MAE per delay bin.
+2025-03-17 01:40:09,577 - INFO - [2025-03-17 01:40:09] Computed MAE per horizon bin.
+2025-03-17 01:40:09,578 - INFO - [2025-03-17 01:40:09] Saved metrics to JSON file: ./results/metrics_XGBoost.json
+2025-03-17 01:40:09,578 - INFO - [2025-03-17 01:40:09] Saved metrics to PKL file: ./results/metrics_XGBoost.pkl
+2025-03-17 01:40:09,785 - INFO - Saved MAE plots.
+2025-03-17 01:40:09,785 - INFO - [2025-03-17 01:40:09] Evaluation complete.
+2025-03-17 01:40:09,902 - INFO - XGB evaluation completed.
+2025-03-17 01:40:13,528 - INFO - Starting eXtreme Gradient Boosting evaluation script.
+2025-03-17 01:40:13,542 - INFO - Loading data...
+2025-03-17 01:40:13,542 - INFO - Loading data...
+2025-03-17 01:40:13,543 - INFO - Single month training and testing detected. Applying 80-20 split.
+2025-03-17 01:40:17,373 - INFO - Train dates: ['01MAR2023' '02MAR2023' '03MAR2023' '04MAR2023' '05MAR2023' '06MAR2023'
+ '07MAR2023' '08MAR2023' '09MAR2023' '10MAR2023' '11MAR2023' '12MAR2023'
+ '13MAR2023' '14MAR2023' '15MAR2023' '16MAR2023' '17MAR2023' '18MAR2023'
+ '19MAR2023' '20MAR2023' '21MAR2023' '22MAR2023' '23MAR2023' '24MAR2023'
+ '25MAR2023']
+2025-03-17 01:40:17,373 - INFO - Test dates: ['26MAR2023' '27MAR2023' '28FEB2023' '28MAR2023' '29MAR2023' '30MAR2023'
+ '31MAR2023']
+2025-03-17 01:40:17,373 - INFO - Number of unique train dates: 25
+2025-03-17 01:40:17,373 - INFO - Number of unique test dates: 7
+2025-03-17 01:40:19,784 - INFO - Single month training and testing detected. Applying 80-20 split.
+2025-03-17 01:40:27,202 - INFO - Train dates: ['01MAR2023' '02MAR2023' '03MAR2023' '04MAR2023' '05MAR2023' '06MAR2023'
+ '07MAR2023' '08MAR2023' '09MAR2023' '10MAR2023' '11MAR2023' '12MAR2023'
+ '13MAR2023' '14MAR2023' '15MAR2023' '16MAR2023' '17MAR2023' '18MAR2023'
+ '19MAR2023' '20MAR2023' '21MAR2023' '22MAR2023' '23MAR2023' '24MAR2023'
+ '25MAR2023']
+2025-03-17 01:40:27,204 - INFO - Test dates: ['26MAR2023' '27MAR2023' '28FEB2023' '28MAR2023' '29MAR2023' '30MAR2023'
+ '31MAR2023']
+2025-03-17 01:40:27,204 - INFO - Number of unique train dates: 25
+2025-03-17 01:40:27,204 - INFO - Number of unique test dates: 7
+2025-03-17 01:47:02,009 - INFO - Model 'XGBoost' trained in 391.20 seconds.
+2025-03-17 01:47:02,047 - INFO - [2025-03-17 01:47:02] Starting evaluation.
+2025-03-17 01:47:02,048 - INFO - [2025-03-17 01:47:02] Created results and plots directories if not already existing.
+2025-03-17 01:47:02,048 - INFO - [2025-03-17 01:47:02] Loaded trained model.
+2025-03-17 01:47:03,461 - INFO - [2025-03-17 01:47:03] Model predictions completed.
+2025-03-17 01:47:03,537 - INFO - [2025-03-17 01:47:03] Transformed inputs to seconds.
+2025-03-17 01:47:03,591 - INFO - [2025-03-17 01:47:03] Computed translation-based estimates.
+2025-03-17 01:47:03,608 - INFO - [2025-03-17 01:47:03] MAE Translation Mean: [ 71.66739808  83.73375199  92.9558575   99.78193473 106.51687302]
+2025-03-17 01:47:03,608 - INFO - [2025-03-17 01:47:03] Computed MAE for model and translation approach.
+2025-03-17 01:47:03,654 - INFO - [2025-03-17 01:47:03] Computed MAE per delay bin.
+2025-03-17 01:47:03,706 - INFO - [2025-03-17 01:47:03] Computed MAE per horizon bin.
+2025-03-17 01:47:03,709 - INFO - [2025-03-17 01:47:03] Saved metrics to JSON file: ./results/metrics_XGBoost.json
+2025-03-17 01:47:03,710 - INFO - [2025-03-17 01:47:03] Saved metrics to PKL file: ./results/metrics_XGBoost.pkl
+2025-03-17 01:47:04,075 - INFO - Saved MAE plots.
+2025-03-17 01:47:04,075 - INFO - [2025-03-17 01:47:04] Evaluation complete.
+2025-03-17 01:47:04,165 - INFO - XGB evaluation completed.
+2025-03-17 01:47:08,855 - INFO - Starting eXtreme Gradient Boosting evaluation script.
+2025-03-17 01:47:08,866 - INFO - Loading data...
+2025-03-17 01:47:08,866 - INFO - Loading data...
+2025-03-17 01:47:08,867 - INFO - Single month training and testing detected. Applying 80-20 split.
+2025-03-17 01:47:12,083 - INFO - Train dates: ['01MAR2023' '02MAR2023' '03MAR2023' '04MAR2023' '05MAR2023' '06MAR2023'
+ '07MAR2023' '08MAR2023' '09MAR2023' '10MAR2023' '11MAR2023' '12MAR2023'
+ '13MAR2023' '14MAR2023' '15MAR2023' '16MAR2023' '17MAR2023' '18MAR2023'
+ '19MAR2023' '20MAR2023' '21MAR2023' '22MAR2023' '23MAR2023' '24MAR2023'
+ '25MAR2023']
+2025-03-17 01:47:12,083 - INFO - Test dates: ['26MAR2023' '27MAR2023' '28FEB2023' '28MAR2023' '29MAR2023' '30MAR2023'
+ '31MAR2023']
+2025-03-17 01:47:12,083 - INFO - Number of unique train dates: 25
+2025-03-17 01:47:12,083 - INFO - Number of unique test dates: 7
+2025-03-17 01:47:14,545 - INFO - Single month training and testing detected. Applying 80-20 split.
+2025-03-17 01:47:22,381 - INFO - Train dates: ['01MAR2023' '02MAR2023' '03MAR2023' '04MAR2023' '05MAR2023' '06MAR2023'
+ '07MAR2023' '08MAR2023' '09MAR2023' '10MAR2023' '11MAR2023' '12MAR2023'
+ '13MAR2023' '14MAR2023' '15MAR2023' '16MAR2023' '17MAR2023' '18MAR2023'
+ '19MAR2023' '20MAR2023' '21MAR2023' '22MAR2023' '23MAR2023' '24MAR2023'
+ '25MAR2023']
+2025-03-17 01:47:22,382 - INFO - Test dates: ['26MAR2023' '27MAR2023' '28FEB2023' '28MAR2023' '29MAR2023' '30MAR2023'
+ '31MAR2023']
+2025-03-17 01:47:22,382 - INFO - Number of unique train dates: 25
+2025-03-17 01:47:22,382 - INFO - Number of unique test dates: 7
+2025-03-17 02:47:32,945 - INFO - Starting eXtreme Gradient Boosting evaluation script.
+2025-03-17 02:47:32,955 - INFO - Loading data...
+2025-03-17 02:47:32,955 - INFO - Loading data...
+2025-03-17 02:47:32,955 - INFO - Single month training and testing detected. Applying 80-20 split.
+2025-03-17 02:47:35,970 - INFO - Train dates: ['01MAR2023' '02MAR2023' '03MAR2023' '04MAR2023' '05MAR2023' '06MAR2023'
+ '07MAR2023' '08MAR2023' '09MAR2023' '10MAR2023' '11MAR2023' '12MAR2023'
+ '13MAR2023' '14MAR2023' '15MAR2023' '16MAR2023' '17MAR2023' '18MAR2023'
+ '19MAR2023' '20MAR2023' '21MAR2023' '22MAR2023' '23MAR2023' '24MAR2023'
+ '25MAR2023']
+2025-03-17 02:47:35,971 - INFO - Test dates: ['26MAR2023' '27MAR2023' '28FEB2023' '28MAR2023' '29MAR2023' '30MAR2023'
+ '31MAR2023']
+2025-03-17 02:47:35,971 - INFO - Number of unique train dates: 25
+2025-03-17 02:47:35,971 - INFO - Number of unique test dates: 7
+2025-03-17 02:47:39,888 - INFO - Single month training and testing detected. Applying 80-20 split.
+2025-03-17 02:47:51,283 - INFO - Train dates: ['01MAR2023' '02MAR2023' '03MAR2023' '04MAR2023' '05MAR2023' '06MAR2023'
+ '07MAR2023' '08MAR2023' '09MAR2023' '10MAR2023' '11MAR2023' '12MAR2023'
+ '13MAR2023' '14MAR2023' '15MAR2023' '16MAR2023' '17MAR2023' '18MAR2023'
+ '19MAR2023' '20MAR2023' '21MAR2023' '22MAR2023' '23MAR2023' '24MAR2023'
+ '25MAR2023']
+2025-03-17 02:47:51,287 - INFO - Test dates: ['26MAR2023' '27MAR2023' '28FEB2023' '28MAR2023' '29MAR2023' '30MAR2023'
+ '31MAR2023']
+2025-03-17 02:47:51,287 - INFO - Number of unique train dates: 25
+2025-03-17 02:47:51,287 - INFO - Number of unique test dates: 7
+2025-03-17 02:48:39,271 - INFO - Model 'XGBoost' trained in 44.48 seconds.
+2025-03-17 02:48:39,275 - INFO - [2025-03-17 02:48:39] Starting evaluation.
+2025-03-17 02:48:39,275 - INFO - [2025-03-17 02:48:39] Created results and plots directories if not already existing.
+2025-03-17 02:48:39,275 - INFO - [2025-03-17 02:48:39] Loaded trained model.
+2025-03-17 02:48:39,592 - INFO - [2025-03-17 02:48:39] Model predictions completed.
+2025-03-17 02:48:39,643 - INFO - [2025-03-17 02:48:39] Transformed inputs to seconds.
+2025-03-17 02:48:39,697 - INFO - [2025-03-17 02:48:39] Computed translation-based estimates.
+2025-03-17 02:48:39,711 - INFO - [2025-03-17 02:48:39] MAE Translation Mean: [ 71.66739808  83.73375199  92.9558575   99.78193473 106.51687302]
+2025-03-17 02:48:39,711 - INFO - [2025-03-17 02:48:39] Computed MAE for model and translation approach.
+2025-03-17 02:48:39,759 - INFO - [2025-03-17 02:48:39] Computed MAE per delay bin.
+2025-03-17 02:48:39,813 - INFO - [2025-03-17 02:48:39] Computed MAE per horizon bin.
+2025-03-17 02:48:39,815 - INFO - [2025-03-17 02:48:39] Saved metrics to JSON file: ./results/metrics_XGBoost.json
+2025-03-17 02:48:39,815 - INFO - [2025-03-17 02:48:39] Saved metrics to PKL file: ./results/metrics_XGBoost.pkl
+2025-03-17 02:48:40,014 - INFO - Saved MAE plots.
+2025-03-17 02:48:40,014 - INFO - [2025-03-17 02:48:40] Evaluation complete.
+2025-03-17 02:48:40,094 - INFO - XGB evaluation completed.
+2025-03-17 02:48:43,275 - INFO - Starting eXtreme Gradient Boosting evaluation script.
+2025-03-17 02:48:43,284 - INFO - Loading data...
+2025-03-17 02:48:43,284 - INFO - Loading data...
+2025-03-17 02:48:43,284 - INFO - Single month training and testing detected. Applying 80-20 split.
+2025-03-17 02:48:46,247 - INFO - Train dates: ['01MAR2023' '02MAR2023' '03MAR2023' '04MAR2023' '05MAR2023' '06MAR2023'
+ '07MAR2023' '08MAR2023' '09MAR2023' '10MAR2023' '11MAR2023' '12MAR2023'
+ '13MAR2023' '14MAR2023' '15MAR2023' '16MAR2023' '17MAR2023' '18MAR2023'
+ '19MAR2023' '20MAR2023' '21MAR2023' '22MAR2023' '23MAR2023' '24MAR2023'
+ '25MAR2023']
+2025-03-17 02:48:46,247 - INFO - Test dates: ['26MAR2023' '27MAR2023' '28FEB2023' '28MAR2023' '29MAR2023' '30MAR2023'
+ '31MAR2023']
+2025-03-17 02:48:46,247 - INFO - Number of unique train dates: 25
+2025-03-17 02:48:46,247 - INFO - Number of unique test dates: 7
+2025-03-17 02:48:49,954 - INFO - Single month training and testing detected. Applying 80-20 split.
+2025-03-17 02:49:01,071 - INFO - Train dates: ['01MAR2023' '02MAR2023' '03MAR2023' '04MAR2023' '05MAR2023' '06MAR2023'
+ '07MAR2023' '08MAR2023' '09MAR2023' '10MAR2023' '11MAR2023' '12MAR2023'
+ '13MAR2023' '14MAR2023' '15MAR2023' '16MAR2023' '17MAR2023' '18MAR2023'
+ '19MAR2023' '20MAR2023' '21MAR2023' '22MAR2023' '23MAR2023' '24MAR2023'
+ '25MAR2023']
+2025-03-17 02:49:01,072 - INFO - Test dates: ['26MAR2023' '27MAR2023' '28FEB2023' '28MAR2023' '29MAR2023' '30MAR2023'
+ '31MAR2023']
+2025-03-17 02:49:01,072 - INFO - Number of unique train dates: 25
+2025-03-17 02:49:01,072 - INFO - Number of unique test dates: 7
+2025-03-17 02:49:56,551 - INFO - Model 'XGBoost' trained in 53.68 seconds.
+2025-03-17 02:49:56,556 - INFO - [2025-03-17 02:49:56] Starting evaluation.
+2025-03-17 02:49:56,556 - INFO - [2025-03-17 02:49:56] Created results and plots directories if not already existing.
+2025-03-17 02:49:56,556 - INFO - [2025-03-17 02:49:56] Loaded trained model.
+2025-03-17 02:49:57,078 - INFO - [2025-03-17 02:49:57] Model predictions completed.
+2025-03-17 02:49:57,127 - INFO - [2025-03-17 02:49:57] Transformed inputs to seconds.
+2025-03-17 02:49:57,180 - INFO - [2025-03-17 02:49:57] Computed translation-based estimates.
+2025-03-17 02:49:57,193 - INFO - [2025-03-17 02:49:57] MAE Translation Mean: [ 71.66739808  83.73375199  92.9558575   99.78193473 106.51687302]
+2025-03-17 02:49:57,193 - INFO - [2025-03-17 02:49:57] Computed MAE for model and translation approach.
+2025-03-17 02:49:57,250 - INFO - [2025-03-17 02:49:57] Computed MAE per delay bin.
+2025-03-17 02:49:57,308 - INFO - [2025-03-17 02:49:57] Computed MAE per horizon bin.
+2025-03-17 02:49:57,310 - INFO - [2025-03-17 02:49:57] Saved metrics to JSON file: ./results/metrics_XGBoost.json
+2025-03-17 02:49:57,310 - INFO - [2025-03-17 02:49:57] Saved metrics to PKL file: ./results/metrics_XGBoost.pkl
+2025-03-17 02:49:57,498 - INFO - Saved MAE plots.
+2025-03-17 02:49:57,498 - INFO - [2025-03-17 02:49:57] Evaluation complete.
+2025-03-17 02:49:57,623 - INFO - XGB evaluation completed.
+2025-03-17 02:50:01,241 - INFO - Starting eXtreme Gradient Boosting evaluation script.
+2025-03-17 02:50:01,251 - INFO - Loading data...
+2025-03-17 02:50:01,251 - INFO - Loading data...
+2025-03-17 02:50:01,252 - INFO - Single month training and testing detected. Applying 80-20 split.
+2025-03-17 02:50:04,362 - INFO - Train dates: ['01MAR2023' '02MAR2023' '03MAR2023' '04MAR2023' '05MAR2023' '06MAR2023'
+ '07MAR2023' '08MAR2023' '09MAR2023' '10MAR2023' '11MAR2023' '12MAR2023'
+ '13MAR2023' '14MAR2023' '15MAR2023' '16MAR2023' '17MAR2023' '18MAR2023'
+ '19MAR2023' '20MAR2023' '21MAR2023' '22MAR2023' '23MAR2023' '24MAR2023'
+ '25MAR2023']
+2025-03-17 02:50:04,363 - INFO - Test dates: ['26MAR2023' '27MAR2023' '28FEB2023' '28MAR2023' '29MAR2023' '30MAR2023'
+ '31MAR2023']
+2025-03-17 02:50:04,363 - INFO - Number of unique train dates: 25
+2025-03-17 02:50:04,363 - INFO - Number of unique test dates: 7
+2025-03-17 02:50:06,525 - INFO - Single month training and testing detected. Applying 80-20 split.
+2025-03-17 02:50:13,571 - INFO - Train dates: ['01MAR2023' '02MAR2023' '03MAR2023' '04MAR2023' '05MAR2023' '06MAR2023'
+ '07MAR2023' '08MAR2023' '09MAR2023' '10MAR2023' '11MAR2023' '12MAR2023'
+ '13MAR2023' '14MAR2023' '15MAR2023' '16MAR2023' '17MAR2023' '18MAR2023'
+ '19MAR2023' '20MAR2023' '21MAR2023' '22MAR2023' '23MAR2023' '24MAR2023'
+ '25MAR2023']
+2025-03-17 02:50:13,571 - INFO - Test dates: ['26MAR2023' '27MAR2023' '28FEB2023' '28MAR2023' '29MAR2023' '30MAR2023'
+ '31MAR2023']
+2025-03-17 02:50:13,572 - INFO - Number of unique train dates: 25
+2025-03-17 02:50:13,572 - INFO - Number of unique test dates: 7
+2025-03-17 02:51:41,954 - INFO - Model 'XGBoost' trained in 85.43 seconds.
+2025-03-17 02:51:41,990 - INFO - [2025-03-17 02:51:41] Starting evaluation.
+2025-03-17 02:51:41,991 - INFO - [2025-03-17 02:51:41] Created results and plots directories if not already existing.
+2025-03-17 02:51:41,991 - INFO - [2025-03-17 02:51:41] Loaded trained model.
+2025-03-17 02:51:42,854 - INFO - [2025-03-17 02:51:42] Model predictions completed.
+2025-03-17 02:51:42,942 - INFO - [2025-03-17 02:51:42] Transformed inputs to seconds.
+2025-03-17 02:51:43,001 - INFO - [2025-03-17 02:51:43] Computed translation-based estimates.
+2025-03-17 02:51:43,024 - INFO - [2025-03-17 02:51:43] MAE Translation Mean: [ 71.66739808  83.73375199  92.9558575   99.78193473 106.51687302]
+2025-03-17 02:51:43,024 - INFO - [2025-03-17 02:51:43] Computed MAE for model and translation approach.
+2025-03-17 02:51:43,091 - INFO - [2025-03-17 02:51:43] Computed MAE per delay bin.
+2025-03-17 02:51:43,157 - INFO - [2025-03-17 02:51:43] Computed MAE per horizon bin.
+2025-03-17 02:51:43,160 - INFO - [2025-03-17 02:51:43] Saved metrics to JSON file: ./results/metrics_XGBoost.json
+2025-03-17 02:51:43,161 - INFO - [2025-03-17 02:51:43] Saved metrics to PKL file: ./results/metrics_XGBoost.pkl
+2025-03-17 02:51:43,659 - INFO - Saved MAE plots.
+2025-03-17 02:51:43,659 - INFO - [2025-03-17 02:51:43] Evaluation complete.
+2025-03-17 02:51:43,702 - INFO - XGB evaluation completed.
+2025-03-17 02:51:48,163 - INFO - Starting eXtreme Gradient Boosting evaluation script.
+2025-03-17 02:51:48,185 - INFO - Loading data...
+2025-03-17 02:51:48,185 - INFO - Loading data...
+2025-03-17 02:51:48,186 - INFO - Single month training and testing detected. Applying 80-20 split.
+2025-03-17 02:51:56,371 - INFO - Train dates: ['01MAR2023' '02MAR2023' '03MAR2023' '04MAR2023' '05MAR2023' '06MAR2023'
+ '07MAR2023' '08MAR2023' '09MAR2023' '10MAR2023' '11MAR2023' '12MAR2023'
+ '13MAR2023' '14MAR2023' '15MAR2023' '16MAR2023' '17MAR2023' '18MAR2023'
+ '19MAR2023' '20MAR2023' '21MAR2023' '22MAR2023' '23MAR2023' '24MAR2023'
+ '25MAR2023']
+2025-03-17 02:51:56,373 - INFO - Test dates: ['26MAR2023' '27MAR2023' '28FEB2023' '28MAR2023' '29MAR2023' '30MAR2023'
+ '31MAR2023']
+2025-03-17 02:51:56,373 - INFO - Number of unique train dates: 25
+2025-03-17 02:51:56,374 - INFO - Number of unique test dates: 7
+2025-03-17 02:51:59,083 - INFO - Single month training and testing detected. Applying 80-20 split.
+2025-03-17 02:52:06,833 - INFO - Train dates: ['01MAR2023' '02MAR2023' '03MAR2023' '04MAR2023' '05MAR2023' '06MAR2023'
+ '07MAR2023' '08MAR2023' '09MAR2023' '10MAR2023' '11MAR2023' '12MAR2023'
+ '13MAR2023' '14MAR2023' '15MAR2023' '16MAR2023' '17MAR2023' '18MAR2023'
+ '19MAR2023' '20MAR2023' '21MAR2023' '22MAR2023' '23MAR2023' '24MAR2023'
+ '25MAR2023']
+2025-03-17 02:52:06,836 - INFO - Test dates: ['26MAR2023' '27MAR2023' '28FEB2023' '28MAR2023' '29MAR2023' '30MAR2023'
+ '31MAR2023']
+2025-03-17 02:52:06,841 - INFO - Number of unique train dates: 25
+2025-03-17 02:52:06,841 - INFO - Number of unique test dates: 7
+2025-03-17 02:53:17,370 - INFO - Model 'XGBoost' trained in 66.12 seconds.
+2025-03-17 02:53:17,376 - INFO - [2025-03-17 02:53:17] Starting evaluation.
+2025-03-17 02:53:17,376 - INFO - [2025-03-17 02:53:17] Created results and plots directories if not already existing.
+2025-03-17 02:53:17,376 - INFO - [2025-03-17 02:53:17] Loaded trained model.
+2025-03-17 02:53:17,988 - INFO - [2025-03-17 02:53:17] Model predictions completed.
+2025-03-17 02:53:18,041 - INFO - [2025-03-17 02:53:18] Transformed inputs to seconds.
+2025-03-17 02:53:18,095 - INFO - [2025-03-17 02:53:18] Computed translation-based estimates.
+2025-03-17 02:53:18,109 - INFO - [2025-03-17 02:53:18] MAE Translation Mean: [ 71.66739808  83.73375199  92.9558575   99.78193473 106.51687302]
+2025-03-17 02:53:18,109 - INFO - [2025-03-17 02:53:18] Computed MAE for model and translation approach.
+2025-03-17 02:53:18,158 - INFO - [2025-03-17 02:53:18] Computed MAE per delay bin.
+2025-03-17 02:53:18,216 - INFO - [2025-03-17 02:53:18] Computed MAE per horizon bin.
+2025-03-17 02:53:18,217 - INFO - [2025-03-17 02:53:18] Saved metrics to JSON file: ./results/metrics_XGBoost.json
+2025-03-17 02:53:18,218 - INFO - [2025-03-17 02:53:18] Saved metrics to PKL file: ./results/metrics_XGBoost.pkl
+2025-03-17 02:53:18,503 - INFO - Saved MAE plots.
+2025-03-17 02:53:18,503 - INFO - [2025-03-17 02:53:18] Evaluation complete.
+2025-03-17 02:53:18,581 - INFO - XGB evaluation completed.
+2025-03-17 02:53:21,924 - INFO - Starting eXtreme Gradient Boosting evaluation script.
+2025-03-17 02:53:21,934 - INFO - Loading data...
+2025-03-17 02:53:21,934 - INFO - Loading data...
+2025-03-17 02:53:21,934 - INFO - Single month training and testing detected. Applying 80-20 split.
+2025-03-17 02:53:25,721 - INFO - Train dates: ['01MAR2023' '02MAR2023' '03MAR2023' '04MAR2023' '05MAR2023' '06MAR2023'
+ '07MAR2023' '08MAR2023' '09MAR2023' '10MAR2023' '11MAR2023' '12MAR2023'
+ '13MAR2023' '14MAR2023' '15MAR2023' '16MAR2023' '17MAR2023' '18MAR2023'
+ '19MAR2023' '20MAR2023' '21MAR2023' '22MAR2023' '23MAR2023' '24MAR2023'
+ '25MAR2023']
+2025-03-17 02:53:25,721 - INFO - Test dates: ['26MAR2023' '27MAR2023' '28FEB2023' '28MAR2023' '29MAR2023' '30MAR2023'
+ '31MAR2023']
+2025-03-17 02:53:25,722 - INFO - Number of unique train dates: 25
+2025-03-17 02:53:25,722 - INFO - Number of unique test dates: 7
+2025-03-17 02:53:28,300 - INFO - Single month training and testing detected. Applying 80-20 split.
+2025-03-17 02:53:37,221 - INFO - Train dates: ['01MAR2023' '02MAR2023' '03MAR2023' '04MAR2023' '05MAR2023' '06MAR2023'
+ '07MAR2023' '08MAR2023' '09MAR2023' '10MAR2023' '11MAR2023' '12MAR2023'
+ '13MAR2023' '14MAR2023' '15MAR2023' '16MAR2023' '17MAR2023' '18MAR2023'
+ '19MAR2023' '20MAR2023' '21MAR2023' '22MAR2023' '23MAR2023' '24MAR2023'
+ '25MAR2023']
+2025-03-17 02:53:37,223 - INFO - Test dates: ['26MAR2023' '27MAR2023' '28FEB2023' '28MAR2023' '29MAR2023' '30MAR2023'
+ '31MAR2023']
+2025-03-17 02:53:37,223 - INFO - Number of unique train dates: 25
+2025-03-17 02:53:37,223 - INFO - Number of unique test dates: 7
+2025-03-17 02:55:17,789 - INFO - Model 'XGBoost' trained in 97.20 seconds.
+2025-03-17 02:55:17,794 - INFO - [2025-03-17 02:55:17] Starting evaluation.
+2025-03-17 02:55:17,795 - INFO - [2025-03-17 02:55:17] Created results and plots directories if not already existing.
+2025-03-17 02:55:17,795 - INFO - [2025-03-17 02:55:17] Loaded trained model.
+2025-03-17 02:55:18,852 - INFO - [2025-03-17 02:55:18] Model predictions completed.
+2025-03-17 02:55:18,906 - INFO - [2025-03-17 02:55:18] Transformed inputs to seconds.
+2025-03-17 02:55:18,960 - INFO - [2025-03-17 02:55:18] Computed translation-based estimates.
+2025-03-17 02:55:18,974 - INFO - [2025-03-17 02:55:18] MAE Translation Mean: [ 71.66739808  83.73375199  92.9558575   99.78193473 106.51687302]
+2025-03-17 02:55:18,974 - INFO - [2025-03-17 02:55:18] Computed MAE for model and translation approach.
+2025-03-17 02:55:19,027 - INFO - [2025-03-17 02:55:19] Computed MAE per delay bin.
+2025-03-17 02:55:19,086 - INFO - [2025-03-17 02:55:19] Computed MAE per horizon bin.
+2025-03-17 02:55:19,089 - INFO - [2025-03-17 02:55:19] Saved metrics to JSON file: ./results/metrics_XGBoost.json
+2025-03-17 02:55:19,089 - INFO - [2025-03-17 02:55:19] Saved metrics to PKL file: ./results/metrics_XGBoost.pkl
+2025-03-17 02:55:19,292 - INFO - Saved MAE plots.
+2025-03-17 02:55:19,292 - INFO - [2025-03-17 02:55:19] Evaluation complete.
+2025-03-17 02:55:19,418 - INFO - XGB evaluation completed.
+2025-03-17 02:55:22,855 - INFO - Starting eXtreme Gradient Boosting evaluation script.
+2025-03-17 02:55:22,865 - INFO - Loading data...
+2025-03-17 02:55:22,865 - INFO - Loading data...
+2025-03-17 02:55:22,865 - INFO - Single month training and testing detected. Applying 80-20 split.
+2025-03-17 02:55:26,465 - INFO - Train dates: ['01MAR2023' '02MAR2023' '03MAR2023' '04MAR2023' '05MAR2023' '06MAR2023'
+ '07MAR2023' '08MAR2023' '09MAR2023' '10MAR2023' '11MAR2023' '12MAR2023'
+ '13MAR2023' '14MAR2023' '15MAR2023' '16MAR2023' '17MAR2023' '18MAR2023'
+ '19MAR2023' '20MAR2023' '21MAR2023' '22MAR2023' '23MAR2023' '24MAR2023'
+ '25MAR2023']
+2025-03-17 02:55:26,465 - INFO - Test dates: ['26MAR2023' '27MAR2023' '28FEB2023' '28MAR2023' '29MAR2023' '30MAR2023'
+ '31MAR2023']
+2025-03-17 02:55:26,465 - INFO - Number of unique train dates: 25
+2025-03-17 02:55:26,465 - INFO - Number of unique test dates: 7
+2025-03-17 02:55:29,379 - INFO - Single month training and testing detected. Applying 80-20 split.
+2025-03-17 02:55:37,032 - INFO - Train dates: ['01MAR2023' '02MAR2023' '03MAR2023' '04MAR2023' '05MAR2023' '06MAR2023'
+ '07MAR2023' '08MAR2023' '09MAR2023' '10MAR2023' '11MAR2023' '12MAR2023'
+ '13MAR2023' '14MAR2023' '15MAR2023' '16MAR2023' '17MAR2023' '18MAR2023'
+ '19MAR2023' '20MAR2023' '21MAR2023' '22MAR2023' '23MAR2023' '24MAR2023'
+ '25MAR2023']
+2025-03-17 02:55:37,034 - INFO - Test dates: ['26MAR2023' '27MAR2023' '28FEB2023' '28MAR2023' '29MAR2023' '30MAR2023'
+ '31MAR2023']
+2025-03-17 02:55:37,034 - INFO - Number of unique train dates: 25
+2025-03-17 02:55:37,034 - INFO - Number of unique test dates: 7
+2025-03-17 03:16:38,140 - INFO - Model 'XGBoost' trained in 1256.96 seconds.
+2025-03-17 03:16:38,152 - INFO - [2025-03-17 03:16:38] Starting evaluation.
+2025-03-17 03:16:38,152 - INFO - [2025-03-17 03:16:38] Created results and plots directories if not already existing.
+2025-03-17 03:16:38,153 - INFO - [2025-03-17 03:16:38] Loaded trained model.
+2025-03-17 03:16:40,212 - INFO - [2025-03-17 03:16:40] Model predictions completed.
+2025-03-17 03:16:40,275 - INFO - [2025-03-17 03:16:40] Transformed inputs to seconds.
+2025-03-17 03:16:40,328 - INFO - [2025-03-17 03:16:40] Computed translation-based estimates.
+2025-03-17 03:16:40,342 - INFO - [2025-03-17 03:16:40] MAE Translation Mean: [ 71.66739808  83.73375199  92.9558575   99.78193473 106.51687302]
+2025-03-17 03:16:40,342 - INFO - [2025-03-17 03:16:40] Computed MAE for model and translation approach.
+2025-03-17 03:16:40,389 - INFO - [2025-03-17 03:16:40] Computed MAE per delay bin.
+2025-03-17 03:16:40,443 - INFO - [2025-03-17 03:16:40] Computed MAE per horizon bin.
+2025-03-17 03:16:40,449 - INFO - [2025-03-17 03:16:40] Saved metrics to JSON file: ./results/metrics_XGBoost.json
+2025-03-17 03:16:40,449 - INFO - [2025-03-17 03:16:40] Saved metrics to PKL file: ./results/metrics_XGBoost.pkl
+2025-03-17 03:16:40,757 - INFO - Saved MAE plots.
+2025-03-17 03:16:40,757 - INFO - [2025-03-17 03:16:40] Evaluation complete.
+2025-03-17 03:16:40,804 - INFO - XGB evaluation completed.
+2025-03-17 03:16:45,477 - INFO - Starting eXtreme Gradient Boosting evaluation script.
+2025-03-17 03:16:45,486 - INFO - Loading data...
+2025-03-17 03:16:45,486 - INFO - Loading data...
+2025-03-17 03:16:45,486 - INFO - Single month training and testing detected. Applying 80-20 split.
+2025-03-17 03:16:48,794 - INFO - Train dates: ['01MAR2023' '02MAR2023' '03MAR2023' '04MAR2023' '05MAR2023' '06MAR2023'
+ '07MAR2023' '08MAR2023' '09MAR2023' '10MAR2023' '11MAR2023' '12MAR2023'
+ '13MAR2023' '14MAR2023' '15MAR2023' '16MAR2023' '17MAR2023' '18MAR2023'
+ '19MAR2023' '20MAR2023' '21MAR2023' '22MAR2023' '23MAR2023' '24MAR2023'
+ '25MAR2023']
+2025-03-17 03:16:48,795 - INFO - Test dates: ['26MAR2023' '27MAR2023' '28FEB2023' '28MAR2023' '29MAR2023' '30MAR2023'
+ '31MAR2023']
+2025-03-17 03:16:48,795 - INFO - Number of unique train dates: 25
+2025-03-17 03:16:48,795 - INFO - Number of unique test dates: 7
+2025-03-17 03:16:52,450 - INFO - Single month training and testing detected. Applying 80-20 split.
+2025-03-17 03:17:02,008 - INFO - Train dates: ['01MAR2023' '02MAR2023' '03MAR2023' '04MAR2023' '05MAR2023' '06MAR2023'
+ '07MAR2023' '08MAR2023' '09MAR2023' '10MAR2023' '11MAR2023' '12MAR2023'
+ '13MAR2023' '14MAR2023' '15MAR2023' '16MAR2023' '17MAR2023' '18MAR2023'
+ '19MAR2023' '20MAR2023' '21MAR2023' '22MAR2023' '23MAR2023' '24MAR2023'
+ '25MAR2023']
+2025-03-17 03:17:02,027 - INFO - Test dates: ['26MAR2023' '27MAR2023' '28FEB2023' '28MAR2023' '29MAR2023' '30MAR2023'
+ '31MAR2023']
+2025-03-17 03:17:02,027 - INFO - Number of unique train dates: 25
+2025-03-17 03:17:02,027 - INFO - Number of unique test dates: 7
+2025-03-17 04:17:12,824 - INFO - Starting eXtreme Gradient Boosting evaluation script.
+2025-03-17 04:17:12,834 - INFO - Loading data...
+2025-03-17 04:17:12,834 - INFO - Loading data...
+2025-03-17 04:17:12,835 - INFO - Single month training and testing detected. Applying 80-20 split.
+2025-03-17 04:17:15,911 - INFO - Train dates: ['01MAR2023' '02MAR2023' '03MAR2023' '04MAR2023' '05MAR2023' '06MAR2023'
+ '07MAR2023' '08MAR2023' '09MAR2023' '10MAR2023' '11MAR2023' '12MAR2023'
+ '13MAR2023' '14MAR2023' '15MAR2023' '16MAR2023' '17MAR2023' '18MAR2023'
+ '19MAR2023' '20MAR2023' '21MAR2023' '22MAR2023' '23MAR2023' '24MAR2023'
+ '25MAR2023']
+2025-03-17 04:17:15,911 - INFO - Test dates: ['26MAR2023' '27MAR2023' '28FEB2023' '28MAR2023' '29MAR2023' '30MAR2023'
+ '31MAR2023']
+2025-03-17 04:17:15,911 - INFO - Number of unique train dates: 25
+2025-03-17 04:17:15,911 - INFO - Number of unique test dates: 7
+2025-03-17 04:17:18,797 - INFO - Single month training and testing detected. Applying 80-20 split.
+2025-03-17 04:17:28,637 - INFO - Train dates: ['01MAR2023' '02MAR2023' '03MAR2023' '04MAR2023' '05MAR2023' '06MAR2023'
+ '07MAR2023' '08MAR2023' '09MAR2023' '10MAR2023' '11MAR2023' '12MAR2023'
+ '13MAR2023' '14MAR2023' '15MAR2023' '16MAR2023' '17MAR2023' '18MAR2023'
+ '19MAR2023' '20MAR2023' '21MAR2023' '22MAR2023' '23MAR2023' '24MAR2023'
+ '25MAR2023']
+2025-03-17 04:17:28,644 - INFO - Test dates: ['26MAR2023' '27MAR2023' '28FEB2023' '28MAR2023' '29MAR2023' '30MAR2023'
+ '31MAR2023']
+2025-03-17 04:17:28,645 - INFO - Number of unique train dates: 25
+2025-03-17 04:17:28,646 - INFO - Number of unique test dates: 7
+2025-03-17 04:18:47,979 - INFO - Model 'XGBoost' trained in 75.08 seconds.
+2025-03-17 04:18:47,984 - INFO - [2025-03-17 04:18:47] Starting evaluation.
+2025-03-17 04:18:47,985 - INFO - [2025-03-17 04:18:47] Created results and plots directories if not already existing.
+2025-03-17 04:18:47,985 - INFO - [2025-03-17 04:18:47] Loaded trained model.
+2025-03-17 04:18:48,484 - INFO - [2025-03-17 04:18:48] Model predictions completed.
+2025-03-17 04:18:48,537 - INFO - [2025-03-17 04:18:48] Transformed inputs to seconds.
+2025-03-17 04:18:48,592 - INFO - [2025-03-17 04:18:48] Computed translation-based estimates.
+2025-03-17 04:18:48,606 - INFO - [2025-03-17 04:18:48] MAE Translation Mean: [ 71.66739808  83.73375199  92.9558575   99.78193473 106.51687302]
+2025-03-17 04:18:48,606 - INFO - [2025-03-17 04:18:48] Computed MAE for model and translation approach.
+2025-03-17 04:18:48,665 - INFO - [2025-03-17 04:18:48] Computed MAE per delay bin.
+2025-03-17 04:18:48,724 - INFO - [2025-03-17 04:18:48] Computed MAE per horizon bin.
+2025-03-17 04:18:48,725 - INFO - [2025-03-17 04:18:48] Saved metrics to JSON file: ./results/metrics_XGBoost.json
+2025-03-17 04:18:48,726 - INFO - [2025-03-17 04:18:48] Saved metrics to PKL file: ./results/metrics_XGBoost.pkl
+2025-03-17 04:18:48,944 - INFO - Saved MAE plots.
+2025-03-17 04:18:48,944 - INFO - [2025-03-17 04:18:48] Evaluation complete.
+2025-03-17 04:18:49,041 - INFO - XGB evaluation completed.
+2025-03-17 04:18:52,384 - INFO - Starting eXtreme Gradient Boosting evaluation script.
+2025-03-17 04:18:52,394 - INFO - Loading data...
+2025-03-17 04:18:52,394 - INFO - Loading data...
+2025-03-17 04:18:52,394 - INFO - Single month training and testing detected. Applying 80-20 split.
+2025-03-17 04:18:55,515 - INFO - Train dates: ['01MAR2023' '02MAR2023' '03MAR2023' '04MAR2023' '05MAR2023' '06MAR2023'
+ '07MAR2023' '08MAR2023' '09MAR2023' '10MAR2023' '11MAR2023' '12MAR2023'
+ '13MAR2023' '14MAR2023' '15MAR2023' '16MAR2023' '17MAR2023' '18MAR2023'
+ '19MAR2023' '20MAR2023' '21MAR2023' '22MAR2023' '23MAR2023' '24MAR2023'
+ '25MAR2023']
+2025-03-17 04:18:55,515 - INFO - Test dates: ['26MAR2023' '27MAR2023' '28FEB2023' '28MAR2023' '29MAR2023' '30MAR2023'
+ '31MAR2023']
+2025-03-17 04:18:55,515 - INFO - Number of unique train dates: 25
+2025-03-17 04:18:55,515 - INFO - Number of unique test dates: 7
+2025-03-17 04:18:59,459 - INFO - Single month training and testing detected. Applying 80-20 split.
+2025-03-17 04:19:07,233 - INFO - Train dates: ['01MAR2023' '02MAR2023' '03MAR2023' '04MAR2023' '05MAR2023' '06MAR2023'
+ '07MAR2023' '08MAR2023' '09MAR2023' '10MAR2023' '11MAR2023' '12MAR2023'
+ '13MAR2023' '14MAR2023' '15MAR2023' '16MAR2023' '17MAR2023' '18MAR2023'
+ '19MAR2023' '20MAR2023' '21MAR2023' '22MAR2023' '23MAR2023' '24MAR2023'
+ '25MAR2023']
+2025-03-17 04:19:07,234 - INFO - Test dates: ['26MAR2023' '27MAR2023' '28FEB2023' '28MAR2023' '29MAR2023' '30MAR2023'
+ '31MAR2023']
+2025-03-17 04:19:07,234 - INFO - Number of unique train dates: 25
+2025-03-17 04:19:07,234 - INFO - Number of unique test dates: 7
+2025-03-17 04:20:42,744 - INFO - Model 'XGBoost' trained in 91.46 seconds.
+2025-03-17 04:20:42,749 - INFO - [2025-03-17 04:20:42] Starting evaluation.
+2025-03-17 04:20:42,749 - INFO - [2025-03-17 04:20:42] Created results and plots directories if not already existing.
+2025-03-17 04:20:42,749 - INFO - [2025-03-17 04:20:42] Loaded trained model.
+2025-03-17 04:20:43,534 - INFO - [2025-03-17 04:20:43] Model predictions completed.
+2025-03-17 04:20:43,584 - INFO - [2025-03-17 04:20:43] Transformed inputs to seconds.
+2025-03-17 04:20:43,638 - INFO - [2025-03-17 04:20:43] Computed translation-based estimates.
+2025-03-17 04:20:43,653 - INFO - [2025-03-17 04:20:43] MAE Translation Mean: [ 71.66739808  83.73375199  92.9558575   99.78193473 106.51687302]
+2025-03-17 04:20:43,653 - INFO - [2025-03-17 04:20:43] Computed MAE for model and translation approach.
+2025-03-17 04:20:43,710 - INFO - [2025-03-17 04:20:43] Computed MAE per delay bin.
+2025-03-17 04:20:43,770 - INFO - [2025-03-17 04:20:43] Computed MAE per horizon bin.
+2025-03-17 04:20:43,773 - INFO - [2025-03-17 04:20:43] Saved metrics to JSON file: ./results/metrics_XGBoost.json
+2025-03-17 04:20:43,773 - INFO - [2025-03-17 04:20:43] Saved metrics to PKL file: ./results/metrics_XGBoost.pkl
+2025-03-17 04:20:43,998 - INFO - Saved MAE plots.
+2025-03-17 04:20:43,998 - INFO - [2025-03-17 04:20:43] Evaluation complete.
+2025-03-17 04:20:44,104 - INFO - XGB evaluation completed.
+2025-03-17 04:20:47,631 - INFO - Starting eXtreme Gradient Boosting evaluation script.
+2025-03-17 04:20:47,639 - INFO - Loading data...
+2025-03-17 04:20:47,639 - INFO - Loading data...
+2025-03-17 04:20:47,640 - INFO - Single month training and testing detected. Applying 80-20 split.
+2025-03-17 04:20:50,811 - INFO - Train dates: ['01MAR2023' '02MAR2023' '03MAR2023' '04MAR2023' '05MAR2023' '06MAR2023'
+ '07MAR2023' '08MAR2023' '09MAR2023' '10MAR2023' '11MAR2023' '12MAR2023'
+ '13MAR2023' '14MAR2023' '15MAR2023' '16MAR2023' '17MAR2023' '18MAR2023'
+ '19MAR2023' '20MAR2023' '21MAR2023' '22MAR2023' '23MAR2023' '24MAR2023'
+ '25MAR2023']
+2025-03-17 04:20:50,811 - INFO - Test dates: ['26MAR2023' '27MAR2023' '28FEB2023' '28MAR2023' '29MAR2023' '30MAR2023'
+ '31MAR2023']
+2025-03-17 04:20:50,811 - INFO - Number of unique train dates: 25
+2025-03-17 04:20:50,811 - INFO - Number of unique test dates: 7
+2025-03-17 04:20:54,416 - INFO - Single month training and testing detected. Applying 80-20 split.
+2025-03-17 04:21:03,618 - INFO - Train dates: ['01MAR2023' '02MAR2023' '03MAR2023' '04MAR2023' '05MAR2023' '06MAR2023'
+ '07MAR2023' '08MAR2023' '09MAR2023' '10MAR2023' '11MAR2023' '12MAR2023'
+ '13MAR2023' '14MAR2023' '15MAR2023' '16MAR2023' '17MAR2023' '18MAR2023'
+ '19MAR2023' '20MAR2023' '21MAR2023' '22MAR2023' '23MAR2023' '24MAR2023'
+ '25MAR2023']
+2025-03-17 04:21:03,620 - INFO - Test dates: ['26MAR2023' '27MAR2023' '28FEB2023' '28MAR2023' '29MAR2023' '30MAR2023'
+ '31MAR2023']
+2025-03-17 04:21:03,620 - INFO - Number of unique train dates: 25
+2025-03-17 04:21:03,620 - INFO - Number of unique test dates: 7
+2025-03-17 04:22:44,877 - INFO - Model 'XGBoost' trained in 96.31 seconds.
+2025-03-17 04:22:44,883 - INFO - [2025-03-17 04:22:44] Starting evaluation.
+2025-03-17 04:22:44,883 - INFO - [2025-03-17 04:22:44] Created results and plots directories if not already existing.
+2025-03-17 04:22:44,883 - INFO - [2025-03-17 04:22:44] Loaded trained model.
+2025-03-17 04:22:45,766 - INFO - [2025-03-17 04:22:45] Model predictions completed.
+2025-03-17 04:22:45,816 - INFO - [2025-03-17 04:22:45] Transformed inputs to seconds.
+2025-03-17 04:22:45,869 - INFO - [2025-03-17 04:22:45] Computed translation-based estimates.
+2025-03-17 04:22:45,883 - INFO - [2025-03-17 04:22:45] MAE Translation Mean: [ 71.66739808  83.73375199  92.9558575   99.78193473 106.51687302]
+2025-03-17 04:22:45,883 - INFO - [2025-03-17 04:22:45] Computed MAE for model and translation approach.
+2025-03-17 04:22:45,940 - INFO - [2025-03-17 04:22:45] Computed MAE per delay bin.
+2025-03-17 04:22:45,999 - INFO - [2025-03-17 04:22:45] Computed MAE per horizon bin.
+2025-03-17 04:22:46,001 - INFO - [2025-03-17 04:22:46] Saved metrics to JSON file: ./results/metrics_XGBoost.json
+2025-03-17 04:22:46,001 - INFO - [2025-03-17 04:22:46] Saved metrics to PKL file: ./results/metrics_XGBoost.pkl
+2025-03-17 04:22:46,190 - INFO - Saved MAE plots.
+2025-03-17 04:22:46,190 - INFO - [2025-03-17 04:22:46] Evaluation complete.
+2025-03-17 04:22:46,320 - INFO - XGB evaluation completed.
+2025-03-17 04:22:49,462 - INFO - Starting eXtreme Gradient Boosting evaluation script.
+2025-03-17 04:22:49,472 - INFO - Loading data...
+2025-03-17 04:22:49,472 - INFO - Loading data...
+2025-03-17 04:22:49,473 - INFO - Single month training and testing detected. Applying 80-20 split.
+2025-03-17 04:22:52,752 - INFO - Train dates: ['01MAR2023' '02MAR2023' '03MAR2023' '04MAR2023' '05MAR2023' '06MAR2023'
+ '07MAR2023' '08MAR2023' '09MAR2023' '10MAR2023' '11MAR2023' '12MAR2023'
+ '13MAR2023' '14MAR2023' '15MAR2023' '16MAR2023' '17MAR2023' '18MAR2023'
+ '19MAR2023' '20MAR2023' '21MAR2023' '22MAR2023' '23MAR2023' '24MAR2023'
+ '25MAR2023']
+2025-03-17 04:22:52,752 - INFO - Test dates: ['26MAR2023' '27MAR2023' '28FEB2023' '28MAR2023' '29MAR2023' '30MAR2023'
+ '31MAR2023']
+2025-03-17 04:22:52,752 - INFO - Number of unique train dates: 25
+2025-03-17 04:22:52,752 - INFO - Number of unique test dates: 7
+2025-03-17 04:22:55,418 - INFO - Single month training and testing detected. Applying 80-20 split.
+2025-03-17 04:23:05,477 - INFO - Train dates: ['01MAR2023' '02MAR2023' '03MAR2023' '04MAR2023' '05MAR2023' '06MAR2023'
+ '07MAR2023' '08MAR2023' '09MAR2023' '10MAR2023' '11MAR2023' '12MAR2023'
+ '13MAR2023' '14MAR2023' '15MAR2023' '16MAR2023' '17MAR2023' '18MAR2023'
+ '19MAR2023' '20MAR2023' '21MAR2023' '22MAR2023' '23MAR2023' '24MAR2023'
+ '25MAR2023']
+2025-03-17 04:23:05,480 - INFO - Test dates: ['26MAR2023' '27MAR2023' '28FEB2023' '28MAR2023' '29MAR2023' '30MAR2023'
+ '31MAR2023']
+2025-03-17 04:23:05,480 - INFO - Number of unique train dates: 25
+2025-03-17 04:23:05,480 - INFO - Number of unique test dates: 7
+2025-03-17 04:24:59,474 - INFO - Model 'XGBoost' trained in 109.83 seconds.
+2025-03-17 04:24:59,479 - INFO - [2025-03-17 04:24:59] Starting evaluation.
+2025-03-17 04:24:59,479 - INFO - [2025-03-17 04:24:59] Created results and plots directories if not already existing.
+2025-03-17 04:24:59,479 - INFO - [2025-03-17 04:24:59] Loaded trained model.
+2025-03-17 04:25:00,542 - INFO - [2025-03-17 04:25:00] Model predictions completed.
+2025-03-17 04:25:00,592 - INFO - [2025-03-17 04:25:00] Transformed inputs to seconds.
+2025-03-17 04:25:00,645 - INFO - [2025-03-17 04:25:00] Computed translation-based estimates.
+2025-03-17 04:25:00,658 - INFO - [2025-03-17 04:25:00] MAE Translation Mean: [ 71.66739808  83.73375199  92.9558575   99.78193473 106.51687302]
+2025-03-17 04:25:00,658 - INFO - [2025-03-17 04:25:00] Computed MAE for model and translation approach.
+2025-03-17 04:25:00,716 - INFO - [2025-03-17 04:25:00] Computed MAE per delay bin.
+2025-03-17 04:25:00,773 - INFO - [2025-03-17 04:25:00] Computed MAE per horizon bin.
+2025-03-17 04:25:00,774 - INFO - [2025-03-17 04:25:00] Saved metrics to JSON file: ./results/metrics_XGBoost.json
+2025-03-17 04:25:00,775 - INFO - [2025-03-17 04:25:00] Saved metrics to PKL file: ./results/metrics_XGBoost.pkl
+2025-03-17 04:25:00,982 - INFO - Saved MAE plots.
+2025-03-17 04:25:00,982 - INFO - [2025-03-17 04:25:00] Evaluation complete.
+2025-03-17 04:25:01,105 - INFO - XGB evaluation completed.
+2025-03-17 04:25:04,285 - INFO - Starting eXtreme Gradient Boosting evaluation script.
+2025-03-17 04:25:04,293 - INFO - Loading data...
+2025-03-17 04:25:04,293 - INFO - Loading data...
+2025-03-17 04:25:04,294 - INFO - Single month training and testing detected. Applying 80-20 split.
+2025-03-17 04:25:07,423 - INFO - Train dates: ['01MAR2023' '02MAR2023' '03MAR2023' '04MAR2023' '05MAR2023' '06MAR2023'
+ '07MAR2023' '08MAR2023' '09MAR2023' '10MAR2023' '11MAR2023' '12MAR2023'
+ '13MAR2023' '14MAR2023' '15MAR2023' '16MAR2023' '17MAR2023' '18MAR2023'
+ '19MAR2023' '20MAR2023' '21MAR2023' '22MAR2023' '23MAR2023' '24MAR2023'
+ '25MAR2023']
+2025-03-17 04:25:07,423 - INFO - Test dates: ['26MAR2023' '27MAR2023' '28FEB2023' '28MAR2023' '29MAR2023' '30MAR2023'
+ '31MAR2023']
+2025-03-17 04:25:07,423 - INFO - Number of unique train dates: 25
+2025-03-17 04:25:07,423 - INFO - Number of unique test dates: 7
+2025-03-17 04:25:09,658 - INFO - Single month training and testing detected. Applying 80-20 split.
+2025-03-17 04:25:19,735 - INFO - Train dates: ['01MAR2023' '02MAR2023' '03MAR2023' '04MAR2023' '05MAR2023' '06MAR2023'
+ '07MAR2023' '08MAR2023' '09MAR2023' '10MAR2023' '11MAR2023' '12MAR2023'
+ '13MAR2023' '14MAR2023' '15MAR2023' '16MAR2023' '17MAR2023' '18MAR2023'
+ '19MAR2023' '20MAR2023' '21MAR2023' '22MAR2023' '23MAR2023' '24MAR2023'
+ '25MAR2023']
+2025-03-17 04:25:19,736 - INFO - Test dates: ['26MAR2023' '27MAR2023' '28FEB2023' '28MAR2023' '29MAR2023' '30MAR2023'
+ '31MAR2023']
+2025-03-17 04:25:19,738 - INFO - Number of unique train dates: 25
+2025-03-17 04:25:19,738 - INFO - Number of unique test dates: 7
+2025-03-17 04:28:18,448 - INFO - Model 'XGBoost' trained in 173.80 seconds.
+2025-03-17 04:28:18,453 - INFO - [2025-03-17 04:28:18] Starting evaluation.
+2025-03-17 04:28:18,453 - INFO - [2025-03-17 04:28:18] Created results and plots directories if not already existing.
+2025-03-17 04:28:18,453 - INFO - [2025-03-17 04:28:18] Loaded trained model.
+2025-03-17 04:28:20,248 - INFO - [2025-03-17 04:28:20] Model predictions completed.
+2025-03-17 04:28:20,298 - INFO - [2025-03-17 04:28:20] Transformed inputs to seconds.
+2025-03-17 04:28:20,351 - INFO - [2025-03-17 04:28:20] Computed translation-based estimates.
+2025-03-17 04:28:20,364 - INFO - [2025-03-17 04:28:20] MAE Translation Mean: [ 71.66739808  83.73375199  92.9558575   99.78193473 106.51687302]
+2025-03-17 04:28:20,364 - INFO - [2025-03-17 04:28:20] Computed MAE for model and translation approach.
+2025-03-17 04:28:20,414 - INFO - [2025-03-17 04:28:20] Computed MAE per delay bin.
+2025-03-17 04:28:20,468 - INFO - [2025-03-17 04:28:20] Computed MAE per horizon bin.
+2025-03-17 04:28:20,469 - INFO - [2025-03-17 04:28:20] Saved metrics to JSON file: ./results/metrics_XGBoost.json
+2025-03-17 04:28:20,469 - INFO - [2025-03-17 04:28:20] Saved metrics to PKL file: ./results/metrics_XGBoost.pkl
+2025-03-17 04:28:20,657 - INFO - Saved MAE plots.
+2025-03-17 04:28:20,657 - INFO - [2025-03-17 04:28:20] Evaluation complete.
+2025-03-17 04:28:20,762 - INFO - XGB evaluation completed.
+2025-03-17 04:28:23,932 - INFO - Starting eXtreme Gradient Boosting evaluation script.
+2025-03-17 04:28:23,943 - INFO - Loading data...
+2025-03-17 04:28:23,943 - INFO - Loading data...
+2025-03-17 04:28:23,944 - INFO - Single month training and testing detected. Applying 80-20 split.
+2025-03-17 04:28:28,473 - INFO - Train dates: ['01MAR2023' '02MAR2023' '03MAR2023' '04MAR2023' '05MAR2023' '06MAR2023'
+ '07MAR2023' '08MAR2023' '09MAR2023' '10MAR2023' '11MAR2023' '12MAR2023'
+ '13MAR2023' '14MAR2023' '15MAR2023' '16MAR2023' '17MAR2023' '18MAR2023'
+ '19MAR2023' '20MAR2023' '21MAR2023' '22MAR2023' '23MAR2023' '24MAR2023'
+ '25MAR2023']
+2025-03-17 04:28:28,473 - INFO - Test dates: ['26MAR2023' '27MAR2023' '28FEB2023' '28MAR2023' '29MAR2023' '30MAR2023'
+ '31MAR2023']
+2025-03-17 04:28:28,473 - INFO - Number of unique train dates: 25
+2025-03-17 04:28:28,473 - INFO - Number of unique test dates: 7
+2025-03-17 04:28:31,497 - INFO - Single month training and testing detected. Applying 80-20 split.
+2025-03-17 04:28:40,889 - INFO - Train dates: ['01MAR2023' '02MAR2023' '03MAR2023' '04MAR2023' '05MAR2023' '06MAR2023'
+ '07MAR2023' '08MAR2023' '09MAR2023' '10MAR2023' '11MAR2023' '12MAR2023'
+ '13MAR2023' '14MAR2023' '15MAR2023' '16MAR2023' '17MAR2023' '18MAR2023'
+ '19MAR2023' '20MAR2023' '21MAR2023' '22MAR2023' '23MAR2023' '24MAR2023'
+ '25MAR2023']
+2025-03-17 04:28:40,891 - INFO - Test dates: ['26MAR2023' '27MAR2023' '28FEB2023' '28MAR2023' '29MAR2023' '30MAR2023'
+ '31MAR2023']
+2025-03-17 04:28:40,891 - INFO - Number of unique train dates: 25
+2025-03-17 04:28:40,891 - INFO - Number of unique test dates: 7
+2025-03-17 04:59:39,477 - INFO - Model 'XGBoost' trained in 1854.41 seconds.
+2025-03-17 04:59:39,487 - INFO - [2025-03-17 04:59:39] Starting evaluation.
+2025-03-17 04:59:39,487 - INFO - [2025-03-17 04:59:39] Created results and plots directories if not already existing.
+2025-03-17 04:59:39,488 - INFO - [2025-03-17 04:59:39] Loaded trained model.
+2025-03-17 04:59:43,744 - INFO - [2025-03-17 04:59:43] Model predictions completed.
+2025-03-17 04:59:43,796 - INFO - [2025-03-17 04:59:43] Transformed inputs to seconds.
+2025-03-17 04:59:43,848 - INFO - [2025-03-17 04:59:43] Computed translation-based estimates.
+2025-03-17 04:59:43,860 - INFO - [2025-03-17 04:59:43] MAE Translation Mean: [ 71.66739808  83.73375199  92.9558575   99.78193473 106.51687302]
+2025-03-17 04:59:43,860 - INFO - [2025-03-17 04:59:43] Computed MAE for model and translation approach.
+2025-03-17 04:59:43,903 - INFO - [2025-03-17 04:59:43] Computed MAE per delay bin.
+2025-03-17 04:59:43,952 - INFO - [2025-03-17 04:59:43] Computed MAE per horizon bin.
+2025-03-17 04:59:43,957 - INFO - [2025-03-17 04:59:43] Saved metrics to JSON file: ./results/metrics_XGBoost.json
+2025-03-17 04:59:43,957 - INFO - [2025-03-17 04:59:43] Saved metrics to PKL file: ./results/metrics_XGBoost.pkl
+2025-03-17 04:59:44,173 - INFO - Saved MAE plots.
+2025-03-17 04:59:44,173 - INFO - [2025-03-17 04:59:44] Evaluation complete.
+2025-03-17 04:59:44,213 - INFO - XGB evaluation completed.
+2025-03-17 04:59:48,258 - INFO - Starting eXtreme Gradient Boosting evaluation script.
+2025-03-17 04:59:48,266 - INFO - Loading data...
+2025-03-17 04:59:48,266 - INFO - Loading data...
+2025-03-17 04:59:48,267 - INFO - Single month training and testing detected. Applying 80-20 split.
+2025-03-17 04:59:51,286 - INFO - Train dates: ['01MAR2023' '02MAR2023' '03MAR2023' '04MAR2023' '05MAR2023' '06MAR2023'
+ '07MAR2023' '08MAR2023' '09MAR2023' '10MAR2023' '11MAR2023' '12MAR2023'
+ '13MAR2023' '14MAR2023' '15MAR2023' '16MAR2023' '17MAR2023' '18MAR2023'
+ '19MAR2023' '20MAR2023' '21MAR2023' '22MAR2023' '23MAR2023' '24MAR2023'
+ '25MAR2023']
+2025-03-17 04:59:51,287 - INFO - Test dates: ['26MAR2023' '27MAR2023' '28FEB2023' '28MAR2023' '29MAR2023' '30MAR2023'
+ '31MAR2023']
+2025-03-17 04:59:51,287 - INFO - Number of unique train dates: 25
+2025-03-17 04:59:51,287 - INFO - Number of unique test dates: 7
+2025-03-17 04:59:54,765 - INFO - Single month training and testing detected. Applying 80-20 split.
+2025-03-17 05:00:05,861 - INFO - Train dates: ['01MAR2023' '02MAR2023' '03MAR2023' '04MAR2023' '05MAR2023' '06MAR2023'
+ '07MAR2023' '08MAR2023' '09MAR2023' '10MAR2023' '11MAR2023' '12MAR2023'
+ '13MAR2023' '14MAR2023' '15MAR2023' '16MAR2023' '17MAR2023' '18MAR2023'
+ '19MAR2023' '20MAR2023' '21MAR2023' '22MAR2023' '23MAR2023' '24MAR2023'
+ '25MAR2023']
+2025-03-17 05:00:05,864 - INFO - Test dates: ['26MAR2023' '27MAR2023' '28FEB2023' '28MAR2023' '29MAR2023' '30MAR2023'
+ '31MAR2023']
+2025-03-17 05:00:05,864 - INFO - Number of unique train dates: 25
+2025-03-17 05:00:05,864 - INFO - Number of unique test dates: 7
+2025-03-17 10:11:56,262 - INFO - Starting eXtreme Gradient Boosting evaluation script.
+2025-03-17 10:11:56,272 - INFO - Loading data...
+2025-03-17 10:11:56,273 - INFO - Loading data...
+2025-03-17 10:11:56,273 - INFO - Single month training and testing detected. Applying 80-20 split.
+2025-03-17 10:12:00,992 - INFO - Train dates: ['01MAR2023' '02MAR2023' '03MAR2023' '04MAR2023' '05MAR2023' '06MAR2023'
+ '07MAR2023' '08MAR2023' '09MAR2023' '10MAR2023' '11MAR2023' '12MAR2023'
+ '13MAR2023' '14MAR2023' '15MAR2023' '16MAR2023' '17MAR2023' '18MAR2023'
+ '19MAR2023' '20MAR2023' '21MAR2023' '22MAR2023' '23MAR2023' '24MAR2023'
+ '25MAR2023']
+2025-03-17 10:12:00,996 - INFO - Test dates: ['26MAR2023' '27MAR2023' '28FEB2023' '28MAR2023' '29MAR2023' '30MAR2023'
+ '31MAR2023']
+2025-03-17 10:12:00,996 - INFO - Number of unique train dates: 25
+2025-03-17 10:12:00,996 - INFO - Number of unique test dates: 7
+2025-03-17 10:12:03,784 - INFO - Single month training and testing detected. Applying 80-20 split.
+2025-03-17 10:12:13,932 - INFO - Train dates: ['01MAR2023' '02MAR2023' '03MAR2023' '04MAR2023' '05MAR2023' '06MAR2023'
+ '07MAR2023' '08MAR2023' '09MAR2023' '10MAR2023' '11MAR2023' '12MAR2023'
+ '13MAR2023' '14MAR2023' '15MAR2023' '16MAR2023' '17MAR2023' '18MAR2023'
+ '19MAR2023' '20MAR2023' '21MAR2023' '22MAR2023' '23MAR2023' '24MAR2023'
+ '25MAR2023']
+2025-03-17 10:12:13,934 - INFO - Test dates: ['26MAR2023' '27MAR2023' '28FEB2023' '28MAR2023' '29MAR2023' '30MAR2023'
+ '31MAR2023']
+2025-03-17 10:12:13,935 - INFO - Number of unique train dates: 25
+2025-03-17 10:12:13,935 - INFO - Number of unique test dates: 7
+2025-03-17 10:13:17,922 - INFO - Model 'XGBoost' trained in 60.41 seconds.
+2025-03-17 10:13:17,927 - INFO - [2025-03-17 10:13:17] Starting evaluation.
+2025-03-17 10:13:17,928 - INFO - [2025-03-17 10:13:17] Created results and plots directories if not already existing.
+2025-03-17 10:13:17,928 - INFO - [2025-03-17 10:13:17] Loaded trained model.
+2025-03-17 10:13:18,647 - INFO - [2025-03-17 10:13:18] Model predictions completed.
+2025-03-17 10:13:18,715 - INFO - [2025-03-17 10:13:18] Transformed inputs to seconds.
+2025-03-17 10:13:18,769 - INFO - [2025-03-17 10:13:18] Computed translation-based estimates.
+2025-03-17 10:13:18,783 - INFO - [2025-03-17 10:13:18] MAE Translation Mean: [ 71.66739808  83.73375199  92.9558575   99.78193473 106.51687302]
+2025-03-17 10:13:18,783 - INFO - [2025-03-17 10:13:18] Computed MAE for model and translation approach.
+2025-03-17 10:13:18,838 - INFO - [2025-03-17 10:13:18] Computed MAE per delay bin.
+2025-03-17 10:13:18,894 - INFO - [2025-03-17 10:13:18] Computed MAE per horizon bin.
+2025-03-17 10:13:18,895 - INFO - [2025-03-17 10:13:18] Saved metrics to JSON file: ./results/metrics_XGBoost.json
+2025-03-17 10:13:18,896 - INFO - [2025-03-17 10:13:18] Saved metrics to PKL file: ./results/metrics_XGBoost.pkl
+2025-03-17 10:13:19,126 - INFO - Saved MAE plots.
+2025-03-17 10:13:19,126 - INFO - [2025-03-17 10:13:19] Evaluation complete.
+2025-03-17 10:13:19,186 - INFO - XGB evaluation completed.
+2025-03-17 10:13:38,980 - INFO - Saving feature importance plots to: ./plots
+2025-03-17 10:13:38,980 - INFO - Saving feature importance rankings to: ./results/feature_importance.json
+2025-03-17 10:13:39,003 - INFO - Calculating feature importance for XGBoost...
+2025-03-17 10:27:59,551 - INFO - Top features for XGBoost:
+2025-03-17 10:27:59,551 - INFO -   FUTURE_PLANNED_TIME_NUM_1 (Feature 200): 0.7190
+2025-03-17 10:27:59,551 - INFO -   PAST_DELAYS_1 (Feature 4): 0.3272
+2025-03-17 10:27:59,551 - INFO -   FUTURE_PLANNED_TIME_NUM_2 (Feature 201): 0.0339
+2025-03-17 10:27:59,551 - INFO -   PAST_PLANNED_TIME_NUM_1 (Feature 199): 0.0301
+2025-03-17 10:27:59,551 - INFO -   FUTURE_PLANNED_TIME_NUM_3 (Feature 202): 0.0162
+2025-03-17 10:27:59,551 - INFO -   FUTURE_PLANNED_TIME_NUM_4 (Feature 203): 0.0146
+2025-03-17 10:27:59,551 - INFO -   FUTURE_PLANNED_TIME_NUM_5 (Feature 204): 0.0142
+2025-03-17 10:27:59,551 - INFO -   FUTURE_TYPES_1_D (Feature 10): 0.0128
+2025-03-17 10:27:59,551 - INFO -   FUTURE_STATIONS_1_embedding_0 (Feature 40): 0.0117
+2025-03-17 10:27:59,551 - INFO -   PAST_DELAYS_2 (Feature 3): 0.0101
+2025-03-17 10:27:59,645 - INFO - Feature importance plot saved for XGBoost.
+2025-03-17 10:27:59,653 - INFO - Feature importance calculation complete. Results saved.
